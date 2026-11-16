@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
@@ -27,11 +27,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download, organize and check channels
+      - name: Download, organize and check all channels
         run: |
           python - <<'PY'
           import re
           import json
+          import socket
           import urllib.request
           import urllib.error
           from pathlib import Path
@@ -46,9 +47,11 @@ jobs:
 
           MAX_FAILURES = 4
           TIMEOUT = 12
+          MAX_WORKERS = 30
 
           GROUP_ORDER = [
               "Türkiye Ulusal",
+              "Türkiye Avrupa",
               "Haber",
               "Spor",
               "Dünya Spor",
@@ -64,21 +67,41 @@ jobs:
               "Diğer"
           ]
 
+          EUROPE_WORDS = [
+              "show türk", "show turk", "euro d", "eurod",
+              "atv avrupa", "kanal d avrupa", "trt türk",
+              "trt turk", "euro star", "eurostar",
+              "kanal 7 avrupa", "tv8 international"
+          ]
+
+          NATIONAL = [
+              "show tv", "atv", "kanal d", "star tv",
+              "now", "fox", "tv8", "kanal 7",
+              "beyaz tv", "teve2", "360", "a2",
+              "tv4", "trt 1", "trt 2", "trt spor",
+              "trt haber", "trt belgesel", "trt çocuk",
+              "trt muzik", "trt müzik", "trt avaz"
+          ]
+
           RULES = {
               "Haber": [
                   "haber", "news", "tele 1", "habertürk",
-                  "ntv", "cnn türk", "tvnet", "tgrt haber",
-                  "bloomberg", "halk tv", "sözcü"
+                  "ntv", "cnn türk", "cnn turk", "tvnet",
+                  "tgrt haber", "bloomberg", "halk tv",
+                  "sözcü", "sozcu", "a haber", "24 tv",
+                  "ulusal kanal", "ekol tv"
               ],
               "Müzik": [
                   "müzik", "muzik", "music", "power",
                   "kral pop", "kral tv", "dream türk",
-                  "nr1", "number one", "slow türk"
+                  "dream turk", "nr1", "number one",
+                  "slow türk", "slow turk", "dream music"
               ],
               "Çocuk ve Çizgi Film": [
                   "çocuk", "cocuk", "cartoon", "nick",
                   "disney junior", "baby tv", "minika",
-                  "rafadan", "pırıl", "cizgi"
+                  "rafadan", "pırıl", "piril",
+                  "çizgi", "cizgi", "boomerang"
               ],
               "Sinema": [
                   "sinema", "cinema", "movie", "film",
@@ -91,14 +114,16 @@ jobs:
               ],
               "Ekonomi": [
                   "ekonomi", "finans", "business",
-                  "borsa", "ekotürk"
+                  "borsa", "ekotürk", "ekoturk"
               ],
               "Dinî": [
                   "diyanet", "dini", "dinî", "kuran",
                   "kur'an", "mekke", "medine"
               ],
               "Yerel TV": [
-                  "yerel", "belediye", "kent tv"
+                  "yerel", "belediye", "kent tv",
+                  "kon tv", "kanal 23", "kanal 33",
+                  "ege tv", "rumeli tv"
               ],
               "Kültür ve Eğitim": [
                   "eğitim", "egitim", "üniversite",
@@ -106,21 +131,17 @@ jobs:
               ],
               "Dizi ve Eğlence": [
                   "dizi", "eğlence", "eglence",
-                  "komedi", "magazin"
+                  "komedi", "magazin", "lifestyle"
               ]
           }
-
-          NATIONAL = [
-              "trt 1", "trt 2", "trt avaz", "trt türk",
-              "trt turk", "atv", "kanal d", "show tv",
-              "star tv", "now", "fox", "tv8", "kanal 7",
-              "beyaz tv", "teve2", "360", "a2", "tv4"
-          ]
 
           TURKISH_SPORTS = [
               "trt spor", "a spor", "aspor",
               "tivibu spor", "tabii spor",
-              "beinsports tr", "bein sports tr"
+              "bein sports tr", "beinsports tr",
+              "beinsports 1", "beinsports 2",
+              "beinsports 3", "beinsports 4",
+              "s sport", "ssport", "tjk tv"
           ]
 
           SPORTS_WORDS = [
@@ -131,7 +152,9 @@ jobs:
               "tennis", "golf", "racing", "motorsport",
               "formula", "f1", "football", "soccer",
               "basketball", "cricket", "fight", "ufc",
-              "wwe", "hockey", "rugby", "volleyball"
+              "wwe", "hockey", "rugby", "volleyball",
+              "liga max", "limax", "l1 max",
+              "bicolor", "liga 1"
           ]
 
           def download(url):
@@ -142,11 +165,11 @@ jobs:
               with urllib.request.urlopen(request, timeout=60) as response:
                   return response.read().decode("utf-8-sig")
 
-          def parse_entries(text):
+          def parse_entries(content):
               entries = []
               current = []
 
-              for line in text.splitlines():
+              for line in content.splitlines():
                   line = line.strip()
 
                   if line.startswith("#EXTINF"):
@@ -161,10 +184,7 @@ jobs:
 
               return [
                   entry for entry in entries
-                  if any(
-                      x.startswith(("http://", "https://"))
-                      for x in entry
-                  )
+                  if get_url(entry)
               ]
 
           def get_url(entry):
@@ -178,36 +198,51 @@ jobs:
                   return info.split(",", 1)[1].strip()
               return "İsimsiz Kanal"
 
-          def get_group(name, world_sports=False):
+          def is_europe(name):
               value = name.casefold()
-              normalized = re.sub(r"\s+", " ", value).strip()
+              return any(
+                  word in value for word in EUROPE_WORDS
+              )
+
+          def get_group(name, world_sports=False, turkey_source=False):
+              value = re.sub(
+                  r"\s+", " ", name.casefold()
+              ).strip()
+
+              if is_europe(value):
+                  return "Türkiye Avrupa"
 
               if world_sports:
                   return "Dünya Spor"
 
               if any(
-                  normalized == n or normalized.startswith(n + " ")
+                  value == n or value.startswith(n + " ")
                   for n in NATIONAL
               ):
                   return "Türkiye Ulusal"
+
+              if any(word in value for word in TURKISH_SPORTS):
+                  return "Spor"
 
               for group, words in RULES.items():
                   if any(word in value for word in words):
                       return group
 
-              if any(word in value for word in TURKISH_SPORTS):
-                  return "Spor"
-
               if any(word in value for word in SPORTS_WORDS):
-                  return "Dünya Spor"
+                  return "Spor" if turkey_source else "Dünya Spor"
 
               return "Diğer"
 
-          def set_group(entry, world_sports=False):
+          def set_group(entry, world_sports=False, turkey_source=False):
               entry = list(entry)
               info = entry[0]
               name = get_name(info)
-              group = get_group(name, world_sports)
+
+              group = get_group(
+                  name,
+                  world_sports=world_sports,
+                  turkey_source=turkey_source
+              )
 
               if re.search(r'group-title="[^"]*"', info, re.I):
                   info = re.sub(
@@ -226,12 +261,35 @@ jobs:
                       )
 
               entry[0] = info
-              return entry, group, name
+              return entry
+
+          def get_saved_group(entry):
+              match = re.search(
+                  r'group-title="([^"]*)"',
+                  entry[0],
+                  re.I
+              )
+              if match:
+                  return match.group(1)
+              return "Diğer"
+
+          def sort_key(entry):
+              group = get_saved_group(entry)
+              name = get_name(entry[0])
+
+              try:
+                  position = GROUP_ORDER.index(group)
+              except ValueError:
+                  position = len(GROUP_ORDER)
+
+              return position, name.casefold()
 
           def write_m3u(path, entries):
               lines = ["#EXTM3U"]
+
               for entry in entries:
                   lines.extend(entry)
+
               path.write_text(
                   "\n".join(lines) + "\n",
                   encoding="utf-8"
@@ -241,7 +299,7 @@ jobs:
               request = urllib.request.Request(
                   url,
                   headers={
-                      "User-Agent": "Mozilla/5.0",
+                      "User-Agent": "VLC/3.0.20 LibVLC/3.0.20",
                       "Range": "bytes=0-2047"
                   }
               )
@@ -250,34 +308,66 @@ jobs:
                   with urllib.request.urlopen(
                       request, timeout=TIMEOUT
                   ) as response:
-                      response.read(1024)
-                      return 200 <= response.status < 400
+                      response.read(512)
+                      return (
+                          True
+                          if 200 <= response.status < 400
+                          else False
+                      )
 
               except urllib.error.HTTPError as error:
-                  if error.code in (408, 425, 429, 500, 502, 503, 504):
+                  if error.code in (
+                      408, 425, 429, 500, 502, 503, 504
+                  ):
                       return None
                   return False
 
+              except (
+                  socket.timeout,
+                  TimeoutError,
+                  urllib.error.URLError
+              ):
+                  return None
+
               except Exception:
-                  return False
+                  return None
+
+          def load_failures():
+              if not FAIL_FILE.exists():
+                  return {}
+
+              try:
+                  data = json.loads(
+                      FAIL_FILE.read_text(encoding="utf-8")
+                  )
+                  return data if isinstance(data, dict) else {}
+              except Exception:
+                  return {}
 
           try:
-              # İki resmi kaynağı indir.
-              turkey_entries = parse_entries(download(TURKEY_URL))
-              sports_entries = parse_entries(download(SPORTS_URL))
+              print("Kaynaklar indiriliyor...")
+
+              turkey_entries = parse_entries(
+                  download(TURKEY_URL)
+              )
+              sports_entries = parse_entries(
+                  download(SPORTS_URL)
+              )
 
               if not turkey_entries:
-                  raise RuntimeError("Türkiye kanal kaynağı boş.")
+                  raise RuntimeError("Türkiye kaynağı boş!")
 
               if not sports_entries:
-                  raise RuntimeError("Dünya spor kaynağı boş.")
+                  raise RuntimeError("Spor kaynağı boş!")
 
-              print("Türkiye kaynağı:", len(turkey_entries))
-              print("Dünya spor kaynağı:", len(sports_entries))
+              print("Türkiye kaynak:", len(turkey_entries))
+              print("Dünya spor kaynak:", len(sports_entries))
 
               # Önceki otomatik listeyi oku.
               previous_auto = (
-                  parse_entries(AUTO_FILE.read_text(encoding="utf-8"))
+                  parse_entries(
+                      AUTO_FILE.read_text(encoding="utf-8")
+                  )
                   if AUTO_FILE.exists()
                   else []
               )
@@ -288,17 +378,41 @@ jobs:
 
               # Mevcut ana listeyi oku.
               current_entries = (
-                  parse_entries(PLAYLIST.read_text(encoding="utf-8"))
+                  parse_entries(
+                      PLAYLIST.read_text(encoding="utf-8")
+                  )
                   if PLAYLIST.exists()
                   else []
               )
 
-              all_source_urls = {
-                  get_url(entry)
-                  for entry in turkey_entries + sports_entries
-              }
+              source_entries = []
+              source_seen = set()
 
-              # Önceden otomatik listede olmayanlar manuel kabul edilir.
+              # Türkiye kanallarını ekle.
+              for entry in turkey_entries:
+                  url = get_url(entry)
+
+                  if not url or url in source_seen:
+                      continue
+
+                  source_seen.add(url)
+                  source_entries.append(
+                      (entry, False, True)
+                  )
+
+              # Dünya spor kanallarını ekle.
+              for entry in sports_entries:
+                  url = get_url(entry)
+
+                  if not url or url in source_seen:
+                      continue
+
+                  source_seen.add(url)
+                  source_entries.append(
+                      (entry, True, False)
+                  )
+
+              # Manuel kanalları ayır.
               if AUTO_FILE.exists():
                   manual_entries = [
                       entry for entry in current_entries
@@ -307,61 +421,54 @@ jobs:
               else:
                   manual_entries = [
                       entry for entry in current_entries
-                      if get_url(entry) not in all_source_urls
+                      if get_url(entry) not in source_seen
                   ]
 
-              # Hata sayaçlarını yükle.
-              failures = (
-                  json.loads(FAIL_FILE.read_text(encoding="utf-8"))
-                  if FAIL_FILE.exists()
-                  else {}
-              )
-
-              # Otomatik Türkiye kanalları.
-              auto_entries = []
-              seen_urls = set()
-
-              for entry in turkey_entries:
-                  url = get_url(entry)
-                  if not url or url in seen_urls:
-                      continue
-
-                  seen_urls.add(url)
-                  organized, _, _ = set_group(entry)
-                  auto_entries.append(organized)
-
-              # Dünya spor kanalları.
-              for entry in sports_entries:
-                  url = get_url(entry)
-                  if not url or url in seen_urls:
-                      continue
-
-                  seen_urls.add(url)
-                  organized, _, _ = set_group(
-                      entry, world_sports=True
-                  )
-                  auto_entries.append(organized)
-
-              # Manuel kanalları tekilleştir.
-              unique_manual = []
+              # Kaynak ve manuel kanalları URL ile tekilleştir.
+              manual_unique = []
               manual_seen = set()
 
               for entry in manual_entries:
                   url = get_url(entry)
 
-                  if not url or url in manual_seen or url in seen_urls:
+                  if not url or url in manual_seen:
+                      continue
+
+                  if url in source_seen:
                       continue
 
                   manual_seen.add(url)
-                  unique_manual.append(entry)
+                  manual_unique.append(entry)
 
-              # Manuel yayınları kontrol et.
+              # Otomatik ve manuel bütün kanalları kontrol et.
+              check_items = []
+              check_seen = set()
+
+              for entry, world, turkey in source_entries:
+                  url = get_url(entry)
+                  if url and url not in check_seen:
+                      check_seen.add(url)
+                      check_items.append(entry)
+
+              for entry in manual_unique:
+                  url = get_url(entry)
+                  if url and url not in check_seen:
+                      check_seen.add(url)
+                      check_items.append(entry)
+
+              print("Kontrol edilecek toplam:", len(check_items))
+
               results = {}
 
-              with ThreadPoolExecutor(max_workers=20) as executor:
+              with ThreadPoolExecutor(
+                  max_workers=MAX_WORKERS
+              ) as executor:
+
                   jobs = {
-                      executor.submit(check_stream, get_url(entry)): entry
-                      for entry in unique_manual
+                      executor.submit(
+                          check_stream, get_url(entry)
+                      ): entry
+                      for entry in check_items
                   }
 
                   for future in as_completed(jobs):
@@ -371,65 +478,212 @@ jobs:
                       try:
                           results[url] = future.result()
                       except Exception:
-                          results[url] = False
+                          results[url] = None
 
+              failures = load_failures()
+
+              kept_auto = []
               kept_manual = []
-              removed = 0
-              working = 0
 
-              for entry in unique_manual:
+              working = 0
+              removed = 0
+              temporary = 0
+              failed_count = 0
+
+              def process_entry(entry, is_auto, world=False, turkey=False):
+                  global_dummy = None
+                  nonlocal_dummy = None
+
                   url = get_url(entry)
-                  result = results.get(url, False)
+                  name = get_name(entry[0])
+                  result = results.get(url)
 
                   if result is True:
                       failures.pop(url, None)
-                      kept_manual.append(entry)
                       working += 1
-
-                  elif result is None:
-                      kept_manual.append(entry)
-
-                  else:
-                      count = int(failures.get(url, 0)) + 1
-                      failures[url] = count
-
-                      print(
-                          "Manuel yayın:",
-                          get_name(entry[0]),
-                          "Hata:",
-                          count,
-                          "/", MAX_FAILURES
+                      organized = set_group(
+                          entry,
+                          world_sports=world,
+                          turkey_source=turkey
                       )
 
-                      if count >= MAX_FAILURES:
-                          failures.pop(url, None)
-                          removed += 1
-                          print("4 başarısız kontrol: silindi")
+                      if is_auto:
+                          kept_auto.append(organized)
                       else:
-                          kept_manual.append(entry)
+                          kept_manual.append(organized)
 
-              # Manuel kanalları gruplandır.
-              organized_manual = []
+                      return
 
-              for entry in kept_manual:
-                  organized, _, _ = set_group(entry)
-                  organized_manual.append(organized)
+                  if result is None:
+                      temporary += 1
 
-              def sort_key(entry):
-                  _, group, name = set_group(entry)
-                  return (
-                      GROUP_ORDER.index(group),
-                      name.casefold()
+                      organized = set_group(
+                          entry,
+                          world_sports=world,
+                          turkey_source=turkey
+                      )
+
+                      if is_auto:
+                          kept_auto.append(organized)
+                      else:
+                          kept_manual.append(organized)
+
+                      return
+
+                  count = min(
+                      MAX_FAILURES,
+                      int(failures.get(url, 0)) + 1
                   )
 
-              auto_entries.sort(key=sort_key)
-              organized_manual.sort(key=sort_key)
+                  failures[url] = count
+                  failed_count += 1
 
-              combined = auto_entries + organized_manual
+                  print(
+                      "Yayın hatası:",
+                      name,
+                      count,
+                      "/", MAX_FAILURES
+                  )
+
+                  if count >= MAX_FAILURES:
+                      removed += 1
+                      print("4 başarısız kontrol: kaldırıldı:", name)
+                      return
+
+                  organized = set_group(
+                      entry,
+                      world_sports=world,
+                      turkey_source=turkey
+                  )
+
+                  if is_auto:
+                      kept_auto.append(organized)
+                  else:
+                      kept_manual.append(organized)
+
+              # Python sayaçlarını güvenli şekilde güncelle.
+              def process_all():
+                  nonlocal working, removed, temporary, failed_count
+
+                  for entry, world, turkey in source_entries:
+                      url = get_url(entry)
+                      result = results.get(url)
+                      name = get_name(entry[0])
+
+                      if result is True:
+                          failures.pop(url, None)
+                          working += 1
+                          kept_auto.append(
+                              set_group(
+                                  entry,
+                                  world_sports=world,
+                                  turkey_source=turkey
+                              )
+                          )
+
+                      elif result is None:
+                          temporary += 1
+                          kept_auto.append(
+                              set_group(
+                                  entry,
+                                  world_sports=world,
+                                  turkey_source=turkey
+                              )
+                          )
+
+                      else:
+                          count = min(
+                              MAX_FAILURES,
+                              int(failures.get(url, 0)) + 1
+                          )
+                          failures[url] = count
+                          failed_count += 1
+
+                          print(
+                              "Otomatik:",
+                              name,
+                              "başarısız:",
+                              count,
+                              "/", MAX_FAILURES
+                          )
+
+                          if count >= MAX_FAILURES:
+                              removed += 1
+                              print("Kaldırıldı:", name)
+                          else:
+                              kept_auto.append(
+                                  set_group(
+                                      entry,
+                                      world_sports=world,
+                                      turkey_source=turkey
+                                  )
+                              )
+
+                  for entry in manual_unique:
+                      url = get_url(entry)
+                      result = results.get(url)
+                      name = get_name(entry[0])
+
+                      if result is True:
+                          failures.pop(url, None)
+                          working += 1
+                          kept_manual.append(
+                              set_group(entry)
+                          )
+
+                      elif result is None:
+                          temporary += 1
+                          kept_manual.append(
+                              set_group(entry)
+                          )
+
+                      else:
+                          count = min(
+                              MAX_FAILURES,
+                              int(failures.get(url, 0)) + 1
+                          )
+                          failures[url] = count
+                          failed_count += 1
+
+                          print(
+                              "Manuel:",
+                              name,
+                              "başarısız:",
+                              count,
+                              "/", MAX_FAILURES
+                          )
+
+                          if count >= MAX_FAILURES:
+                              removed += 1
+                              print("Manuel yayın kaldırıldı:", name)
+                          else:
+                              kept_manual.append(
+                                  set_group(entry)
+                              )
+
+              process_all()
+
+              # Gruplara göre sırala.
+              kept_auto.sort(key=sort_key)
+              kept_manual.sort(key=sort_key)
+
+              # Ana listede otomatik ve manuel kayıtları birleştir.
+              combined = []
+              final_urls = set()
+
+              for entry in kept_auto + kept_manual:
+                  url = get_url(entry)
+
+                  if not url or url in final_urls:
+                      continue
+
+                  final_urls.add(url)
+                  combined.append(entry)
+
               combined.sort(key=sort_key)
 
-              # Dosyaları kaydet.
-              write_m3u(AUTO_FILE, auto_entries)
+              # Sonucu kaydet.
+              write_m3u(AUTO_FILE, kept_auto)
               write_m3u(PLAYLIST, combined)
 
               FAIL_FILE.write_text(
@@ -441,18 +695,19 @@ jobs:
                   encoding="utf-8"
               )
 
-              print("--------------------------------")
-              print("Türkiye otomatik:", len(turkey_entries))
-              print("Dünya spor kaynak:", len(sports_entries))
-              print("Toplam otomatik:", len(auto_entries))
-              print("Çalışan manuel:", working)
-              print("Silinen manuel:", removed)
-              print("Korunan manuel:", len(kept_manual))
-              print("TOPLAM:", len(combined))
-              print("Güncelleme tamamlandı.")
+              print("================================")
+              print("Otomatik kanallar:", len(kept_auto))
+              print("Manuel kanallar:", len(kept_manual))
+              print("Çalışan yayınlar:", working)
+              print("Geçici hatalar:", temporary)
+              print("Başarısız kontroller:", failed_count)
+              print("4 kontrolde kaldırılan:", removed)
+              print("TOPLAM KANAL:", len(combined))
+              print("Güncelleme başarılı!")
+              print("================================")
 
           except Exception as error:
-              print("HATA:", error)
+              print("GÜNCELLEME HATASI:", error)
               raise
           PY
 
@@ -460,6 +715,9 @@ jobs:
         run: |
           git config user.name "Turgut IPTV Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add Turgut.m3u Turgut_auto.m3u manual_failures.json
-          git diff --cached --quiet || git commit -m "Update Turkish and world sports IPTV"
+
+          git diff --cached --quiet || git commit -m "Organize and update Turkish and world IPTV channels"
+
           git push
