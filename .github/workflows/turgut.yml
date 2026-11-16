@@ -1,0 +1,93 @@
+
+name: Turgut Turkey IPTV Updater
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: turgut-turkey-iptv
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download Turkish IPTV-org channels
+        run: |
+          python - <<'PY'
+          import urllib.request
+          from pathlib import Path
+
+          url = "https://iptv-org.github.io/iptv/countries/tr.m3u"
+          output = Path("Turgut.m3u")
+
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "Mozilla/5.0"}
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  data = response.read().decode("utf-8-sig")
+
+              lines = data.splitlines()
+              channels = []
+              i = 0
+
+              while i < len(lines):
+                  line = lines[i].strip()
+
+                  if line.startswith("#EXTINF"):
+                      info = line
+                      j = i + 1
+
+                      while j < len(lines):
+                          candidate = lines[j].strip()
+                          if candidate and not candidate.startswith("#"):
+                              break
+                          j += 1
+
+                      if j < len(lines):
+                          stream = lines[j].strip()
+                          if stream.startswith(("http://", "https://")):
+                              channels.extend([info, stream])
+                      i = j
+
+                  i += 1
+
+              if not channels:
+                  raise RuntimeError("Kaynakta gecerli kanal bulunamadi.")
+
+              content = "#EXTM3U\n" + "\n".join(channels) + "\n"
+              output.write_text(content, encoding="utf-8")
+
+              print("Turk kanallari:", len(channels) // 2)
+              print("Dosya:", output)
+
+          except Exception as error:
+              print("HATA:", error)
+              raise
+          PY
+
+      - name: Commit playlist
+        run: |
+          git config user.name "Turgut IPTV Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Turgut.m3u
+          git diff --cached --quiet || git commit -m "Update Turkish IPTV channels"
+          git push
