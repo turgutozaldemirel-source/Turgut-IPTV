@@ -1,5 +1,5 @@
 
-name: Turgut IPTV Turkey Only
+name: Turgut IPTV Turkey Ultimate
 
 on:
   workflow_dispatch:
@@ -31,9 +31,11 @@ jobs:
       - name: Update IPTV
         run: |
           cat > updater.py <<'PY'
-          import requests, re, json, unicodedata
+          import requests
+          import re
+          import json
+          import unicodedata
           from pathlib import Path
-          from urllib.parse import urljoin
           from concurrent.futures import ThreadPoolExecutor
           from datetime import datetime, timezone
 
@@ -48,50 +50,112 @@ jobs:
           WORKERS = 30
           TIMEOUT = 12
 
+          HEADERS = {
+              "User-Agent": "Mozilla/5.0"
+          }
+
           SOURCES = [
-              "https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u",
-              "https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u",
-              "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tr.m3u",
               "https://iptv-org.github.io/iptv/countries/tr.m3u",
+              "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tr.m3u",
+              "https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u",
+              "https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u",
               "https://iptv-org.github.io/iptv/categories/sports.m3u",
               "https://iptv-org.github.io/iptv/categories/news.m3u",
               "https://iptv-org.github.io/iptv/categories/music.m3u",
               "https://iptv-org.github.io/iptv/categories/movies.m3u",
               "https://iptv-org.github.io/iptv/categories/kids.m3u",
-              "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_turkey.m3u8",
+              "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_turkey.m3u8"
           ]
 
-          HEADERS = {
-              "User-Agent": "Mozilla/5.0"
-          }
-
-          # Yalnızca Türkiye kanalları
           TURKISH_CHANNELS = [
-              "trt", "atv", "showtv", "kanald", "startv",
-              "now", "fox", "tv8", "kanal7", "beyaztv",
-              "teve2", "360", "a2", "tlc", "dmax",
-              "trt1", "trt2", "trtbelgesel", "trtcocuk",
-              "trthaber", "trtspor", "trtmuzik",
-              "aspor", "htspor", "tivibuspor", "ssport",
-              "ntv", "cnnturk", "ahaber", "haberturk",
-              "haberglobal", "tv100", "sozcutv", "ulketv",
-              "24tv", "bloomberght", "ekoturk",
-              "kral", "powerturk", "dreamturk",
-              "numberone", "slowturk", "powerpop",
-              "minika", "cartoonnetworkturkiye",
-              "cnbce", "tvem", "kanalb",
-              "flashhaber", "kanal3", "kanal26",
-              "kanal7avrupa", "tvnet", "kanal24",
-              "a haber", "a spor", "show tv",
-              "star tv", "kanal d", "trt spor",
-              "trt haber", "power turk", "dream turk",
-              "ulusal kanal", "tele1", "halk tv",
-              "ege tv", "benguturk", "kanal urfa",
-              "kanal 23", "kanal 33", "kon tv",
-              "ostim tv", "tgrt", "tgrt haber",
-              "tgrt belgesel", "tv 8", "tv 100",
-              "meltem tv", "line tv", "ercis tv"
+              "atv", "a2", "showtv", "show tv",
+              "kanald", "kanal d", "startv", "star tv",
+              "now", "now tv", "fox", "tv8", "tv85",
+              "kanal7", "kanal 7", "beyaztv", "beyaz tv",
+              "teve2", "360", "trt1", "trt 1",
+              "trt2", "trt 2", "trtbelgesel",
+              "trt belgesel", "trtcocuk", "trt çocuk",
+              "trtspor", "trt spor", "trthaber",
+              "trt haber", "trtmuzik", "trt muzik",
+              "trtturk", "trt turk",
+              "aspor", "a spor", "htspor", "ht spor",
+              "tivibuspor", "tivibu spor", "ssport",
+              "s sport", "ntv", "cnnturk", "cnn turk",
+              "ahaber", "a haber", "haberturk",
+              "haberturk tv", "haberglobal",
+              "haber global", "tv100", "sozcutv",
+              "sozcu tv", "halktv", "halk tv",
+              "tele1", "tvnet", "ulusal kanal",
+              "benguturk", "bengutürk", "ekoturk",
+              "ekotürk", "bloomberght", "tgrthaber",
+              "tgrt haber", "tgrt belgesel",
+              "kralpop", "kral pop", "kraltv", "kral tv",
+              "powerturk", "power turk", "dreamturk",
+              "dream turk", "number one turk",
+              "number one türk", "slowturk", "slow turk",
+              "powerpop", "power pop",
+              "minika", "minikago", "minika go",
+              "cartoon network turkiye",
+              "cnbce", "cnbc e", "kanalb", "kanal b",
+              "flashhaber", "flash haber", "tvem",
+              "tv em", "kanal3", "kanal 3",
+              "kanal26", "kanal 26", "kanal33",
+              "kanal 33", "kontv", "kon tv",
+              "ostimtv", "ostim tv", "meltemtv",
+              "meltem tv", "kanalurfa", "kanal urfa",
+              "kanal23", "kanal 23", "linetv",
+              "line tv", "ercistv", "ercis tv",
+              "tvden", "tv den", "ege tv",
+              "kanal ege", "kanal v", "tv kayseri",
+              "bursa tv", "konya tv", "ordu tv",
+              "mavi karadeniz", "yerel tv",
+              "tv 5", "tv5", "kanal avrupa",
+              "kanal 7 avrupa", "tgrt eu"
           ]
+
+          FOREIGN_BLOCK = [
+              "aljazeera", "aljazeer",
+              "mbc", "rotana", "dubaisports",
+              "abudhabi", "alkass", "shahid",
+              "osn", "bein", "beinsports",
+              "espn", "foxsports", "skysports",
+              "supersport", "sscsaudi",
+              "arabic", "arab", "iraq",
+              "iran", "syria", "egypt",
+              "saudi", "kuwait", "qatar",
+              "oman", "bahrain", "yemen",
+              "jordan", "lebanon", "morocco",
+              "algeria", "tunisia", "libya",
+              "palestine", "pakistan", "india",
+              "bangladesh", "afghanistan",
+              "germany", "deutschland",
+              "france", "italy", "spain",
+              "portugal", "unitedkingdom",
+              "england", "usa", "america",
+              "canada", "brazil", "mexico",
+              "peru", "argentina", "chile",
+              "colombia", "ecuador", "bolivia",
+              "venezuela", "uruguay", "paraguay",
+              "world", "international"
+          ]
+
+          def normalize(value):
+              value = unicodedata.normalize("NFKD", value)
+              value = "".join(
+                  c for c in value
+                  if not unicodedata.combining(c)
+              )
+              value = value.lower()
+              value = re.sub(
+                  r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b",
+                  "",
+                  value
+              )
+              return re.sub(r"[^a-z0-9]", "", value)
+
+          ALLOWED = {
+              normalize(x) for x in TURKISH_CHANNELS
+          }
 
           def parse_m3u(content):
               result = []
@@ -103,7 +167,10 @@ jobs:
                   if line.startswith("#EXTINF"):
                       info = line
 
-                  elif line.startswith(("http://", "https://")) and info:
+                  elif (
+                      line.startswith(("http://", "https://"))
+                      and info
+                  ):
                       result.append((info, line))
                       info = None
 
@@ -125,58 +192,56 @@ jobs:
 
           def channel_name(entry):
               match = re.search(r",(.+)$", entry[0])
-              return match.group(1).strip() if match else "Unknown"
-
-          def normalize(value):
-              value = unicodedata.normalize("NFKD", value)
-              value = "".join(
-                  c for c in value
-                  if not unicodedata.combining(c)
-              )
-              value = value.lower()
-              value = re.sub(
-                  r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b",
-                  "",
-                  value
-              )
-              return re.sub(r"[^a-z0-9]", "", value)
+              return match.group(1).strip() if match else ""
 
           def is_turkish(entry):
               info = entry[0]
-              name = normalize(channel_name(entry))
+              name = channel_name(entry)
+              normalized = normalize(name)
 
-              # Açık Türkiye ülke bilgisi
-              metadata = (
-                  re.search(
-                      r'tvg-country="(?:TR|TUR)"',
-                      info,
-                      re.I
-                  )
-                  or re.search(
-                      r'country="(?:TR|Turkey|Türkiye)"',
-                      info,
-                      re.I
-                  )
-                  or re.search(
-                      r'group-title="[^"]*(?:Turkey|Türkiye|Turkish)[^"]*"',
-                      info,
-                      re.I
-                  )
+              if not normalized:
+                  return False
+
+              # Arap alfabesi ve Arapça yayınları reddet
+              if re.search(
+                  r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]",
+                  name
+              ):
+                  return False
+
+              # Açık yabancı ülke bilgisi varsa reddet
+              country = re.search(
+                  r'tvg-country="([^"]+)"',
+                  info,
+                  re.I
               )
 
-              if metadata:
+              if country:
+                  codes = [
+                      x.strip().upper()
+                      for x in country.group(1).split(",")
+                  ]
+
+                  if not codes or any(
+                      x not in ("TR", "TUR", "TURKEY", "TÜRKİYE")
+                      for x in codes
+                  ):
+                      return False
+
+              # Yabancı kanal isimlerini reddet
+              if any(
+                  normalize(x) in normalized
+                  for x in FOREIGN_BLOCK
+              ):
+                  return False
+
+              # Türkiye kanal adıyla eşleşme
+              if normalized in ALLOWED:
                   return True
 
-              # Bilinen Türk kanal adları
-              for channel in TURKISH_CHANNELS:
-                  key = normalize(channel)
-
-                  if key and (
-                      name == key
-                      or name.startswith(key)
-                      or key in name
-                  ):
-                      return True
+              # Açık Türkiye ülke bilgisi olan yerel kanallar
+              if country:
+                  return True
 
               return False
 
@@ -202,11 +267,10 @@ jobs:
                   return "Türkiye Spor"
 
               if any(x in n for x in [
-                  "ahaber", "haberturk", "ntv",
-                  "cnnturk", "trthaber",
-                  "haberglobal", "sozcutv",
-                  "tv100", "24tv", "ulketv",
-                  "tvnet", "tele1", "halktv"
+                  "ntv", "cnnturk", "ahaber",
+                  "haberturk", "haberglobal",
+                  "trthaber", "tv100", "sozcutv",
+                  "halktv", "tele1", "tvnet"
               ]):
                   return "Türkiye Haber"
 
@@ -219,18 +283,18 @@ jobs:
 
               if any(x in n for x in [
                   "trtcocuk", "minika",
-                  "cartoonnetworkturkiye"
+                  "cartoonnetwork"
               ]):
                   return "Türkiye Çocuk"
 
               if any(x in n for x in [
-                  "natgeo", "discovery", "history",
-                  "viasat"
+                  "belgesel", "discovery",
+                  "natgeo", "history"
               ]):
                   return "Türkiye Belgesel"
 
               if any(x in n for x in [
-                  "movie", "cinema", "film", "hbo"
+                  "film", "sinema", "movie"
               ]):
                   return "Türkiye Film"
 
@@ -282,13 +346,13 @@ jobs:
 
                   if r.status_code == 200:
                       entries = parse_m3u(r.text)
-                      print("SOURCE", url, len(entries))
+                      print("SOURCE:", url, len(entries))
                       return entries
 
-                  print("SOURCE HTTP", r.status_code)
+                  print("SOURCE HTTP:", r.status_code, url)
 
               except Exception as e:
-                  print("SOURCE ERROR", url, str(e))
+                  print("SOURCE ERROR:", url, str(e))
 
               return []
 
@@ -326,16 +390,13 @@ jobs:
                       return "bad"
 
                   data = r.raw.read(4096)
-                  ct = r.headers.get(
+                  content_type = r.headers.get(
                       "Content-Type", ""
                   ).lower()
 
                   r.close()
 
-                  if not data:
-                      return "bad"
-
-                  if "text/html" in ct:
+                  if not data or "text/html" in content_type:
                       return "bad"
 
                   if data.lstrip().lower().startswith(
@@ -381,7 +442,7 @@ jobs:
                   url for _, url in previous
               }
 
-              # Önceki ana listede manuel olarak eklenenler
+              # Ana listedeki eski manuel girişleri kurtar
               manual_new = [
                   e for e in current
                   if e[1] not in previous_urls
@@ -391,9 +452,10 @@ jobs:
                   manual_old + manual_new
               )
 
-              # Manuel listeden de yabancı kanalları çıkar
+              # Manuel listede de yalnızca Türk kanalları
               manual = [
-                  e for e in manual if is_turkish(e)
+                  e for e in manual
+                  if is_turkish(e)
               ]
 
               manual_urls = {
@@ -404,24 +466,25 @@ jobs:
 
               with ThreadPoolExecutor(max_workers=10) as pool:
                   for entries in pool.map(
-                      download_source,
-                      SOURCES
+                      download_source, SOURCES
                   ):
                       fetched.extend(entries)
 
-              # Eski otomatik Türk kanallarını koru
-              candidates = unique(
-                  fetched + previous
-              )
+              if not fetched and not previous:
+                  raise RuntimeError(
+                      "Hiçbir kaynaktan veri alınamadı."
+                  )
 
-              # Yalnızca Türk kanallarını tut
+              # Yeni kaynaklar ve eski otomatik liste
+              candidates = unique(fetched + previous)
+
               candidates = [
                   e for e in candidates
                   if is_turkish(e)
                   and e[1] not in manual_urls
               ]
 
-              # Kanal başına alternatifleri sınırla
+              # Aynı kanalın alternatiflerini birleştir
               groups = {}
 
               for entry in candidates:
@@ -446,7 +509,7 @@ jobs:
               )
 
               print(
-                  "TURKISH CHANNELS:",
+                  "TURKISH STREAMS:",
                   len(all_entries)
               )
 
@@ -468,18 +531,16 @@ jobs:
                   all_entries, results
               ):
                   url = entry[1]
-
                   old = state.get(url, {})
+
                   failures = int(
                       old.get("fail_count", 0)
                   )
 
                   if result == "ok":
                       failures = 0
-
                   elif result == "hold":
                       pass
-
                   else:
                       failures += 1
 
@@ -533,25 +594,15 @@ jobs:
                   manual_working + auto_working
               )
 
-              # Kaynaklarda ani düşüş olursa eski listeyi koru
+              # Ani kaynak düşüşünde eski listeyi koru
               if (
                   previous
-                  and not fetched
-              ):
-                  raise RuntimeError(
-                      "Kaynaklardan veri alınamadı. "
-                      "Eski dosyalar korundu."
-                  )
-
-              if (
-                  previous
-                  and len(auto_working) <
-                  len(previous) * 0.20
+                  and len(auto_working) < len(previous) * 0.20
                   and len(fetched) < 20
               ):
                   raise RuntimeError(
-                      "Ani kanal düşüşü. "
-                      "Eski liste korundu."
+                      "Kaynaklarda ani düşüş var. "
+                      "Mevcut dosyalar korundu."
                   )
 
               write_m3u(AUTO, auto_working)
@@ -596,5 +647,5 @@ jobs:
       - name: Save playlist
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Turkey only IPTV update"
+          commit_message: "Turgut Turkey IPTV hourly update"
           file_pattern: "Turgut.m3u Turgut_auto.m3u manual.m3u stream_state.json"
