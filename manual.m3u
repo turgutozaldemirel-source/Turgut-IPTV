@@ -1,570 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Viasat History" tvg-logo="https://i.imgur.com/wRP9XA7.png" group-title="Belgesel",Viasat History
-https://nord.ayakkabiparti.lol/viasathistory/index.m3u8#all
-#EXTINF:-1 tvg-name="Film Screen HD" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Dünya Film",Film Screen HD
-https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8#all
-#EXTINF:-1 tvg-name="Film Screen HD" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Dünya Film",Film Screen HD
-https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8
-#EXTINF:-1 tvg-name="Moviesmart Türk HD" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/400//content/e/ZI/13863/Thumbnail.png?v=636987856299906443" group-title="Dünya Film",Moviesmart Türk HD
-https://ds.ayakkabiparti.lol/mvturk/index.m3u8#all
-#EXTINF:-1 tvg-name="Moviesmart Türk HD" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/400//content/e/ZI/13863/Thumbnail.png?v=636987856299906443" group-title="Dünya Film",Moviesmart Türk HD
-https://ds.ayakkabiparti.lol/mvturk/index.m3u8
-#EXTINF:-1 tvg-name="KN Music TV" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="Dünya Müzik",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="Ekol Sports" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="Dünya Spor",Ekol Sports
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8#all
-#EXTINF:-1 tvg-name="Ekol Sports" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="Dünya Spor",Ekol Sports
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
-#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Dünya Spor",HTSpor TV
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#all
-#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Dünya Spor",HTSpor TV
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#top50
-#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Dünya Spor",HTSpor TV
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#haber
-#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g19%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23b91c1c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23dc2626%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23g19)%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2236%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2216%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%223%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2268%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2230%22%20fill%3D%22%23fef08a%22%3E19%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Dünya Ulusal",Kanal 19
-https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g19%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23b91c1c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23dc2626%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23g19)%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2236%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2216%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%223%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2268%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2230%22%20fill%3D%22%23fef08a%22%3E19%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Dünya Ulusal",Kanal 19
-https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Kanal Plus" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22gplus%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f172a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231e293b%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23gplus)%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%2244%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2219%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%222%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2282%25%22%20y%3D%2252%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2228%22%20fill%3D%22%2338bdf8%22%3E%2B%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Dünya Ulusal",Kanal Plus
-https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal Plus" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22gplus%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f172a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231e293b%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23gplus)%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%2244%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2219%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%222%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2282%25%22%20y%3D%2252%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2228%22%20fill%3D%22%2338bdf8%22%3E%2B%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Dünya Ulusal",Kanal Plus
-https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
-#EXTINF:-1 tvg-name="Al QURAN KAREEM - KABE CANLI" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAQK%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Al QURAN KAREEM - KABE CANLI
-https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8#all
-#EXTINF:-1 tvg-name="Al QURAN KAREEM - KABE CANLI" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAQK%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Al QURAN KAREEM - KABE CANLI
-https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
-#EXTINF:-1 tvg-name="ARABESK TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",ARABESK TV
-https://tvsms.club/tv.php?kanal=arabeskyeni&file=.m3u8#all
-#EXTINF:-1 tvg-name="ARABESK TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",ARABESK TV
-https://tvsms.club/tv.php?kanal=arabeskyeni&file=.m3u8
-#EXTINF:-1 tvg-name="BRÜKSEL TÜRK" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EBT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",BRÜKSEL TÜRK
-https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="BRÜKSEL TÜRK" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EBT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",BRÜKSEL TÜRK
-https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="İZMİR TIME 35 TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T3%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",İZMİR TIME 35 TV
-https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="İZMİR TIME 35 TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T3%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",İZMİR TIME 35 TV
-https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
-#EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",İSVİÇRE TV
-https://i41.ozelip.com:3269/hybrid/play.m3u8#all
-#EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",İSVİÇRE TV
-https://i41.ozelip.com:3269/hybrid/play.m3u8
-#EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",DAMAR TV
-https://tvsms.club/tv.php?kanal=damar&file=.m3u8#all
-#EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",DAMAR TV
-https://tvsms.club/tv.php?kanal=damar&file=.m3u8
-#EXTINF:-1 tvg-name="DİZİ TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",DİZİ TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8#all
-#EXTINF:-1 tvg-name="DİZİ TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",DİZİ TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
-#EXTINF:-1 tvg-name="EZO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EET%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",EZO TV
-https://tvsms.club/tvz.php?kanal=ezo&file=.m3u8#all
-#EXTINF:-1 tvg-name="EZO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EET%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",EZO TV
-https://tvsms.club/tvz.php?kanal=ezo&file=.m3u8
-#EXTINF:-1 tvg-name="Gaziantep GRT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGGT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Gaziantep GRT TV
-https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Gaziantep GRT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGGT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Gaziantep GRT TV
-https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
-#EXTINF:-1 tvg-name="GENC SMS TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGST%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",GENC SMS TV
-https://tvsms.club/tv.php?kanal=genctv&file=.m3u8#all
-#EXTINF:-1 tvg-name="GENC SMS TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGST%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",GENC SMS TV
-https://tvsms.club/tv.php?kanal=genctv&file=.m3u8
-#EXTINF:-1 tvg-name="HÜR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EHT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",HÜR TV
-https://live.euromediacenter.com/hurtv/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="HÜR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EHT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",HÜR TV
-https://live.euromediacenter.com/hurtv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Kanal 32" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK3%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal 32
-https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 32" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK3%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal 32
-https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
-#EXTINF:-1 tvg-name="Kanal 53" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK5%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal 53
-https://kanal53.ozelip.com:3448/hybrid/play.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 53" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK5%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal 53
-https://kanal53.ozelip.com:3448/hybrid/play.m3u8
-#EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal Ada
-http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum#all
-#EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Kanal Ada
-http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
-#EXTINF:-1 tvg-name="KTV Konya" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKK%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",KTV Konya
-https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="KTV Konya" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKK%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",KTV Konya
-https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8
-#EXTINF:-1 tvg-name="MC TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",MC TV
-https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8#all
-#EXTINF:-1 tvg-name="MC TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",MC TV
-https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
-#EXTINF:-1 tvg-name="METROPOL TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",METROPOL TV
-https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum#all
-#EXTINF:-1 tvg-name="METROPOL TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",METROPOL TV
-https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum
-#EXTINF:-1 tvg-name="MUKABELE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",MUKABELE TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="MUKABELE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",MUKABELE TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Muğla Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMTT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Muğla Türk TV
-https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Muğla Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMTT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Muğla Türk TV
-https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8
-#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EOBT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Ordu Bel TV
-https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EOBT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Ordu Bel TV
-https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8
-#EXTINF:-1 tvg-name="Rize Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ERTT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Rize Türk TV
-https://yayin.rizeturk.com:3777/hybrid/play.m3u8#all
-#EXTINF:-1 tvg-name="Rize Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ERTT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",Rize Türk TV
-https://yayin.rizeturk.com:3777/hybrid/play.m3u8
-#EXTINF:-1 tvg-name="SAGLIK CHANEL" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ESC%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",SAGLIK CHANEL
-https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="SAGLIK CHANEL" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ESC%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",SAGLIK CHANEL
-https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="TOP POP TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETPT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",TOP POP TV
-https://tvsms.club/tvz.php?kanal=toppop&file=.m3u8#all
-#EXTINF:-1 tvg-name="TOP POP TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETPT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",TOP POP TV
-https://tvsms.club/tvz.php?kanal=toppop&file=.m3u8
-#EXTINF:-1 tvg-name="TOKAT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",TOKAT TV
-https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8#all
-#EXTINF:-1 tvg-name="TOKAT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",TOKAT TV
-https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8
-#EXTINF:-1 tvg-name="ZEYNO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EZT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",ZEYNO TV
-https://tvsms.club/tv.php?kanal=zeynotv&file=.m3u8#all
-#EXTINF:-1 tvg-name="ZEYNO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EZT%3C/text%3E%3C/svg%3E" group-title="Dünya Ulusal",ZEYNO TV
-https://tvsms.club/tv.php?kanal=zeynotv&file=.m3u8
-#EXTINF:0,A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2 (Dizi & Sinema)" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Dünya Ulusal",A2 (Dizi & Sinema)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#dizi
-#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Dünya Ulusal",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#all
-#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Dünya Ulusal",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#top50
-#EXTINF:-1 tvg-name="AKSU TV" tvg-logo="https://i.imgur.com/mgDCKiy.png" group-title="Dünya Ulusal",AKSU TV
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Altas TV" tvg-logo="https://i.imgur.com/XaJ7fp6.png" group-title="Dünya Ulusal",Altas TV
-https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="Dünya Ulusal",Anadolu Net TV
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8#all
-#EXTINF:-1 tvg-name="ARAS TV" tvg-logo="https://i.imgur.com/JsDCyWG.png" group-title="Dünya Ulusal",ARAS TV
-https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8#all
-#EXTINF:-1 tvg-name="ARAS TV" tvg-logo="https://i.imgur.com/JsDCyWG.png" group-title="Dünya Ulusal",ARAS TV
-https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8
-#EXTINF:-1 tvg-name="AS TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" group-title="Dünya Ulusal",AS TV
-https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="BBC Earth Turkiye" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Dünya Ulusal",BBC Earth Turkiye
-https://nord.ayakkabiparti.lol/bbc/index.m3u8#all
-#EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Dünya Ulusal",BBC First Turkiye
-http://88.212.15.29/live/bbc_first/index.m3u8#all
-#EXTINF:-1 tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Dünya Ulusal",BBC First Turkiye
-http://88.212.15.29/live/bbc_first/index.m3u8
-#EXTINF:0,BENGU TURK
-https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
-#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Dünya Ulusal",Bengütürk TV
-https://tv.ensonhaber.com/benguturk/benguturk.m3u8#all
-#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Dünya Ulusal",Bengütürk TV
-https://tv.ensonhaber.com/benguturk/benguturk.m3u8#top50
-#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Dünya Ulusal",Bengütürk TV
-https://tv.ensonhaber.com/benguturk/benguturk.m3u8
-#EXTINF:-1 tvg-name="Bi Kanal" tvg-logo="http://www.bikanal.com/uploads/banners/01K6DG6S1EPCZN7DQH406HGMES.webp" group-title="Dünya Ulusal",Bi Kanal
-https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8#all
-#EXTINF:-1 tvg-name="Bi Kanal" tvg-logo="http://www.bikanal.com/uploads/banners/01K6DG6S1EPCZN7DQH406HGMES.webp" group-title="Dünya Ulusal",Bi Kanal
-https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
-#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Dünya Ulusal",Bloomberg HT
-https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8#all
-#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Dünya Ulusal",Bloomberg HT
-https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8#top50
-#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Dünya Ulusal",Bloomberg HT
-https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-name="Bodrum Kent TV" tvg-logo="https://static.daktilo.com/sites/1600/uploads/2024/07/27/social.png" group-title="Dünya Ulusal",Bodrum Kent TV
-https://edge1.socialsmart.tv/bodrumkenttv/bant1/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Bodrum Kent TV" tvg-logo="https://static.daktilo.com/sites/1600/uploads/2024/07/27/social.png" group-title="Dünya Ulusal",Bodrum Kent TV
-https://edge1.socialsmart.tv/bodrumkenttv/bant1/chunks.m3u8
-#EXTINF:-1 tvg-name="BRTV" tvg-logo="https://i.imgur.com/U3qlEAp.png" group-title="Dünya Ulusal",BRTV
-https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Çay TV" tvg-logo="https://i.imgur.com/ndupxwu.png" group-title="Dünya Ulusal",Çay TV
-https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Cem TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cem-tv-tr.png" group-title="Dünya Ulusal",Cem TV
-https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8#all
-#EXTINF:-1 tvg-name="Cem TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cem-tv-tr.png" group-title="Dünya Ulusal",Cem TV
-https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8
-#EXTINF:-1 tvg-name="Çiftçi TV" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Dünya Ulusal",Çiftçi TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Çiftçi TV" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Dünya Ulusal",Çiftçi TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
-#EXTINF:-1 tvg-name="Cine 1" tvg-logo="https://cine1.com.tr/img/cine1loogo.png" group-title="Dünya Ulusal",Cine 1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8#all
-#EXTINF:-1 tvg-name="Cine 1" tvg-logo="https://cine1.com.tr/img/cine1loogo.png" group-title="Dünya Ulusal",Cine 1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
-#EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cnbc-e-tr.png" group-title="Dünya Ulusal",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8#all
-#EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cnbc-e-tr.png" group-title="Dünya Ulusal",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8#top50
-#EXTINF:-1 tvg-name="Deniz Postasi TV" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="Dünya Ulusal",Deniz Postasi TV
-https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Diyanet TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/diyanet-tv-tr.png" group-title="Dünya Ulusal",Diyanet TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Diyanet TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/diyanet-tv-tr.png" group-title="Dünya Ulusal",Diyanet TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8#top50
-#EXTINF:0,DIYANET TV
-http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Diyar TV" tvg-logo="https://i.imgur.com/qWkHjRA.png" group-title="Dünya Ulusal",Diyar TV
-https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8#all
-#EXTINF:0,DMAX
-https://dogus.daioncdn.net/dmax/dmax.m3u8?app=dmax_web
-#EXTINF:-1 tvg-name="Dost TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/dost-tv-tr.png" group-title="Dünya Ulusal",Dost TV
-https://dost.stream.emsal.im/tv/live.m3u8#all
-#EXTINF:0,DW TV (ENGLISH)
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:0,EDIRNE TV
-https://yayin.edirnetv.com:8088/hls/etvcanliyayin.m3u8
-#EXTINF:-1 tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="Dünya Ulusal",Ekol TV
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#all
-#EXTINF:-1 tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="Dünya Ulusal",Ekol TV
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8#top50
-#EXTINF:-1 tvg-name="Ekol TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ekoturk-tr.png" group-title="Dünya Ulusal",Ekol TV
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-#EXTINF:-1 tvg-id="EKOTÜRK.tr" tvg-name="Ekotürk" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="Dünya Ulusal",Ekotürk
-https://cdn.ekoturk.net/hls/master.m3u8#all
-#EXTINF:-1 tvg-name="Erciyes TV" tvg-logo="https://s.erciyestv.com.tr/dosya/logo/erciyes-tv-og.jpg" group-title="Dünya Ulusal",Erciyes TV
-https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Erciyes TV" tvg-logo="https://s.erciyestv.com.tr/dosya/logo/erciyes-tv-og.jpg" group-title="Dünya Ulusal",Erciyes TV
-https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
-#EXTINF:-1 tvg-name="ERTV" tvg-logo="https://i.imgur.com/VDGEPrD.png" group-title="Dünya Ulusal",ERTV
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Erzurum Web TV" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="Dünya Ulusal",Erzurum Web TV
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8#all
-#EXTINF:-1 tvg-name="ES TV" tvg-logo="https://i.imgur.com/epAEBrp.png" group-title="Dünya Ulusal",ES TV
-https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="ETV Kayseri" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" group-title="Dünya Ulusal",ETV Kayseri
-https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="ETV MANiSA" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="Dünya Ulusal",ETV MANiSA
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Euro D" tvg-logo="https://i.ibb.co/jMQTJmh/euro-d.png" group-title="Dünya Ulusal",Euro D
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Euro D" tvg-logo="https://i.ibb.co/jMQTJmh/euro-d.png" group-title="Dünya Ulusal",Euro D
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8#top50
-#EXTINF:0,FB TV
-https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FENERBAHÇE.TV.tr" tvg-name="FB TV" tvg-logo="https://i.imgur.com/qBVqtYd.png" group-title="Dünya Ulusal",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-id="FENERBAHÇE.TV.tr" tvg-name="FB TV" tvg-logo="https://i.imgur.com/qBVqtYd.png" group-title="Dünya Ulusal",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8#top50
-#EXTINF:-1 tvg-name="Finans Turk TV" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" group-title="Dünya Ulusal",Finans Turk TV
-https://yayin30.haber100.com/live/finansturk/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Flash Haber TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="Dünya Ulusal",Flash Haber TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="FRT TV" tvg-logo="https://s.gercekfethiye.com/dosya/logo/svg/logo-ana.svg" group-title="Dünya Ulusal",FRT TV
-https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="FRT TV" tvg-logo="https://s.gercekfethiye.com/dosya/logo/svg/logo-ana.svg" group-title="Dünya Ulusal",FRT TV
-https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Güneydoğu TV" tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="Dünya Ulusal",Güneydoğu TV
-https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/2a2XUKl.png" group-title="Dünya Ulusal",Haber61 TV
-http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/2a2XUKl.png" group-title="Dünya Ulusal",Haber61 TV
-http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/halk-tv-tr.png" group-title="Dünya Ulusal",Halk TV
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8#all
-#EXTINF:-1 tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/halk-tv-tr.png" group-title="Dünya Ulusal",Halk TV
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8#top50
-#EXTINF:-1 tvg-name="Hunat TV" tvg-logo="https://i.imgur.com/NrxHGnb.png" group-title="Dünya Ulusal",Hunat TV
-https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Hunat TV" tvg-logo="https://i.imgur.com/NrxHGnb.png" group-title="Dünya Ulusal",Hunat TV
-https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
-#EXTINF:-1 tvg-name="Icel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Dünya Ulusal",Icel TV
-https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Ilke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="Dünya Ulusal",Ilke TV
-https://stream.ilketv.com.tr/hls/ilkecanli.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 12" tvg-logo="https://i.imgur.com/51xCkXG.png" group-title="Dünya Ulusal",Kanal 12
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 15" tvg-logo="https://i.imgur.com/wb1Cdc9.png" group-title="Dünya Ulusal",Kanal 15
-https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 23" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="Dünya Ulusal",Kanal 23
-https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 23" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="Dünya Ulusal",Kanal 23
-https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
-#EXTINF:0,KANAL 23
-https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Kanal 26" tvg-logo="https://i.imgur.com/Mr7XPii.png" group-title="Dünya Ulusal",Kanal 26
-https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 3" tvg-logo="https://i.imgur.com/eXErSv0.png" group-title="Dünya Ulusal",Kanal 3
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 33" tvg-logo="https://i.imgur.com/5WYaoFZ.png" group-title="Dünya Ulusal",Kanal 33
-https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 34" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="Dünya Ulusal",Kanal 34
-https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 34" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="Dünya Ulusal",Kanal 34
-https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Kanal 58" tvg-logo="https://i.imgur.com/Rgc66sv.png" group-title="Dünya Ulusal",Kanal 58
-https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Kanal 58" tvg-logo="https://i.imgur.com/Rgc66sv.png" group-title="Dünya Ulusal",Kanal 58
-https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8
-#EXTINF:0,KANAL AVRUPA
-https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
-#EXTINF:0,KANAL B
-https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8
-#EXTINF:-1 tvg-id="KANAL.B.tr" tvg-name="Kanal B" tvg-logo="https://www.kanalb.com.tr/assets/images/logo/1683624355Kanal_B_logosu.png" group-title="Dünya Ulusal",Kanal B
-https://tv.kanalb.tr/hls/kanalb/index.m3u8#all
-#EXTINF:-1 tvg-id="KANAL.B.tr" tvg-name="Kanal B" tvg-logo="https://www.kanalb.com.tr/assets/images/logo/1683624355Kanal_B_logosu.png" group-title="Dünya Ulusal",Kanal B
-https://tv.kanalb.tr/hls/kanalb/index.m3u8
-#EXTINF:-1 tvg-name="Kanal Fırat" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="Dünya Ulusal",Kanal Fırat
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="Dünya Ulusal",Kanal Urfa
-https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="Dünya Ulusal",Kanal Urfa
-https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="Kanal V" tvg-logo="https://i.imgur.com/7RNjTno.png" group-title="Dünya Ulusal",Kanal V
-https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Karadeniz TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/mavi-karadeniz-tr.png" group-title="Dünya Ulusal",Karadeniz TV
-https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8#all
-#EXTINF:-1 tvg-name="Karadeniz TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/mavi-karadeniz-tr.png" group-title="Dünya Ulusal",Karadeniz TV
-https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
-#EXTINF:-1 tvg-name="Kay TV" tvg-logo="https://i.imgur.com/MymuDJ1.png" group-title="Dünya Ulusal",Kay TV
-https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kent Turk" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="Dünya Ulusal",Kent Turk
-https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kocaeli TV" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="Dünya Ulusal",Kocaeli TV
-https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Kocaeli TV" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="Dünya Ulusal",Kocaeli TV
-https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8
-#EXTINF:0,KON
-https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/kon_tv/index.m3u8
-#EXTINF:-1 tvg-name="Konya Olay TV" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="Dünya Ulusal",Konya Olay TV
-https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Lalegül TV" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="Dünya Ulusal",Lalegül TV
-https://lbl.netmedya.net/hls/lalegultv.m3u8#all
-#EXTINF:0,LIDER HABER
-https://liderhaber.han686314.workers.dev/?url=https://lidertv.radyotelekom.com.tr/player/m3u8/9217b6e91d17c38f7d171eb2b3670349/chunklist_w1214941309.m3u8
-#EXTINF:-1 tvg-name="Life TV" tvg-logo="https://i.ibb.co/9hCVNks/life-tv.png" group-title="Dünya Ulusal",Life TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8#all
-#EXTINF:-1 tvg-name="Life TV" tvg-logo="https://i.ibb.co/9hCVNks/life-tv.png" group-title="Dünya Ulusal",Life TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
-#EXTINF:-1 tvg-id="LINETV.tr" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Dünya Ulusal",Line TV
-https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8#all
-#EXTINF:-1 tvg-id="LINETV.tr" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Dünya Ulusal",Line TV
-https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8
-#EXTINF:-1 tvg-name="MADINAH TV" tvg-logo="https://e7.pngegg.com/pngimages/758/259/png-clipart-medina-mecca-television-channel-streaming-media-others-miscellaneous-television.png" group-title="Dünya Ulusal",MADINAH TV
-https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8#all
-#EXTINF:-1 tvg-name="MAKKAH TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCVPXXnt4LxrLpCI6sRKfYu0bZkjHUg1WkQ&s" group-title="Dünya Ulusal",MAKKAH TV
-https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Malatya Vuslat TV" tvg-logo="https://vuslattv.com.tr/uploads/logo/logo_66bdb4352c7ab7-60769650.png" group-title="Dünya Ulusal",Malatya Vuslat TV
-https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Malatya Vuslat TV" tvg-logo="https://vuslattv.com.tr/uploads/logo/logo_66bdb4352c7ab7-60769650.png" group-title="Dünya Ulusal",Malatya Vuslat TV
-https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
-#EXTINF:-1 tvg-name="MaviKaradeniz TV" tvg-logo="https://i.imgur.com/wyWappU.png" group-title="Dünya Ulusal",MaviKaradeniz TV
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Med Müzik" tvg-logo="https://i.imgur.com/gtUFmCD.png" group-title="Dünya Ulusal",Med Müzik
-http://54.36.110.140/live3/live3.m3u8#all
-#EXTINF:-1 tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Dünya Ulusal",Meltem TV
-https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8#all
-#EXTINF:-1 tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Dünya Ulusal",Meltem TV
-https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
-#EXTINF:-1 tvg-name="MTurk TV" tvg-logo="https://i.imgur.com/xj1gvrq.png" group-title="Dünya Ulusal",MTurk TV
-https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-id="NATIONAL.GEOGRAPHIC.HD.tr" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Dünya Ulusal",National Geographic
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8#all
-#EXTINF:-1 tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Dünya Ulusal",National Geographic Wild
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8#all
-#EXTINF:-1 tvg-name="NR1" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="Dünya Ulusal",NR1
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="NR1" tvg-logo="https://i.ibb.co/sybLTBG/nr1.png" group-title="Dünya Ulusal",NR1
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
-#EXTINF:0,NR 1 DAMAR
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/chunklist_b400000.m3u8?md5=api5VtN5dEXl5cvRHMQBNQ&expires=1696713505
-#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="Dünya Ulusal",NR1 FASHION ONE
-http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="NR1 FASHION ONE" tvg-logo="https://i.ibb.co/HV0x9JZ/fashion-one.png" group-title="Dünya Ulusal",NR1 FASHION ONE
-http://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Number 1 Ask" tvg-logo="https://i.ibb.co/5cJ0KtQ/nr1-ask.png" group-title="Dünya Ulusal",Number 1 Ask
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Number 1 Damar" tvg-logo="https://i.ibb.co/2yCF7ms/nr1-damar.png" group-title="Dünya Ulusal",Number 1 Damar
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Number 1 Dance" tvg-logo="https://i.ibb.co/kXFSFTN/nr1-dance.png" group-title="Dünya Ulusal",Number 1 Dance
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Number 1 Türk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/nr1-turk-tr.png" group-title="Dünya Ulusal",Number 1 Türk
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8#all
-#EXTINF:-1 tvg-name="Number 1 Türk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/nr1-turk-tr.png" group-title="Dünya Ulusal",Number 1 Türk
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8
-#EXTINF:-1 tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Dünya Ulusal",Number 1 TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8#all
-#EXTINF:-1 tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Dünya Ulusal",Number 1 TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8#top50
-#EXTINF:-1 tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="Dünya Ulusal",Number 1 TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
-#EXTINF:-1 tvg-name="OLAY TURK" tvg-logo="https://i.imgur.com/e9ca6gc.png" group-title="Dünya Ulusal",OLAY TURK
-https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8#all
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="Dünya Ulusal",POWER DANCE
-https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="POWER DANCE" tvg-logo="https://i.ibb.co/5hwZ7xw/power-dance.png" group-title="Dünya Ulusal",POWER DANCE
-https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="Dünya Ulusal",POWER LOVE
-https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="POWER LOVE" tvg-logo="https://i.ibb.co/bJL1VnX/power-love.png" group-title="Dünya Ulusal",POWER LOVE
-https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="Dünya Ulusal",Power TV
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-id="POWER.TV.HD.tr" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="Dünya Ulusal",Power TV
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8#top50
-#EXTINF:-1 tvg-name="Rehber TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/rehber-tv-tr.png" group-title="Dünya Ulusal",Rehber TV
-https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="Rehber TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/rehber-tv-tr.png" group-title="Dünya Ulusal",Rehber TV
-https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="RTG int." tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="Dünya Ulusal",RTG int.
-http://213.91.179.28:8000/play/a0bw#all
-#EXTINF:-1 tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="Dünya Ulusal",Semerkand TV
-http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="Dünya Ulusal",Semerkand TV
-http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sercem TV" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" group-title="Dünya Ulusal",Sercem TV
-https://canli.sercemtv.com.tr/hls/0/stream.m3u8#all
-#EXTINF:-1 tvg-name="Show Max" tvg-logo="https://www.showmax.com.tr/assets/dist/images/base/logo.svg" group-title="Dünya Ulusal",Show Max
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8#all
-#EXTINF:-1 tvg-name="Show Max" tvg-logo="https://www.showmax.com.tr/assets/dist/images/base/logo.svg" group-title="Dünya Ulusal",Show Max
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8#top50
-#EXTINF:-1 tvg-name="Show Max (Dizi & Sinema)" tvg-logo="https://www.showmax.com.tr/assets/dist/images/base/logo.svg" group-title="Dünya Ulusal",Show Max (Dizi & Sinema)
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8#dizi
-#EXTINF:-1 tvg-name="Sinema 1" tvg-logo="https://e7.pngegg.com/pngimages/879/420/png-clipart-film-video-production-television-graphy-cine-miscellaneous-label-thumbnail.png" group-title="Dünya Ulusal",Sinema 1
-https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8#all
-#EXTINF:-1 tvg-name="Sinema 1" tvg-logo="https://e7.pngegg.com/pngimages/879/420/png-clipart-film-video-production-television-graphy-cine-miscellaneous-label-thumbnail.png" group-title="Dünya Ulusal",Sinema 1
-https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Sinema Aile" tvg-logo="https://www.tivibu.com.tr/uploads/ChannelFiles/sinemaaile_logo_B2AC3808-8447-4546-80EF-EA50B34D6089.png" group-title="Dünya Ulusal",Sinema Aile
-http://65.108.239.207/sinemaaile/index.m3u8#all
-#EXTINF:-1 tvg-name="Sinema Aile" tvg-logo="https://www.tivibu.com.tr/uploads/ChannelFiles/sinemaaile_logo_B2AC3808-8447-4546-80EF-EA50B34D6089.png" group-title="Dünya Ulusal",Sinema Aile
-http://65.108.239.207/sinemaaile/index.m3u8
-#EXTINF:-1 tvg-name="Sonmez TV" tvg-logo="https://www.astv.com.tr/static/2026/07/06/astv-logo-1783346167-699-x80.jpeg" group-title="Dünya Ulusal",Sonmez TV
-https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8#all
-#EXTINF:-1 tvg-name="Sonmez TV" tvg-logo="https://www.astv.com.tr/static/2026/07/06/astv-logo-1783346167-699-x80.jpeg" group-title="Dünya Ulusal",Sonmez TV
-https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8
-#EXTINF:-1 tvg-name="Spacetoon Turkey" tvg-logo="https://spacetoon.com/logo.png" group-title="Dünya Ulusal",Spacetoon Turkey
-https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8#all
-#EXTINF:0,STAR
-https://dogus.daioncdn.net/startv/startv.m3u8?app=startv_web
-#EXTINF:0,STAR
-http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
-#EXTINF:-1 tvg-name="Sun RTV" tvg-logo="https://i.imgur.com/64tph9N.png" group-title="Dünya Ulusal",Sun RTV
-https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8#all
-#EXTINF:0,SZC TV
-https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/szc_tv/index.m3u8
-#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Dünya Ulusal",Tabii
-https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8#all
-#EXTINF:-1 tvg-id="TABİİ.tr" tvg-name="Tabii" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Dünya Ulusal",Tabii
-https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
-#EXTINF:-1 tvg-name="TBMM TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tbmm-tv-tr.png" group-title="Dünya Ulusal",TBMM TV
-https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8#all
-#EXTINF:-1 tvg-name="Tele1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tele1-tr.png" group-title="Dünya Ulusal",Tele1
-https://tele1-live.ercdn.net/tele1/tele1.m3u8#all
-#EXTINF:-1 tvg-name="Tele1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tele1-tr.png" group-title="Dünya Ulusal",Tele1
-https://tele1-live.ercdn.net/tele1/tele1.m3u8#top50
-#EXTINF:-1 tvg-name="Tempo TV" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="Dünya Ulusal",Tempo TV
-https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Dünya Ulusal",TGRT Belgesel
-https://canli.tgrthaber.com/tgrtbelgesel.m3u8#all
-#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Dünya Ulusal",TGRT Belgesel
-https://canli.tgrthaber.com/tgrtbelgesel.m3u8#top50
-#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Dünya Ulusal",TGRT Belgesel
-https://canli.tgrthaber.com/tgrtbelgesel.m3u8
-#EXTINF:0,TGRT BELGESEL
-https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8?md5=yJ4adbAK5bE0F93vqFevgw&expires=1687122603
-#EXTINF:0,TGRT HABER
-https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
-#EXTINF:0,TGRT HABER
-https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TGRT.HABER.tr" tvg-name="TGRT Haber" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Dünya Ulusal",TGRT Haber
-https://canli.tgrthaber.com/tgrt.m3u8#all
-#EXTINF:-1 tvg-id="TGRT.HABER.tr" tvg-name="TGRT Haber" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Dünya Ulusal",TGRT Haber
-https://canli.tgrthaber.com/tgrt.m3u8#top50
-#EXTINF:-1 tvg-name="Tivi 6" tvg-logo="https://i.ibb.co/9H3DMWz/tivi6.png" group-title="Dünya Ulusal",Tivi 6
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8#all
-#EXTINF:0,TIVI 6
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8
-#EXTINF:-1 tvg-name="TJK TV" tvg-logo="https://i.ibb.co/PrkXrRn/tjk-tv.png" group-title="Dünya Ulusal",TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8#all
-#EXTINF:-1 tvg-name="TJK TV" tvg-logo="https://i.ibb.co/PrkXrRn/tjk-tv.png" group-title="Dünya Ulusal",TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8#top50
-#EXTINF:-1 tvg-name="TJK TV" tvg-logo="https://i.ibb.co/PrkXrRn/tjk-tv.png" group-title="Dünya Ulusal",TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8
-#EXTINF:0,TLC
-https://dogus.daioncdn.net/tlc/tlc.m3u8?app=tlc_web
-#EXTINF:-1 tvg-name="TRT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Dünya Ulusal",TRT 2
-https://tv-trt2.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-name="TRT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Dünya Ulusal",TRT 2
-https://tv-trt2.medya.trt.com.tr/master.m3u8#top50
-#EXTINF:0,TRT 2
-https://tv-trt2.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="TRT 2 (Kültür & Belgesel)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Dünya Ulusal",TRT 2 (Kültür & Belgesel)
-https://tv-trt2.medya.trt.com.tr/master.m3u8#belgesel
-#EXTINF:-1 tvg-id="TRT.3.-..SPOR.tr" tvg-name="TRT 3 / TBMM TV" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Dünya Ulusal",TRT 3 / TBMM TV
-https://tv-trt3.live.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-id="TRT.3.-..SPOR.tr" tvg-name="TRT 3 Spor / TBMM TV" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Dünya Ulusal",TRT 3 Spor / TBMM TV
-https://tv-trt3.live.trt.com.tr/master.m3u8#spor
-#EXTINF:0,TRT ARABIA
-https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:0,TRT AVAZ
-https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="TRT.AVAZ.HD.tr" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-avaz-tr.png" group-title="Dünya Ulusal",TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8#all
-#EXTINF:0,TRT BELGESEL
-http://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-belgesel-tr.png" group-title="Dünya Ulusal",TRT Belgesel
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-belgesel-tr.png" group-title="Dünya Ulusal",TRT Belgesel
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8#top50
-#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Dünya Ulusal",TRT Diyanet Çocuk
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Dünya Ulusal",TRT Diyanet Çocuk
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8#top50
-#EXTINF:0,TRT DIYANET ÇOCUK
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-name="TRT EBA İlkokul" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="Dünya Ulusal",TRT EBA İlkokul
-https://tv-e-okul00.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-name="TRT EBA Lise" tvg-logo="https://i.imgur.com/vj2L2L2.png" group-title="Dünya Ulusal",TRT EBA Lise
-https://tv-e-okul02.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-name="TRT EBA Ortaokul" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="Dünya Ulusal",TRT EBA Ortaokul
-https://tv-e-okul01.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-name="TRT Genc" tvg-logo="https://i.imgur.com/fCHQYWS.png" group-title="Dünya Ulusal",TRT Genc
-https://tv-trtgenc.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-id="TRT.KURDİ.tr" tvg-name="TRT Kurdî" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png" group-title="Dünya Ulusal",TRT Kurdî
-https://tv-trtkurdi.medya.trt.com.tr/master.m3u8#all
-#EXTINF:0,TRT TURK
-https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="TRT.TÜRK.tr" tvg-name="TRT Türk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-turk-tr.png" group-title="Dünya Ulusal",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8#all
-#EXTINF:0,TRT WORLD
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TurkHaber TV" tvg-logo="https://i.ibb.co/ySv65wg/turk-haber.png" group-title="Dünya Ulusal",TurkHaber TV
-https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TV 1" tvg-logo="https://i.imgur.com/8CtrYVb.png" group-title="Dünya Ulusal",TV 1
-https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TV 264" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="Dünya Ulusal",TV 264
-https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386#all
-#EXTINF:-1 tvg-name="TV 264" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="Dünya Ulusal",TV 264
-https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386
-#EXTINF:-1 tvg-name="TV 4" tvg-logo="https://i.postimg.cc/FKkHW8KK/tv4.png" group-title="Dünya Ulusal",TV 4
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8#all
-#EXTINF:-1 tvg-name="TV 4" tvg-logo="https://i.postimg.cc/FKkHW8KK/tv4.png" group-title="Dünya Ulusal",TV 4
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8#top50
-#EXTINF:0,TV4
-https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
-#EXTINF:-1 tvg-name="TV 41" tvg-logo="https://i.imgur.com/6T472LM.png" group-title="Dünya Ulusal",TV 41
-https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TV 41" tvg-logo="https://i.imgur.com/6T472LM.png" group-title="Dünya Ulusal",TV 41
-https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 52" tvg-logo="https://i.imgur.com/k4R5CzO.png" group-title="Dünya Ulusal",TV 52
-https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8#all
-#EXTINF:-1 tvg-name="TV Den" tvg-logo="https://i.imgur.com/Uhg95Ze.png" group-title="Dünya Ulusal",TV Den
-http://canli.tvden.com.tr/hls/live.m3u8#all
-#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tvnet-tr.png" group-title="Dünya Ulusal",TVNET
-https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8#all
-#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tvnet-tr.png" group-title="Dünya Ulusal",TVNET
-https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
-#EXTINF:-1 tvg-name="Urfa Natik TV" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="Dünya Ulusal",Urfa Natik TV
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Van 65 TV" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="Dünya Ulusal",Van 65 TV
-https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8#all
-#EXTINF:-1 tvg-name="Vav TV" tvg-logo="https://i.imgur.com/jw0gB8L.png" group-title="Dünya Ulusal",Vav TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8#all
-#EXTINF:-1 tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" group-title="Dünya Ulusal",YOL TV
-https://live.yoltv.com/hls/stream.m3u8#all
-#EXTINF:-1 tvg-name="Zarok TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/zarok-tv-tr.png" group-title="Dünya Ulusal",Zarok TV
-https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8#all
 #EXTINF:0,24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:0,24 TV
@@ -601,6 +35,10 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8#all
 #EXTINF:-1 tvg-id="HABERTÜRK.tr" tvg-name="Habertürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/haberturk-tr.png" group-title="Türkiye Haber",Habertürk TV
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8#top50
+#EXTINF:-1 tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/halk-tv-tr.png" group-title="Türkiye Haber",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8#all
+#EXTINF:-1 tvg-name="Halk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/halk-tv-tr.png" group-title="Türkiye Haber",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8#top50
 #EXTINF:-1 tvg-name="Mercan TV" tvg-logo="https://i.imgur.com/3CWV8bS.png" group-title="Türkiye Haber",Mercan TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8#all
 #EXTINF:-1 tvg-name="Mercan TV" tvg-logo="https://i.imgur.com/3CWV8bS.png" group-title="Türkiye Haber",Mercan TV
@@ -613,6 +51,10 @@ https://dogus.daioncdn.net/ntv/ntv_720p.m3u8#all
 https://dogus.daioncdn.net/ntv/ntv_720p.m3u8#top50
 #EXTINF:-1 tvg-id="NTV.HD.tr" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ntv-tr.png" group-title="Türkiye Haber",NTV
 https://dogus.daioncdn.net/ntv/ntv_720p.m3u8
+#EXTINF:-1 tvg-name="Tele1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tele1-tr.png" group-title="Türkiye Haber",Tele1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8#all
+#EXTINF:-1 tvg-name="Tele1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tele1-tr.png" group-title="Türkiye Haber",Tele1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8#top50
 #EXTINF:-1 tvg-name="Thaqalayn TV" tvg-logo="https://i.imgur.com/u02FSgI.png" group-title="Türkiye Haber",Thaqalayn TV
 http://62.60.207.173:8080/hls/thaqalayn/index.m3u8#all
 #EXTINF:-1 tvg-name="Ton TV" tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="Türkiye Haber",Ton TV
@@ -627,6 +69,10 @@ https://tv.ensonhaber.com/tv100/tv100.m3u8#all
 https://tv.ensonhaber.com/tv100/tv100.m3u8#top50
 #EXTINF:-1 tvg-name="TV100" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv100-tr.png" group-title="Türkiye Haber",TV100
 https://tv.ensonhaber.com/tv100/tv100.m3u8
+#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tvnet-tr.png" group-title="Türkiye Haber",TVNET
+https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8#all
+#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tvnet-tr.png" group-title="Türkiye Haber",TVNET
+https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
 #EXTINF:-1 tvg-id="ÜLKE.TV.HD.tr" tvg-name="Ülke TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ulke-tv-tr.png" group-title="Türkiye Haber",Ülke TV
 https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8#all
 #EXTINF:-1 tvg-id="ÜLKE.TV.HD.tr" tvg-name="Ülke TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/ulke-tv-tr.png" group-title="Türkiye Haber",Ülke TV
@@ -677,6 +123,12 @@ https://tv-trtmuzik.medya.trt.com.tr/master.m3u8#kultur
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8#all
 #EXTINF:-1 tvg-id="A.SPOR.HD.tr" tvg-name="A Spor" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="Türkiye Spor",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8#top50
+#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Türkiye Spor",HTSpor TV
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#all
+#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Türkiye Spor",HTSpor TV
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#top50
+#EXTINF:-1 tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Türkiye Spor",HTSpor TV
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web#haber
 #EXTINF:-1 tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT Spor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-tr.png" group-title="Türkiye Spor",TRT Spor
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8#all
 #EXTINF:-1 tvg-id="TRT.SPOR.HD.tr" tvg-name="TRT Spor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-spor-tr.png" group-title="Türkiye Spor",TRT Spor
@@ -693,6 +145,22 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8#all
 #EXTINF:-1 tvg-id="360.HD.tr" tvg-name="360" tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="Türkiye Ulusal",360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8#top50
+#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g19%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23b91c1c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23dc2626%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23g19)%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2236%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2216%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%223%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2268%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2230%22%20fill%3D%22%23fef08a%22%3E19%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Türkiye Ulusal",Kanal 19
+https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 19" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g19%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23b91c1c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23dc2626%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23g19)%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2236%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2216%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%223%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2268%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2230%22%20fill%3D%22%23fef08a%22%3E19%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Türkiye Ulusal",Kanal 19
+https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Kanal Plus" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22gplus%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f172a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231e293b%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23gplus)%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%2244%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2219%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%222%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2282%25%22%20y%3D%2252%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2228%22%20fill%3D%22%2338bdf8%22%3E%2B%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Türkiye Ulusal",Kanal Plus
+https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal Plus" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%2090%22%20width%3D%22160%22%20height%3D%2290%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22gplus%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f172a%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231e293b%22%2F%3E%3C%2Fdefs%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22url(%23gplus)%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%2244%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2219%22%20fill%3D%22%23ffffff%22%20letter-spacing%3D%222%22%3EKANAL%3C%2Ftext%3E%3Ctext%20x%3D%2282%25%22%20y%3D%2252%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2228%22%20fill%3D%22%2338bdf8%22%3E%2B%3C%2Ftext%3E%3C%2Fsvg%3E" group-title="Türkiye Ulusal",Kanal Plus
+https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
+#EXTINF:-1 tvg-name="Al QURAN KAREEM - KABE CANLI" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAQK%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Al QURAN KAREEM - KABE CANLI
+https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8#all
+#EXTINF:-1 tvg-name="Al QURAN KAREEM - KABE CANLI" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAQK%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Al QURAN KAREEM - KABE CANLI
+https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
+#EXTINF:-1 tvg-name="ARABESK TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ARABESK TV
+https://tvsms.club/tv.php?kanal=arabeskyeni&file=.m3u8#all
+#EXTINF:-1 tvg-name="ARABESK TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ARABESK TV
+https://tvsms.club/tv.php?kanal=arabeskyeni&file=.m3u8
 #EXTINF:-1 tvg-name="ARMA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ARMA TV
 https://tvsms.club/tvz.php?kanal=arma&file=.m3u8#all
 #EXTINF:-1 tvg-name="ARMA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ARMA TV
@@ -701,14 +169,114 @@ https://tvsms.club/tvz.php?kanal=arma&file=.m3u8
 https://tvsms.club/tv.php?kanal=vivatv&file=.m3u8#all
 #EXTINF:-1 tvg-name="A VİVA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EAVT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",A VİVA TV
 https://tvsms.club/tv.php?kanal=vivatv&file=.m3u8
+#EXTINF:-1 tvg-name="BRÜKSEL TÜRK" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EBT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",BRÜKSEL TÜRK
+https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8#all
+#EXTINF:-1 tvg-name="BRÜKSEL TÜRK" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EBT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",BRÜKSEL TÜRK
+https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="İZMİR TIME 35 TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T3%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İZMİR TIME 35 TV
+https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8#all
+#EXTINF:-1 tvg-name="İZMİR TIME 35 TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T3%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İZMİR TIME 35 TV
+https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8
 #EXTINF:-1 tvg-name="İKRA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İKRA TV
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8#all
 #EXTINF:-1 tvg-name="İKRA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İKRA TV
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8
+#EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İSVİÇRE TV
+https://i41.ozelip.com:3269/hybrid/play.m3u8#all
+#EXTINF:-1 tvg-name="İSVİÇRE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3E%C4%B0T%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",İSVİÇRE TV
+https://i41.ozelip.com:3269/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",DAMAR TV
+https://tvsms.club/tv.php?kanal=damar&file=.m3u8#all
+#EXTINF:-1 tvg-name="DAMAR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",DAMAR TV
+https://tvsms.club/tv.php?kanal=damar&file=.m3u8
+#EXTINF:-1 tvg-name="DİZİ TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",DİZİ TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8#all
+#EXTINF:-1 tvg-name="DİZİ TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EDT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",DİZİ TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
+#EXTINF:-1 tvg-name="EZO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EET%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",EZO TV
+https://tvsms.club/tvz.php?kanal=ezo&file=.m3u8#all
+#EXTINF:-1 tvg-name="EZO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EET%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",EZO TV
+https://tvsms.club/tvz.php?kanal=ezo&file=.m3u8
+#EXTINF:-1 tvg-name="Gaziantep GRT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGGT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Gaziantep GRT TV
+https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8#all
+#EXTINF:-1 tvg-name="Gaziantep GRT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGGT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Gaziantep GRT TV
+https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8
+#EXTINF:-1 tvg-name="GENC SMS TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGST%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",GENC SMS TV
+https://tvsms.club/tv.php?kanal=genctv&file=.m3u8#all
+#EXTINF:-1 tvg-name="GENC SMS TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EGST%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",GENC SMS TV
+https://tvsms.club/tv.php?kanal=genctv&file=.m3u8
+#EXTINF:-1 tvg-name="HÜR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EHT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",HÜR TV
+https://live.euromediacenter.com/hurtv/tracks-v1a1/mono.m3u8#all
+#EXTINF:-1 tvg-name="HÜR TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EHT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",HÜR TV
+https://live.euromediacenter.com/hurtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Kanal 32" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK3%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal 32
+https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 32" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK3%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal 32
+https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8
+#EXTINF:-1 tvg-name="Kanal 53" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK5%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal 53
+https://kanal53.ozelip.com:3448/hybrid/play.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 53" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EK5%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal 53
+https://kanal53.ozelip.com:3448/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal Ada
+http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum#all
+#EXTINF:-1 tvg-name="Kanal Ada" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKA%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Kanal Ada
+http://145.239.58.133:28008/kanalada/kanalada/sec-f5-v1-a1.m3u8?app=supersatforum
+#EXTINF:-1 tvg-name="KTV Konya" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKK%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",KTV Konya
+https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8#all
+#EXTINF:-1 tvg-name="KTV Konya" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EKK%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",KTV Konya
+https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8
+#EXTINF:-1 tvg-name="MC TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",MC TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8#all
+#EXTINF:-1 tvg-name="MC TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",MC TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
+#EXTINF:-1 tvg-name="METROPOL TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",METROPOL TV
+https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum#all
+#EXTINF:-1 tvg-name="METROPOL TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",METROPOL TV
+https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum
+#EXTINF:-1 tvg-name="MUKABELE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",MUKABELE TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8#all
+#EXTINF:-1 tvg-name="MUKABELE TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",MUKABELE TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Muğla Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMTT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Muğla Türk TV
+https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8#all
+#EXTINF:-1 tvg-name="Muğla Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EMTT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Muğla Türk TV
+https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8
+#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EOBT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Ordu Bel TV
+https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Ordu Bel TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EOBT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Ordu Bel TV
+https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8
+#EXTINF:-1 tvg-name="Rize Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ERTT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Rize Türk TV
+https://yayin.rizeturk.com:3777/hybrid/play.m3u8#all
+#EXTINF:-1 tvg-name="Rize Türk TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ERTT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",Rize Türk TV
+https://yayin.rizeturk.com:3777/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="SAGLIK CHANEL" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ESC%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",SAGLIK CHANEL
+https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8#all
+#EXTINF:-1 tvg-name="SAGLIK CHANEL" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ESC%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",SAGLIK CHANEL
+https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="SILA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EST%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",SILA TV
 https://tvsms.club/tv.php?kanal=silatv&file=.m3u8#all
 #EXTINF:-1 tvg-name="SILA TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EST%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",SILA TV
 https://tvsms.club/tv.php?kanal=silatv&file=.m3u8
+#EXTINF:-1 tvg-name="TOP POP TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETPT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",TOP POP TV
+https://tvsms.club/tvz.php?kanal=toppop&file=.m3u8#all
+#EXTINF:-1 tvg-name="TOP POP TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETPT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",TOP POP TV
+https://tvsms.club/tvz.php?kanal=toppop&file=.m3u8
+#EXTINF:-1 tvg-name="TOKAT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",TOKAT TV
+https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8#all
+#EXTINF:-1 tvg-name="TOKAT TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3ETT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",TOKAT TV
+https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8
+#EXTINF:-1 tvg-name="ZEYNO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EZT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ZEYNO TV
+https://tvsms.club/tv.php?kanal=zeynotv&file=.m3u8#all
+#EXTINF:-1 tvg-name="ZEYNO TV" tvg-logo="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2290%22%20viewBox%3D%220%200%20160%2090%22%3E%3Crect%20width%3D%22160%22%20height%3D%2290%22%20rx%3D%2214%22%20fill%3D%22%230f172a%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%222%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2C-apple-system%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2224%22%20fill%3D%22%2338bdf8%22%3EZT%3C/text%3E%3C/svg%3E" group-title="Türkiye Ulusal",ZEYNO TV
+https://tvsms.club/tv.php?kanal=zeynotv&file=.m3u8
+#EXTINF:0,A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2 (Dizi & Sinema)" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Türkiye Ulusal",A2 (Dizi & Sinema)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#dizi
+#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Türkiye Ulusal",A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#all
+#EXTINF:-1 tvg-id="A2.HD.tr" tvg-name="A2" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" group-title="Türkiye Ulusal",A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8#top50
 #EXTINF:-1 tvg-name="Alanya Posta TV" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="Türkiye Ulusal",Alanya Posta TV
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8#all
 #EXTINF:0,ATV
@@ -721,18 +289,58 @@ https://helga.iptv2022.com/sh/AlanyaTV/tracks-v1a1/mono.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8#all
 #EXTINF:-1 tvg-id="ATV.HD.tr" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/atv-tr.png" group-title="Türkiye Ulusal",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8#top50
+#EXTINF:0,BENGU TURK
+https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Türkiye Ulusal",Bengütürk TV
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8#all
+#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Türkiye Ulusal",Bengütürk TV
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8#top50
+#EXTINF:-1 tvg-id="BENGÜ.TÜRK.tr" tvg-name="Bengütürk TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bengu-turk-tr.png" group-title="Türkiye Ulusal",Bengütürk TV
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 #EXTINF:0,BEYAZ TV F
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="BEYAZ.TV.HD.tr" tvg-name="Beyaz TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/beyaz-tv-tr.png" group-title="Türkiye Ulusal",Beyaz TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8#all
+#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Türkiye Ulusal",Bloomberg HT
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8#all
+#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Türkiye Ulusal",Bloomberg HT
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8#top50
+#EXTINF:-1 tvg-id="BLOOMBERG.HT.HD.tr" tvg-name="Bloomberg HT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/bloomberg-ht-tr.png" group-title="Türkiye Ulusal",Bloomberg HT
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cnbc-e-tr.png" group-title="Türkiye Ulusal",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8#all
+#EXTINF:-1 tvg-name="CNBC-e" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/cnbc-e-tr.png" group-title="Türkiye Ulusal",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8#top50
+#EXTINF:0,DMAX
+https://dogus.daioncdn.net/dmax/dmax.m3u8?app=dmax_web
 #EXTINF:-1 tvg-name="Edessa TV" tvg-logo="https://i.imgur.com/rhU6j9I.png" group-title="Türkiye Ulusal",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8#all
+#EXTINF:-1 tvg-id="EKOTÜRK.tr" tvg-name="Ekotürk" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="Türkiye Ulusal",Ekotürk
+https://cdn.ekoturk.net/hls/master.m3u8#all
+#EXTINF:-1 tvg-name="Flash Haber TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="Türkiye Ulusal",Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8#all
 #EXTINF:-1 tvg-name="Fortuna TV" tvg-logo="https://i.imgur.com/ZbUSlOC.png" group-title="Türkiye Ulusal",Fortuna TV
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8#all
 #EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Türkiye Ulusal",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8#all
 #EXTINF:-1 tvg-id="FOX.HD.tr" tvg-name="NOW" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Türkiye Ulusal",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8#top50
+#EXTINF:-1 tvg-name="Kanal 23" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="Türkiye Ulusal",Kanal 23
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 23" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="Türkiye Ulusal",Kanal 23
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
+#EXTINF:0,KANAL 23
+https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Kanal 26" tvg-logo="https://i.imgur.com/Mr7XPii.png" group-title="Türkiye Ulusal",Kanal 26
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 3" tvg-logo="https://i.imgur.com/eXErSv0.png" group-title="Türkiye Ulusal",Kanal 3
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 33" tvg-logo="https://i.imgur.com/5WYaoFZ.png" group-title="Türkiye Ulusal",Kanal 33
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 34" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="Türkiye Ulusal",Kanal 34
+https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8#all
+#EXTINF:-1 tvg-name="Kanal 34" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="Türkiye Ulusal",Kanal 34
+https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8
 #EXTINF:0,KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-id="KANAL.7.HD.tr" tvg-name="Kanal 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/kanal-7-tr.png" group-title="Türkiye Ulusal",Kanal 7
@@ -741,6 +349,12 @@ https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8#all
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8#all
 #EXTINF:-1 tvg-id="KANAL.7.HD.tr" tvg-name="Kanal 7 Avrupa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/kanal-7-avrupa-tr.png" group-title="Türkiye Ulusal",Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8#top50
+#EXTINF:0,KANAL B
+https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8
+#EXTINF:-1 tvg-id="KANAL.B.tr" tvg-name="Kanal B" tvg-logo="https://www.kanalb.com.tr/assets/images/logo/1683624355Kanal_B_logosu.png" group-title="Türkiye Ulusal",Kanal B
+https://tv.kanalb.tr/hls/kanalb/index.m3u8#all
+#EXTINF:-1 tvg-id="KANAL.B.tr" tvg-name="Kanal B" tvg-logo="https://www.kanalb.com.tr/assets/images/logo/1683624355Kanal_B_logosu.png" group-title="Türkiye Ulusal",Kanal B
+https://tv.kanalb.tr/hls/kanalb/index.m3u8
 #EXTINF:0,KANAL D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
 #EXTINF:0,KANAL D
@@ -751,6 +365,18 @@ https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3#all
 #EXTINF:-1 tvg-id="KANAL.D.HD.tr" tvg-name="Kanal D" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="Türkiye Ulusal",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3#top50
+#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="Türkiye Ulusal",Kanal Urfa
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8#all
+#EXTINF:-1 tvg-name="Kanal Urfa" tvg-logo="https://www.kanalurfa.com/upload/masaustu.png" group-title="Türkiye Ulusal",Kanal Urfa
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="LINETV.tr" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Türkiye Ulusal",Line TV
+https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8#all
+#EXTINF:-1 tvg-id="LINETV.tr" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="Türkiye Ulusal",Line TV
+https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8
+#EXTINF:-1 tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Türkiye Ulusal",Meltem TV
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8#all
+#EXTINF:-1 tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="Türkiye Ulusal",Meltem TV
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
 #EXTINF:-1 tvg-name="Ruha TV" tvg-logo="https://ruhatv.com.tr/kunye_dosyalar/kunye_logo.png" group-title="Türkiye Ulusal",Ruha TV
 https://ruhatv.radyotelekom.com.tr:3515/live/ruhatvlive.m3u8#all
 #EXTINF:-1 tvg-name="Ruha TV" tvg-logo="https://ruhatv.com.tr/kunye_dosyalar/kunye_logo.png" group-title="Türkiye Ulusal",Ruha TV
@@ -779,12 +405,76 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
 #EXTINF:-1 tvg-id="TEVE2.HD.tr" tvg-name="Teve2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/teve2-tr.png" group-title="Türkiye Ulusal",Teve2
 https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8#all
+#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Türkiye Ulusal",TGRT Belgesel
+https://canli.tgrthaber.com/tgrtbelgesel.m3u8#all
+#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Türkiye Ulusal",TGRT Belgesel
+https://canli.tgrthaber.com/tgrtbelgesel.m3u8#top50
+#EXTINF:-1 tvg-name="TGRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Türkiye Ulusal",TGRT Belgesel
+https://canli.tgrthaber.com/tgrtbelgesel.m3u8
+#EXTINF:0,TGRT BELGESEL
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8?md5=yJ4adbAK5bE0F93vqFevgw&expires=1687122603
+#EXTINF:0,TGRT HABER
+https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
+#EXTINF:0,TGRT HABER
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TGRT.HABER.tr" tvg-name="TGRT Haber" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Türkiye Ulusal",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8#all
+#EXTINF:-1 tvg-id="TGRT.HABER.tr" tvg-name="TGRT Haber" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tgrt-haber-tr.png" group-title="Türkiye Ulusal",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8#top50
+#EXTINF:0,TLC
+https://dogus.daioncdn.net/tlc/tlc.m3u8?app=tlc_web
 #EXTINF:60,TRT 1
 https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="TRT.1.HD.tr" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-1-tr.png" group-title="Türkiye Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8#all
 #EXTINF:-1 tvg-id="TRT.1.HD.tr" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-1-tr.png" group-title="Türkiye Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8#top50
+#EXTINF:-1 tvg-name="TRT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Türkiye Ulusal",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Türkiye Ulusal",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8#top50
+#EXTINF:0,TRT 2
+https://tv-trt2.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TRT 2 (Kültür & Belgesel)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-2-tr.png" group-title="Türkiye Ulusal",TRT 2 (Kültür & Belgesel)
+https://tv-trt2.medya.trt.com.tr/master.m3u8#belgesel
+#EXTINF:-1 tvg-id="TRT.3.-..SPOR.tr" tvg-name="TRT 3 / TBMM TV" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Türkiye Ulusal",TRT 3 / TBMM TV
+https://tv-trt3.live.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-id="TRT.3.-..SPOR.tr" tvg-name="TRT 3 Spor / TBMM TV" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="Türkiye Ulusal",TRT 3 Spor / TBMM TV
+https://tv-trt3.live.trt.com.tr/master.m3u8#spor
+#EXTINF:0,TRT ARABIA
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8
+#EXTINF:0,TRT AVAZ
+https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRT.AVAZ.HD.tr" tvg-name="TRT Avaz" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-avaz-tr.png" group-title="Türkiye Ulusal",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8#all
+#EXTINF:0,TRT BELGESEL
+http://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-belgesel-tr.png" group-title="Türkiye Ulusal",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-id="TRT.BELGESEL.HD.tr" tvg-name="TRT Belgesel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-belgesel-tr.png" group-title="Türkiye Ulusal",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8#top50
+#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Türkiye Ulusal",TRT Diyanet Çocuk
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT Diyanet Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Türkiye Ulusal",TRT Diyanet Çocuk
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8#top50
+#EXTINF:0,TRT DIYANET ÇOCUK
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="TRT EBA İlkokul" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="Türkiye Ulusal",TRT EBA İlkokul
+https://tv-e-okul00.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT EBA Lise" tvg-logo="https://i.imgur.com/vj2L2L2.png" group-title="Türkiye Ulusal",TRT EBA Lise
+https://tv-e-okul02.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT EBA Ortaokul" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="Türkiye Ulusal",TRT EBA Ortaokul
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-name="TRT Genc" tvg-logo="https://i.imgur.com/fCHQYWS.png" group-title="Türkiye Ulusal",TRT Genc
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8#all
+#EXTINF:-1 tvg-id="TRT.KURDİ.tr" tvg-name="TRT Kurdî" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-kurdi-tr.png" group-title="Türkiye Ulusal",TRT Kurdî
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8#all
+#EXTINF:0,TRT TURK
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRT.TÜRK.tr" tvg-name="TRT Türk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-turk-tr.png" group-title="Türkiye Ulusal",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8#all
+#EXTINF:0,TRT WORLD
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:0,TV 8
 https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
 #EXTINF:-1 tvg-name="TV8.5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv85-tr.png" group-title="Türkiye Ulusal",TV8.5
@@ -799,33 +489,21 @@ https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?app=tv8bucuk_web
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3#all
 #EXTINF:-1 tvg-id="TV8.HD.tr" tvg-name="TV8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/tv8-tr.png" group-title="Türkiye Ulusal",TV8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3#top50
-#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="Çocuk",Baby TV
-https://saran-live.ercdn.net/babytv/index.m3u8#all
-#EXTINF:-1 tvg-id="BABY.TV.tr" tvg-name="Baby TV" tvg-logo="https://i.imgur.com/02kCsqR.png" group-title="Çocuk",Baby TV
-https://saran-live.ercdn.net/babytv/index.m3u8#top50
-#EXTINF:-1 tvg-id="CARTOON.NETWORK.tr" tvg-name="Cartoon Network" tvg-logo="https://www.cartoonnetwork.com.tr/static/img/cn-logo.png" group-title="Çocuk",Cartoon Network
-http://176.65.153.40:6002/play/a013/index.m3u8#all
-#EXTINF:-1 tvg-id="CARTOON.NETWORK.tr" tvg-name="Cartoon Network" tvg-logo="https://www.cartoonnetwork.com.tr/static/img/cn-logo.png" group-title="Çocuk",Cartoon Network
-http://176.65.153.40:6002/play/a013/index.m3u8#top50
-#EXTINF:-1 tvg-name="Disney Jr." tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png" group-title="Çocuk",Disney Jr.
-https://saran-live.ercdn.net/disneyjunior/index.m3u8#all
-#EXTINF:-1 tvg-name="Disney Jr." tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png" group-title="Çocuk",Disney Jr.
-https://saran-live.ercdn.net/disneyjunior/index.m3u8#top50
 #EXTINF:0,MINIKA ÇOCUK
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
-#EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="Çocuk",Minika Çocuk
+#EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="Türkiye Çocuk",Minika Çocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8#all
-#EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="Çocuk",Minika Çocuk
+#EXTINF:-1 tvg-id="MİNİKA.ÇOCUK.tr" tvg-name="Minika Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-cocuk-tr.png" group-title="Türkiye Çocuk",Minika Çocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8#top50
 #EXTINF:0,MINIKA GO
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
-#EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika Go" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-go-tr.png" group-title="Çocuk",Minika Go
+#EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika Go" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-go-tr.png" group-title="Türkiye Çocuk",Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8#all
-#EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika Go" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-go-tr.png" group-title="Çocuk",Minika Go
+#EXTINF:-1 tvg-id="MİNİKA.GO.tr" tvg-name="Minika Go" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/minika-go-tr.png" group-title="Türkiye Çocuk",Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8#top50
 #EXTINF:0,TRT ÇOCUK
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="TRT.ÇOCUK.HD.tr" tvg-name="TRT Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Çocuk",TRT Çocuk
+#EXTINF:-1 tvg-id="TRT.ÇOCUK.HD.tr" tvg-name="TRT Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Türkiye Çocuk",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8#all
-#EXTINF:-1 tvg-id="TRT.ÇOCUK.HD.tr" tvg-name="TRT Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Çocuk",TRT Çocuk
+#EXTINF:-1 tvg-id="TRT.ÇOCUK.HD.tr" tvg-name="TRT Çocuk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/trt-cocuk-tr.png" group-title="Türkiye Çocuk",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8#top50
