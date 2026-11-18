@@ -1,4 +1,3 @@
-
 name: Turgut IPTV Turkey Ultimate
 
 on:
@@ -55,10 +54,16 @@ jobs:
           TIMEOUT = 15
           WORKERS = 25
           FAIL_LIMIT = 4
+
+          # Kanal basina en fazla kac CALISAN yayin (ana + yedekler) listeye girsin
           MAX_ALTERNATIVES = 8
+          # Kanal basina en fazla kac aday yayin test edilsin
+          MAX_TEST_PER_CHANNEL = 30
 
           SOURCES = [
               "https://iptv-org.github.io/iptv/countries/tr.m3u",
+              "https://iptv-org.github.io/iptv/languages/tur.m3u",
+              "https://streams.uzunmuhalefet.com/lists/tr.m3u",
               "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tr.m3u",
               "https://iptv-org.github.io/iptv/categories/sports.m3u",
               "https://iptv-org.github.io/iptv/categories/news.m3u",
@@ -150,6 +155,25 @@ jobs:
               m = re.search(r",(.+)$", entry[0])
               return m.group(1).strip() if m else "Bilinmeyen"
 
+          def base_name(entry):
+              # "X Alternatif 2" gibi eklenmis isimleri tekrar buyutmemek icin
+              # varsa tvg-name, yoksa virgulden sonraki isim kullanilir.
+              m = re.search(r'tvg-name="([^"]+)"', entry[0], re.I)
+              if m and m.group(1).strip():
+                  return m.group(1).strip()
+              name = channel_name(entry)
+              return re.sub(
+                  r"\s+Alternatif\s+\d+$", "", name, flags=re.I
+              )
+
+          def clean_name(name):
+              # "ATV (1080p) [Geo-blocked]" -> "ATV", "Show TV HD" -> "Show TV"
+              name = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", str(name))
+              name = re.sub(
+                  r"\b(fhd|uhd|hd|sd|hevc|4k)\b", " ", name, flags=re.I
+              )
+              return re.sub(r"\s+", " ", name).strip()
+
           ALIASES = {
               "atvhd": "atv",
               "atvturkiye": "atv",
@@ -174,13 +198,18 @@ jobs:
               match = re.search(
                   r'tvg-id="([^"]+)"', entry[0], re.I
               )
-              raw = match.group(1) if match else channel_name(entry)
+              if match:
+                  # "ATV.tr@SD" -> "ATV"
+                  raw = re.sub(r"@.*$", "", match.group(1))
+                  raw = re.sub(r"\.[A-Za-z]{2}$", "", raw)
+              else:
+                  raw = clean_name(base_name(entry))
               key = norm(raw)
               return ALIASES.get(key, key)
 
           def category(entry):
               n = channel_key(entry)
-              name = norm(channel_name(entry))
+              name = norm(base_name(entry))
 
               if any(x in n or x in name for x in [
                   "trtspor", "aspor", "htspor", "ssport",
@@ -264,8 +293,8 @@ jobs:
               return result
 
           def is_turkish(entry):
-              name = channel_name(entry)
-              n = norm(name)
+              name = base_name(entry)
+              n = norm(clean_name(name))
               info = entry[0]
 
               if not n:
@@ -292,9 +321,14 @@ jobs:
                   ):
                       return False
 
+              tr_id = re.search(
+                  r'tvg-id="[^"]+\.tr(@[^"]*)?"', info, re.I
+              )
+
               return (
                   n in [norm(x) for x in CHANNELS]
                   or bool(country)
+                  or bool(tr_id)
               )
 
           def fetch_m3u(url):
@@ -453,6 +487,7 @@ jobs:
 
               manual = unique(read_m3u(BACKUP))
               manual_urls = {url for _, url in manual}
+              manual_keys = {channel_key(e) for e in manual}
               previous = read_m3u(AUTO)
               old_state = load_state()
 
@@ -473,8 +508,29 @@ jobs:
                   ):
                       fetched.extend(result)
 
+              # Elle eklenen ekstra yedekler: ekstra_alternatifler.txt
+              # Satir bicimi:  ATV|https://ornek.com/atv/index.m3u8
+              extra = Path("ekstra_alternatifler.txt")
+              if extra.exists():
+                  for line in extra.read_text(
+                      encoding="utf-8", errors="ignore"
+                  ).splitlines():
+                      line = line.strip()
+                      if not line or line.startswith("#") or "|" not in line:
+                          continue
+                      name, url = [x.strip() for x in line.split("|", 1)]
+                      if url.startswith(("http://", "https://")):
+                          fetched.append((
+                              '#EXTINF:-1 group-title="' +
+                              category(('#EXTINF:-1,' + name, url)) +
+                              '" tvg-name="' + name + '",' + name,
+                              url
+                          ))
+
+              # Onceki calisan yayinlar basta: siralama kararli kalir,
+              # yedekler her saat yer degistirmez.
               candidates = [
-                  e for e in fetched + previous
+                  e for e in previous + fetched
                   if e[1] not in manual_urls
                   and is_turkish(e)
               ]
@@ -487,51 +543,70 @@ jobs:
                   if key:
                       groups.setdefault(key, []).append(entry)
 
+              # Her kanal icin MAX_TEST_PER_CHANNEL adaya kadar test et;
+              # boylece ilk yayinlar olu olsa bile yedek bulunur.
               selected = []
               for key, entries in groups.items():
-                  entries = unique(entries)
-                  selected.extend(entries[:MAX_ALTERNATIVES])
+                  selected.extend(
+                      unique(entries)[:MAX_TEST_PER_CHANNEL]
+                  )
 
               print("Test edilecek otomatik yayin:", len(selected))
 
               with ThreadPoolExecutor(max_workers=WORKERS) as pool:
                   checks = list(pool.map(check_stream, selected))
 
-              auto_working = []
+              per_channel = {}
               new_state = {}
 
               for entry, ok in zip(selected, checks):
                   url = entry[1]
+                  key = channel_key(entry)
                   old = old_state.get(url, {})
                   failures = old.get("failures", 0)
+                  keep = False
 
                   if ok:
                       failures = 0
-                      auto_working.append(entry)
+                      keep = True
                   else:
                       failures += 1
 
                       # Eski yayin gecici hata verirse 4 kontrole kadar koru.
                       if failures < FAIL_LIMIT and url in old_state:
-                          auto_working.append(entry)
+                          keep = True
+
+                  if keep:
+                      per_channel.setdefault(key, []).append(entry)
 
                   new_state[url] = {
                       "failures": failures,
-                      "channel": channel_name(entry)
+                      "channel": base_name(entry)
                   }
+
+              # Kanal basina en fazla MAX_ALTERNATIVES calisan yayin.
+              auto_working = []
+              for key, entries in per_channel.items():
+                  auto_working.extend(
+                      unique(entries)[:MAX_ALTERNATIVES]
+                  )
 
               auto_working = unique(auto_working)
 
-              # Alternatifleri kanal başına ayrı ayrı ve sıralı göster.
+              # Alternatifleri kanal basina ayri ayri ve sirali goster.
               final_auto = []
               display_counts = {}
 
               for entry in auto_working:
                   key = channel_key(entry)
-                  display_counts[key] = display_counts.get(key, 0) + 1
+
+                  # Manuel listede zaten ana yayin varsa otomatikler
+                  # "Alternatif 2" ten baslasin.
+                  start = 1 if key in manual_keys else 0
+                  display_counts[key] = display_counts.get(key, start) + 1
                   number = display_counts[key]
 
-                  original_name = channel_name(entry)
+                  original_name = base_name(entry)
                   group = category(entry)
 
                   if number == 1:
@@ -550,7 +625,7 @@ jobs:
 
                   final_auto.append((info, entry[1]))
 
-              # Manuel kanallar değiştirilmez ve test edilmez.
+              # Manuel kanallar degistirilmez ve test edilmez.
               final_entries = unique(manual + final_auto)
 
               write_m3u(AUTO, final_auto)
