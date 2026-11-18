@@ -9,10 +9,36 @@ https://zemmedya.com/free/hls/zem/tv7.m3u8
 https://catcast.ismailturret.workers.dev/51139.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fW9Jdcsz/TRT-1-logo-(2012-2021).png" group-title="ULUSAL KANALLAR",TRT1
 http://176.65.153.66:6001/play/a01x/index.m3u8
+
+
+#EXTINF:-1 group-title="TRT 1",TRT 1 HD ANA
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 group-title="TRT 1",TRT 1 YEDEK 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 group-title="TRT 1",TRT 1 YEDEK 2
+https://ddc75c8a6akqr.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-1/master.m3u8
+
+#EXTINF:-1 group-title="TRT 1",TRT 1 YEDEK 3
+https://tv-trt1-dai.medya.trt.com.tr/master_4.m3u8
+
+#EXTINF:-1 group-title="TRT 1",TRT 1 YEDEK 4
+https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/G2jgg8wn/share-1000x500-removebg-preview.png" group-title="ULUSAL KANALLAR",TRT2
 https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/m2PVC6DF/TRT-4K-logo-svg.webp" group-title="ULUSAL KANALLAR",TRT 4K
 http://tinyurl.com/2b9lfls2
+
+
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" group-title="Ulusal",ATV
+https://trkvz-live.daioncdn.net/atv/atv.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV Yedek 1" group-title="Ulusal",ATV Yedek 1
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV Yedek 2" group-title="Ulusal",ATV Yedek 2
+https://trkvz-live.ercdn.net/atvhd/atvhd_1080p.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV Yedek 3" group-title="Ulusal",ATV Yedek 3
+http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rz2TGRSr/Show-TV-logo-svg.webp" group-title="ULUSAL KANALLAR",SHOW TV
 https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=1664766175&st=RBzhSuGauna0OGld-DJUVA&tv=1&sid=88iye2ldl2ew&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5t2XQD4g/atv-logo.png" group-title="ULUSAL KANALLAR",ATV
@@ -201,6 +227,16 @@ https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&ppid=675956db19f9bb686edda21d15d911e8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/kgz4tNYj/images-removebg-preview-(2).png" group-title="SPOR KANALLARI",TAY TV
 https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" group-title="Spor",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor Yedek 1" group-title="Spor",TRT Spor Yedek 1
+https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor Yedek 2" group-title="Spor",TRT Spor Yedek 2
+https://trtspordvr.blutv.com/blutv_trtspor_dvr/live.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor Yedek 3" group-title="Spor",TRT Spor Yedek 3
+https://stream.tvcdn.net/spor/trt-spor.m3u8
+
 #EXTINF:-1 tvg-logo="https://r.resimlink.com/1dOGS5D_iA4Z.png" group-title="SPOR KANALLARI",YARIŞTAYIZ TV
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/J0GqdxsP/TJKTV-Logo-removebg-preview.png" group-title="SPOR KANALLARI",TJK TV YURT DIŞI
