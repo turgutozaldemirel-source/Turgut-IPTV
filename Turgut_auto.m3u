@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Animation;Kids",Cartoon Network (Turkiye)
-http://176.65.153.40:6002/play/a013/index.m3u8
-#EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Business;Series",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-name="Edessa TV" tvg-country="TR" tvg-language="Turkish" group-title="Entertainment",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="Ekoturk" tvg-country="TR" tvg-language="Turkish" group-title="News",Ekoturk
@@ -53,6 +49,8 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-name="Cine 1" tvg-country="TR" tvg-language="Turkish" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Cine 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
+#EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-name="CNBC-e" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Business" x-tier="community" x-status="verified" x-quality="1080p",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" tvg-name="Deniz Postasi TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Deniz Postasi TV
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Diyanet TV
@@ -129,8 +127,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-name="TBMM TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-name="Tele 1" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Tele 1
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="TempoTV.tr@SD" tvg-name="Tempo TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Tempo TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 tvg-id="TonTV.tr@SD" tvg-name="Ton TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Ton TV
@@ -147,6 +143,24 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 #EXTINF:-1 tvg-id="VavTV.tr@SD" tvg-name="Vav TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/jw0gB8L.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Vav TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Show TV",Show TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal D",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal D",Kanal D
+https://kdlive.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="NOW",NOW
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=-y5stmJ5U-4p6puuYi8EUg&e=1795024590
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="NOW",NOW
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=-y5stmJ5U-4p6puuYi8EUg&e=1795024590
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Habertürk",Habertürk
+https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal 7",Kanal 7
+https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
+#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="360",360
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Animation;Kids",Cartoon Network (Turkiye)
+http://176.65.153.40:6002/play/a013/index.m3u8
 #EXTINF:-1 tvg-name="TRT Avaz" tvg-logo="https://i.imgur.com/VhTwXu5.png" tvg-id="TRTAvaz.tr" tvg-chno="9" tvg-country="TR" group-title="Turkey",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT EBA Ilkokul" tvg-logo="https://i.imgur.com/wDvZfk8.png" tvg-chno="14" tvg-country="TR" group-title="Turkey",TRT EBA Ilkokul
