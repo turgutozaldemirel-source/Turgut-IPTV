@@ -889,171 +889,183 @@ http://livestar.siliconweb.com/starvod/star4/star4.m3u8
 https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index.m3u8
 #EXTINF:-1 tvg-logo="https://r.resimlink.com/Nshb7A5MxCYP.png" group-title="KARIŞIK YABANCI KANALLAR",FRANCE 24
 https://dash4.antik.sk/live/test_france24_france/playlist.m3u8
-#EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-name="Edessa TV" tvg-country="TR" tvg-language="Turkish" group-title="Entertainment",Edessa TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="edessatvtrsd" tvg-name="Edessa TV",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="Ekoturk" tvg-country="TR" tvg-language="Turkish" group-title="News",Ekoturk
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="ekoturktrsd" tvg-name="Ekoturk",Ekoturk
 https://cdn.ekoturk.net/hls/master.m3u8
-#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-country="TR" tvg-language="Turkish" group-title="Documentary",GZT
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="gzttrsd" tvg-name="GZT",GZT
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="Power Dance" tvg-country="TR" tvg-language="Turkish" group-title="Music",Power Dance
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="powerdancetrsd" tvg-name="Power Dance",Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-country="TR" tvg-language="Turkish" group-title="General",Power TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="powertvtrsd" tvg-name="Power TV",Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-name="PowerTurk Akustik" tvg-country="TR" tvg-language="Turkish" group-title="Music",PowerTurk Akustik
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="powerturkakustiktrsd" tvg-name="PowerTurk Akustik",PowerTurk Akustik
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr@SD" tvg-name="PowerTurk Slow" tvg-country="TR" tvg-language="Turkish" group-title="Music",PowerTurk Slow
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="powerturkslowtrsd" tvg-name="PowerTurk Slow",PowerTurk Slow
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-name="PowerTurk Taptaze" tvg-country="TR" tvg-language="Turkish" group-title="Music",PowerTurk Taptaze
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="powerturktaptazetrsd" tvg-name="PowerTurk Taptaze",PowerTurk Taptaze
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-name="PowerTurk TV" tvg-country="TR" tvg-language="Turkish" group-title="General",PowerTurk TV
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="powerturktvtrsd" tvg-name="PowerTurk TV",PowerTurk TV
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-name="TGRT Haber" tvg-country="TR" tvg-language="Turkish" group-title="News",TGRT Haber
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tgrthabertrsd" tvg-name="TGRT Haber",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" tvg-country="TR" tvg-language="Turkish" group-title="Sports",TJK TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tjktvtrsd" tvg-name="TJK TV",TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-name="TRT 1" tvg-country="TR" tvg-language="Turkish" group-title="General",TRT 1
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="trt1trsd" tvg-name="TRT 1",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Kids",TRT Çocuk
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="trt2tr" tvg-name="TRT 2",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Türkiye Spor" tvg-id="trtsportrsd" tvg-name="TRT Spor",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtcocuktrsd" tvg-name="TRT Çocuk",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" tvg-country="TR" tvg-language="Turkish" group-title="General",TV Den
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tvdentrsd" tvg-name="TV Den",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
-#EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="24 TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="News" x-tier="community" x-status="verified" x-quality="720p",24 TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="24tvtrsd" tvg-name="24 TV",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:-1 tvg-id="360.tr@SD" tvg-name="360" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="News" x-tier="community" x-status="verified" x-quality="720p",360
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="360trsd" tvg-name="360",360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 tvg-id="AHaber.tr@SD" tvg-name="A Haber" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",A Haber
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="ahabertrsd" tvg-name="A Haber",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 tvg-id="AksuTV.tr@SD" tvg-name="Aksu TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/mgDCKiy.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Aksu TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="aksutvtrsd" tvg-name="Aksu TV",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlmahriahTV.tr@SD" tvg-name="Almahriah TV" tvg-country="TR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="News" x-tier="community" x-status="verified" x-quality="sd",Almahriah TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="almahriahtvtrsd" tvg-name="Almahriah TV",Almahriah TV
 https://starmenajo.com/hls/almahriah/index.m3u8
-#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-name="Anadolu Net TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Anadolu Net TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="anadolunettvtrsd" tvg-name="Anadolu Net TV",Anadolu Net TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 tvg-id="ATVAlanya.tr@SD" tvg-name="ATV Alanya" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/bUwarR0.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",ATV Alanya
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="atvalanyatrsd" tvg-name="ATV Alanya",ATV Alanya
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Business" x-tier="community" x-status="verified" x-quality="1080p",Bloomberg HT
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="bloomberghttrsd" tvg-name="Bloomberg HT",Bloomberg HT
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
-#EXTINF:-1 tvg-id="BRTV.tr@SD" tvg-name="BRTV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/U3qlEAp.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",BRTV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="brtvtrsd" tvg-name="BRTV",BRTV
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-name="Ciftci TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Education" x-tier="community" x-status="verified" x-quality="720p",Ciftci TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="ciftcitvtrsd" tvg-name="Ciftci TV",Ciftci TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
-#EXTINF:-1 tvg-id="Cine1.tr@SD" tvg-name="Cine 1" tvg-country="TR" tvg-language="Turkish" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Cine 1
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="cine1trsd" tvg-name="Cine 1",Cine 1
 https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
-#EXTINF:-1 tvg-id="CNBCe.tr@SD" tvg-name="CNBC-e" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" group-title="Business" x-tier="community" x-status="verified" x-quality="1080p",CNBC-e
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="cnbcetrsd" tvg-name="CNBC-e",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" tvg-name="Deniz Postasi TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Deniz Postasi TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="denizpostasitvtrsd" tvg-name="Deniz Postasi TV",Deniz Postasi TV
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
-#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Diyanet TV
+#EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="diyanettvtrsd" tvg-name="Diyanet TV",Diyanet TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DiyarTV.tr@SD" tvg-name="Diyar TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/qWkHjRA.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="720p",Diyar TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="diyartvtrsd" tvg-name="Diyar TV",Diyar TV
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
-#EXTINF:-1 tvg-id="ElsharqTV.tr@SD" tvg-name="Elsharq TV" tvg-country="TR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/8vmfZb5.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Elsharq TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="elsharqtvtrsd" tvg-name="Elsharq TV",Elsharq TV
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ERTV.tr@SD" tvg-name="ERTV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/VDGEPrD.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",ERTV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="ertvtrsd" tvg-name="ERTV",ERTV
 https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-#EXTINF:-1 tvg-id="ErzurumWebTV.tr@SD" tvg-name="Erzurum Web TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/HF7N4Li.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Erzurum Web TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="erzurumwebtvtrsd" tvg-name="Erzurum Web TV",Erzurum Web TV
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:-1 tvg-id="ESTV.tr@SD" tvg-name="ES TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/epAEBrp.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",ES TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="estvtrsd" tvg-name="ES TV",ES TV
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVKayseri.tr@SD" tvg-name="ETV Kayseri" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" group-title="General" x-tier="community" x-status="verified" x-quality="720p",ETV Kayseri
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="etvkayseritrsd" tvg-name="ETV Kayseri",ETV Kayseri
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
-#EXTINF:-1 tvg-id="FBTV.tr@SD" tvg-name="FB TV" tvg-country="TR" tvg-language="Turkish;English" tvg-logo="https://i.imgur.com/qBVqtYd.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="720p",FB TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="fbtvtrsd" tvg-name="FB TV",FB TV
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FlashHaberTV.tr@SD" tvg-name="Flash Haber TV" tvg-country="TR" tvg-language="Turkish" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Flash Haber TV
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="flashhabertvtrsd" tvg-name="Flash Haber TV",Flash Haber TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FortunaTV.tr@HD" tvg-name="Fortuna TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/ZbUSlOC.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",Fortuna TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="fortunatvtrhd" tvg-name="Fortuna TV",Fortuna TV
 https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="Haber61TV.tr@SD" tvg-name="Haber61 TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/2a2XUKl.png" group-title="News" x-tier="community" x-status="verified" x-quality="720p",Haber61 TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="haber61tvtrsd" tvg-name="Haber61 TV",Haber61 TV
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-name="HTSpor TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",HTSpor TV
+#EXTINF:-1 group-title="Türkiye Spor" tvg-id="htsportvtrsd" tvg-name="HTSpor TV",HTSpor TV
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 tvg-id="Kanal12.tr@SD" tvg-name="Kanal 12" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/51xCkXG.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Kanal 12
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal12trsd" tvg-name="Kanal 12",Kanal 12
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal15.tr@SD" tvg-name="Kanal 15" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/wb1Cdc9.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Kanal 15
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal15trsd" tvg-name="Kanal 15",Kanal 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal23.tr@SD" tvg-name="Kanal 23" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/3br8RCq.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kanal 23
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal23trsd" tvg-name="Kanal 23",Kanal 23
 https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
-#EXTINF:-1 tvg-id="Kanal26.tr@SD" tvg-name="Kanal 26" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/Mr7XPii.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Kanal 26
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal26trsd" tvg-name="Kanal 26",Kanal 26
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal7Avrupa.tr@SD" tvg-name="Kanal 7 Avrupa" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Kanal 7 Avrupa
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7avrupatrsd" tvg-name="Kanal 7 Avrupa",Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-name="Kanal D" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kanal D
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanaldtrsd" tvg-name="Kanal D",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-name="Kanal D Drama" tvg-country="TR" tvg-language="Albanian;Turkish;Spanish" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Kanal D Drama
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanalddramatrsd" tvg-name="Kanal D Drama",Kanal D Drama
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalFirat.tr@SD" tvg-name="Kanal Firat" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/3o8Rokp.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Kanal Firat
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanalfirattrsd" tvg-name="Kanal Firat",Kanal Firat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalV.tr@SD" tvg-name="Kanal V" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/7RNjTno.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Kanal V
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanalvtrsd" tvg-name="Kanal V",Kanal V
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
-#EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-name="Kent Turk" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kent Turk
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kentturktrsd" tvg-name="Kent Turk",Kent Turk
 https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
-#EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-name="Kocaeli TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kocaeli TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kocaelitvtrsd" tvg-name="Kocaeli TV",Kocaeli TV
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="KonyaOlayTV.tr@SD" tvg-name="Konya Olay TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Konya Olay TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="konyaolaytvtrsd" tvg-name="Konya Olay TV",Konya Olay TV
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 tvg-id="LifeTV.tr@SD" tvg-name="Life TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Life TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="lifetvtrsd" tvg-name="Life TV",Life TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
-#EXTINF:-1 tvg-id="LuysTV.tr@SD" tvg-name="Luys TV" tvg-country="TR" tvg-language="Turkish;Armenian" tvg-logo="https://i.imgur.com/9EruWIQ.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Luys TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="luystvtrsd" tvg-name="Luys TV",Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MaviKaradenizTV.tr@SD" tvg-name="MaviKaradeniz TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/wyWappU.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",MaviKaradeniz TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="mavikaradeniztvtrsd" tvg-name="MaviKaradeniz TV",MaviKaradeniz TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:-1 tvg-id="MekameleenTV.tr@SD" tvg-name="Mekameleen TV" tvg-country="TR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/q7iVchl.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Mekameleen TV
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="mekameleentvtrsd" tvg-name="Mekameleen TV",Mekameleen TV
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MeltemTV.tr@SD" tvg-name="Meltem TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Meltem TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="meltemtvtrsd" tvg-name="Meltem TV",Meltem TV
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:-1 tvg-id="MercanTV.tr@SD" tvg-name="Mercan TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/3CWV8bS.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Mercan TV
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="mercantvtrsd" tvg-name="Mercan TV",Mercan TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:-1 tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Cocuk" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/VCywMTv.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="720p",Minika Cocuk
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="minikacocuktrsd" tvg-name="Minika Cocuk",Minika Cocuk
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go" tvg-country="TR" tvg-language="Turkish;English" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="720p",Minika Go
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="minikagotrsd" tvg-name="Minika Go",Minika Go
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 tvg-id="NOW.tr@SD" tvg-name="NOW" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",NOW
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="nowtrsd" tvg-name="NOW",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
-#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-name="Number 1 Ask" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/slwbux7.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",Number 1 Ask
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="number1asktrsd" tvg-name="Number 1 Ask",Number 1 Ask
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Damar.tr@SD" tvg-name="Number 1 Damar" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/rYtbAGZ.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",Number 1 Damar
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="number1damartrsd" tvg-name="Number 1 Damar",Number 1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-name="Star TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Star TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="startvtrsd" tvg-name="Star TV",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-name="TBMM TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TBMM TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tbmmtvtrsd" tvg-name="TBMM TV",TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 tvg-id="TempoTV.tr@SD" tvg-name="Tempo TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Tempo TV
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tele1trsd" tvg-name="Tele 1",Tele 1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tempotvtrsd" tvg-name="Tempo TV",Tempo TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
-#EXTINF:-1 tvg-id="TonTV.tr@SD" tvg-name="Ton TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Ton TV
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tontvtrsd" tvg-name="Ton TV",Ton TV
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 tvg-id="TV264.tr@SD" tvg-name="TV 264" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",TV 264
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tv264trsd" tvg-name="TV 264",TV 264
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TV4.tr@SD" tvg-name="TV 4" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/UpsQsbd.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TV 4
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tv4trsd" tvg-name="TV 4",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 tvg-id="TV41.tr@SD" tvg-name="TV 41" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/6T472LM.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TV 41
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tv41trsd" tvg-name="TV 41",TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
-#EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-name="Urfa Natik TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Urfa Natik TV
+#EXTINF:-1 group-title="Türkiye Spor" tvg-id="urfanatiktvtrsd" tvg-name="Urfa Natik TV",Urfa Natik TV
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
-#EXTINF:-1 tvg-id="Van65TV.tr@SD" tvg-name="Van 65 TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Van 65 TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="van65tvtrsd" tvg-name="Van 65 TV",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
-#EXTINF:-1 tvg-id="VavTV.tr@SD" tvg-name="Vav TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/jw0gB8L.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Vav TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="vavtvtrsd" tvg-name="Vav TV",Vav TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Show TV",Show TV
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="showtv" tvg-name="Show TV",Show TV
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal D",Kanal D
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal D",Kanal D
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D Alternatif 2
 https://kdlive.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="NOW",NOW
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=EFdB_dEnle35CJBcLWvgsA&e=1795026872
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 2
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=EFdB_dEnle35CJBcLWvgsA&e=1795026872
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 3
 https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=-y5stmJ5U-4p6puuYi8EUg&e=1795024590
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="NOW",NOW
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 4
 https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=-y5stmJ5U-4p6puuYi8EUg&e=1795024590
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Habertürk",Habertürk
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="haberturk" tvg-name="Habertürk",Habertürk
 https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="Kanal 7",Kanal 7
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7" tvg-name="Kanal 7",Kanal 7
 https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
-#EXTINF:-1 group-title="Türkiye Resmî" tvg-name="360",360
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="360" tvg-name="360",360
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Animation;Kids",Cartoon Network (Turkiye)
-http://176.65.153.40:6002/play/a013/index.m3u8
-#EXTINF:-1 tvg-name="TRT Avaz" tvg-logo="https://i.imgur.com/VhTwXu5.png" tvg-id="TRTAvaz.tr" tvg-chno="9" tvg-country="TR" group-title="Turkey",TRT Avaz
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="kraltv" tvg-name="Kral TV",Kral TV
+https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Müzik" tvg-id="kraltv" tvg-name="Kral TV",Kral TV Alternatif 2
+https://dygedge.radyotvonline.net/kralpop/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="trtavaztr" tvg-name="TRT Avaz",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT EBA Ilkokul" tvg-logo="https://i.imgur.com/wDvZfk8.png" tvg-chno="14" tvg-country="TR" group-title="Turkey",TRT EBA Ilkokul
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtebailkokul" tvg-name="TRT EBA Ilkokul",TRT EBA Ilkokul
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT EBA Lise" tvg-logo="https://i.imgur.com/IebUZx1.png" tvg-chno="16" tvg-country="TR" group-title="Turkey",TRT EBA Lise
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtebalise" tvg-name="TRT EBA Lise",TRT EBA Lise
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
