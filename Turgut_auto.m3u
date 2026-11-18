@@ -33,8 +33,6 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="showtv" tvg-name="Show TV",Show TV Alternatif 2
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="showtv" tvg-name="Show TV",Show TV Alternatif 3
-https://ciner-live.ercdn.net/showtv/showtv.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D Alternatif 2
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D Alternatif 3
@@ -59,9 +57,7 @@ https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=UZ_yiLB4JU2hzI6ATrpDTA&e=
 https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7" tvg-name="Kanal 7",Kanal 7 Alternatif 2
 https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7" tvg-name="Kanal 7",Kanal 7 Alternatif 3
-https://live.kanal7.com/live/kanal7LiveDesktop/index.m3u8
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7" tvg-name="Kanal 7 (720p)",Kanal 7 (720p) Alternatif 4
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanal7" tvg-name="Kanal 7 (720p)",Kanal 7 (720p) Alternatif 3
 https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="360" tvg-name="360",360 Alternatif 2
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
@@ -73,9 +69,7 @@ https://dygedge.radyotvonline.net/kralpop/playlist.m3u8
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="atv" tvg-name="ATV (Turkiye) (1080p)",ATV (Turkiye) (1080p) Alternatif 2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="beyaztv" tvg-name="Beyaz TV",Beyaz TV Alternatif 2
-https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="beyaztv" tvg-name="Beyaz TV (720p) [Not 24/7]",Beyaz TV (720p) [Not 24/7] Alternatif 3
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="beyaztv" tvg-name="Beyaz TV (720p) [Not 24/7]",Beyaz TV (720p) [Not 24/7] Alternatif 2
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
 #EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="cartoonnetwork" tvg-name="Cartoon Network (Turkiye)",Cartoon Network (Turkiye) Alternatif 2
 http://176.65.153.40:6002/play/a013/index.m3u8
@@ -87,8 +81,6 @@ https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1 group-title="Türkiye Haber" tvg-id="cnnturk" tvg-name="CNN Turk (1080p)",CNN Turk (1080p) Alternatif 2
 http://85.117.61.84/cnnturk/index.m3u8
-#EXTINF:-1 group-title="Türkiye Haber" tvg-id="cnnturk" tvg-name="CNN Türk",CNN Türk Alternatif 3
-https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Müzik" tvg-id="dreamturk" tvg-name="Dream Turk (720p)",Dream Turk (720p) Alternatif 2
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Haber" tvg-id="ntv" tvg-name="NTV (Turkiye)",NTV (Turkiye) Alternatif 2
@@ -99,8 +91,6 @@ https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Haber" tvg-id="sozcutv" tvg-name="Sozcu TV (1080p)",Sozcu TV (1080p)
 https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="ulketv" tvg-name="Ulke TV",Ulke TV Alternatif 2
-http://217.174.229.138:8000/play/a0el
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="atvplus" tvg-name="ATV+ (1080p)",ATV+ (1080p)
 http://45.171.108.253:8888/ATV/index.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="powertv" tvg-name="Power TV (India) (576p)",Power TV (India) (576p) Alternatif 2
@@ -143,12 +133,16 @@ https://i.mjh.nz/.r/10shake-nsw.m3u8
 http://5.175.174.49:1234/stream/maxtvhr/nickelodeonhr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="nickelodeon" tvg-name="Nickelodeon (India) (576p)",Nickelodeon (India) (576p) Alternatif 8
 http://103.135.253.32:8080/NICK/index.m3u8
-#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtcocuk" tvg-name="TRT Çocuk",TRT Çocuk Alternatif 2
-https://trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/master.m3u8
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="teve2" tvg-name="teve2",teve2
-https://tv2.duhnet.tv/S2/HLS_LIVE/tv2np/playlist.m3u8
-#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="teve2" tvg-name="teve2",teve2 Alternatif 2
-https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&amp;app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tele1" tvg-name="Tele 1 (1080p)",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="trtbelgesel" tvg-name="TRT Belgesel (720p)",TRT Belgesel (720p) Alternatif 2
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Türkiye Spor" tvg-id="trtspor" tvg-name="TRT Spor (720p)",TRT Spor (720p) Alternatif 2
+https://corestream.siteyaptim.live/trt-spor/index.m3u8
+#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tvnet" tvg-name="TVNET (Turkiye) (1080p)",TVNET (Turkiye) (1080p) Alternatif 2
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="cartoonnetworkhdplus" tvg-name="Cartoon Network HD+ (1080p)",Cartoon Network HD+ (1080p)
+http://103.135.253.32:8080/CN-NETWORK/index.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="24tv" tvg-name="24 TV (720p)",24 TV (720p) Alternatif 2
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="aksutv" tvg-name="Aksu TV (720p)",Aksu TV (720p) Alternatif 2
@@ -323,8 +317,6 @@ https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tbmmtv" tvg-name="TBMM TV (720p)",TBMM TV (720p) Alternatif 2
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tele1" tvg-name="Tele 1 (1080p)",Tele 1 (1080p)
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tempotv" tvg-name="Tempo TV (720p)",Tempo TV (720p)
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="tgrtbelgesel" tvg-name="TGRT Belgesel (576p) [Not 24/7]",TGRT Belgesel (576p) [Not 24/7] Alternatif 2
@@ -339,16 +331,12 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="trt3" tvg-name="TRT 3 (720p)",TRT 3 (720p)
 https://tv-trt3.live.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="trtbelgesel" tvg-name="TRT Belgesel (720p)",TRT Belgesel (720p) Alternatif 2
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="trtdiyanetcocuk" tvg-name="TRT Diyanet Cocuk (720p)",TRT Diyanet Cocuk (720p) Alternatif 2
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtebailkokul" tvg-name="TRT EBA Ilkokul (720p)",TRT EBA Ilkokul (720p)
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="trtebalise" tvg-name="TRT EBA Lise (720p)",TRT EBA Lise (720p)
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Türkiye Spor" tvg-id="trtspor" tvg-name="TRT Spor (720p)",TRT Spor (720p) Alternatif 2
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
 #EXTINF:-1 group-title="Türkiye Spor" tvg-id="trtsporyildiz" tvg-name="TRT Spor Yildiz (1440p) [Geo-blocked]",TRT Spor Yildiz (1440p) [Geo-blocked] Alternatif 2
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="turkhabertv" tvg-name="TurkHaber TV (720p)",TurkHaber TV (720p)
@@ -371,8 +359,6 @@ https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="tvden" tvg-name="TV Den (576p) [Not 24/7]",TV Den (576p) [Not 24/7] Alternatif 2
 http://canli.tvden.com.tr/hls/live.m3u8
-#EXTINF:-1 group-title="Türkiye Haber" tvg-id="tvnet" tvg-name="TVNET (Turkiye) (1080p)",TVNET (Turkiye) (1080p) Alternatif 2
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Spor" tvg-id="urfanatiktv" tvg-name="Urfa Natik TV (720p)",Urfa Natik TV (720p) Alternatif 2
 https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="van65tv" tvg-name="Van 65 TV",Van 65 TV Alternatif 2
@@ -417,9 +403,9 @@ https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202
 https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="gemtvplus" tvg-name="GEM TV +",GEM TV +
 https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202
-#EXTINF:-1 group-title="Türkiye Çocuk" tvg-id="cartoonnetworkhdplus" tvg-name="Cartoon Network HD+ (1080p)",Cartoon Network HD+ (1080p)
-http://103.135.253.32:8080/CN-NETWORK/index.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="gemjunior" tvg-name="GEM Junior",GEM Junior
 https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="gemkids" tvg-name="GEM Kids",GEM Kids
 https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202
+#EXTINF:-1 group-title="Türkiye Spor" tvg-id="bikanal" tvg-name="Bi Kanal",Bi Kanal Alternatif 2
+https://server.com/file.mp4
