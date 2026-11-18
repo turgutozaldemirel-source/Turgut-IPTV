@@ -1,4 +1,7 @@
+
 #EXTM3U
+#EXTINF:-1 tvg-id="L1Max.pe" tvg-name="L1 Max" tvg-country="PE" tvg-logo="https://i.imgur.com/2fziU2B.png" group-title="Sport",L1 Max (1080p)
+http://190.93.224.42/LIGA-1-MAX/index.m3u8
 #EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="TÜM KANALLAR (A-Z Sıralı)",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8#all
 #EXTINF:-1 tvg-id="24.TV.tr" tvg-name="24 TV" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="TOP 50",24 TV
