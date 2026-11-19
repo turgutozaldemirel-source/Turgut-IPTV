@@ -928,9 +928,9 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D Alternatif 3
 https://kdlive.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 2
-https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=VWIEnHWi7b7PWjalbesyZg&e=1795073569
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=k_IfQoUSG1RW0mwzxhzRsw&e=1795074145
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 3
-https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=VWIEnHWi7b7PWjalbesyZg&e=1795073569
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=k_IfQoUSG1RW0mwzxhzRsw&e=1795074145
 #EXTINF:-1 group-title="Türkiye Haber" tvg-id="haberturk" tvg-name="Habertürk",Habertürk Alternatif 2
 https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="360" tvg-name="360",360 Alternatif 2
@@ -1023,6 +1023,8 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="denizpostasitv" tvg-name="Deniz Postasi TV (720p) [Not 24/7]",Deniz Postasi TV (720p) [Not 24/7] Alternatif 2
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+#EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="dha" tvg-name="DHA (720p) [Not 24/7]",DHA (720p) [Not 24/7]
+https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="diyartv" tvg-name="Diyar TV (720p)",Diyar TV (720p)
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="edessatv" tvg-name="Edessa TV (1080p)",Edessa TV (1080p) Alternatif 2
@@ -1169,301 +1171,393 @@ https://cdn-a.pr.trt.com.tr/trtcocuk/n7.mp3
 https://cdn-a.pr.trt.com.tr/trtcocuk/n8.mp3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="teve2" tvg-name="teve2",teve2
 https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-c33669230878" tvg-name="Uzak Şehir - Uzak Şehir 73. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6afb05838e6adc761812e0f8.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 73. Bölüm
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/8/0W/mag_alya_yeniden_cihanin_kollarinda_short/mag_alya_yeniden_cihanin_kollarinda_short.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/2/So/ates_ifsa_oldu_1/ates_ifsa_oldu_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/i/k-/alya_nereye_cihan_oraya/alya_nereye_cihan_oraya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/W/kR/alyanin_bulantilari_basladi/alyanin_bulantilari_basladi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/I/eB/alya_ile_cihanin_odasi_eskisi_gibi_short/alya_ile_cihanin_odasi_eskisi_gibi_short.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/R/we/yatak_sorununa_kadir_cozumu/yatak_sorununa_kadir_cozumu.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/s/ac/cihana_refakat_yarisi/cihana_refakat_yarisi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-aae6468d65c1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
+https://kanaldvod.duhnet.tv/hls/9/Iq/kemikleri_de_kendisi_gibi_inatci/kemikleri_de_kendisi_gibi_inatci.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-c33669230878" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/6/MV/us_73blm/us_73blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-6c56469729c4" tvg-name="Uzak Şehir - Uzak Şehir 72. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6af1ba4bdb6b70dfad8cc4d9.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 72. Bölüm
+#EXTINF:-1 tvg-id="kanald-6c56469729c4" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/d/nL/us_72blm/us_72blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-e7a534232ee1" tvg-name="Uzak Şehir - Uzak Şehir 71. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ae88da98e6adc761812d248.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 71. Bölüm
+#EXTINF:-1 tvg-id="kanald-e7a534232ee1" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/B/sI/uzaksehir_bolum_71/uzaksehir_bolum_71.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-67180e692b8a" tvg-name="Uzak Şehir - Uzak Şehir 70. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6adf20e48e6adc761812c6cc.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 70. Bölüm
+#EXTINF:-1 tvg-id="kanald-67180e692b8a" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/5/Zx/us_70blm/us_70blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-74f346e1658d" tvg-name="Uzak Şehir - Uzak Şehir 69. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ad5f1ac8e6adc761812c30f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 69. Bölüm
+#EXTINF:-1 tvg-id="kanald-74f346e1658d" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/p/lm/us_bolum_69/us_bolum_69.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d5d858ba1af6" tvg-name="Uzak Şehir - Uzak Şehir 68. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6acce1bdc25ae5c7a303db80.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 68. Bölüm
+#EXTINF:-1 tvg-id="kanald-d5d858ba1af6" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/E/h-/us_68blm/us_68blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-7cc4e6010320" tvg-name="Uzak Şehir - Uzak Şehir 67. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ac3ab0ac25ae5c7a303d24b.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 67. Bölüm
+#EXTINF:-1 tvg-id="kanald-7cc4e6010320" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/d/bx/us_67_bolum/us_67_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-9c798b5f3a04" tvg-name="Uzak Şehir - Uzak Şehir 66. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aba7fcbdb6b70dfad8c8e5c.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 66. Bölüm
+#EXTINF:-1 tvg-id="kanald-9c798b5f3a04" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/i/gO/us_66_bolum/us_66_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-3124987b551f" tvg-name="Uzak Şehir - Uzak Şehir 65. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ab142ad8e6adc7618129d0c.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 65. Bölüm
+#EXTINF:-1 tvg-id="kanald-3124987b551f" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/y/mp/us65_blm/us65_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-fb722cf016ea" tvg-name="Uzak Şehir - Uzak Şehir 64. Bölüm - YENİ SEZON" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aa8037a8e6adc7618128c21.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 64. Bölüm - YENİ SEZON
+#EXTINF:-1 tvg-id="kanald-fb722cf016ea" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/U/W4/us_64blm/us_64blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-6732616de1cc" tvg-name="Uzak Şehir - Uzak Şehir 63. Bölüm - SEZON FİNALİ" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a1d94abcb5b0ace1709bad9.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 63. Bölüm - SEZON FİNALİ
+#EXTINF:-1 tvg-id="kanald-6732616de1cc" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/d/Fm/us_63_bolum/us_63_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-82d6a3fce150" tvg-name="Uzak Şehir - Uzak Şehir 62. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a0b0296573a03dd661c9691.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 62. Bölüm
+#EXTINF:-1 tvg-id="kanald-82d6a3fce150" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/R/25/us_62blm/us_62blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-8fefc983d43c" tvg-name="Uzak Şehir - Uzak Şehir 61. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a01b530ab7385d3c580f795.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 61. Bölüm
+#EXTINF:-1 tvg-id="kanald-8fefc983d43c" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/Y/XM/us_61_bolum/us_61_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-6bbb490262de" tvg-name="Uzak Şehir - Uzak Şehir 60. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69f879342e1ebe9b5e9b8e5d.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 60. Bölüm
+#EXTINF:-1 tvg-id="kanald-6bbb490262de" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/w/IJ/us_60_bolum_entegrasyon/us_60_bolum_entegrasyon.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-baaf4e9f88c4" tvg-name="Uzak Şehir - Uzak Şehir 59. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69f055b4592b2cb39c7f0a0d.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 59. Bölüm
+#EXTINF:-1 tvg-id="kanald-baaf4e9f88c4" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/U/NE/us_59bolum/us_59bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-fa951784159f" tvg-name="Uzak Şehir - Uzak Şehir 58. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69e604f9a47f78a539c036e7.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 58. Bölüm
+#EXTINF:-1 tvg-id="kanald-fa951784159f" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/o/2m/us_58_bolum/us_58_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-38ef8b1085c9" tvg-name="Uzak Şehir - Uzak Şehir 57. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69dcb177592b2cb39c7efdff.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 57. Bölüm
+#EXTINF:-1 tvg-id="kanald-38ef8b1085c9" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/n/it/us_57_bolum/us_57_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-fc3114d56daf" tvg-name="Uzak Şehir - Uzak Şehir 56. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69d3bb262e1ebe9b5e9b77c3.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 56. Bölüm
+#EXTINF:-1 tvg-id="kanald-fc3114d56daf" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/y/Gn/us_56bolum/us_56bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d4dbc24c6b38" tvg-name="Uzak Şehir - Uzak Şehir 55. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69ca8b012e1ebe9b5e9b6b6d.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 55. Bölüm
+#EXTINF:-1 tvg-id="kanald-d4dbc24c6b38" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/6/J_/us_55bolum/us_55bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-b0db8c514eae" tvg-name="Uzak Şehir - Uzak Şehir 54. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69c13136a47f78a539c0214a.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 54. Bölüm
+#EXTINF:-1 tvg-id="kanald-b0db8c514eae" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/F/DK/us_54blm/us_54blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-a1c486950092" tvg-name="Uzak Şehir - Uzak Şehir 53. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69aed2f9592b2cb39c7ed87f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 53. Bölüm
+#EXTINF:-1 tvg-id="kanald-a1c486950092" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/c/Cl/us_53_bolum/us_53_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-11172f505ff2" tvg-name="Uzak Şehir - Uzak Şehir 52. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69a5541aa47f78a539c00d49.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 52. Bölüm
+#EXTINF:-1 tvg-id="kanald-11172f505ff2" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/8/0J/us_52blm/us_52blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d00be5e38f93" tvg-name="Uzak Şehir - Uzak Şehir 51. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/699c6ad22f08540297118dcf.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 51. Bölüm
+#EXTINF:-1 tvg-id="kanald-d00be5e38f93" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/b/qN/us_51bolum/us_51bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-c6021971e0d9" tvg-name="Uzak Şehir - Uzak Şehir 50. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69941643b9280fd566ed1847.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 50. Bölüm
+#EXTINF:-1 tvg-id="kanald-c6021971e0d9" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/B/bu/us_50_bolum/us_50_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-84cec76bae74" tvg-name="Uzak Şehir - Uzak Şehir 49. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/698acbfdb9280fd566ed0beb.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 49. Bölüm
+#EXTINF:-1 tvg-id="kanald-84cec76bae74" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/K/Wj/us49_bolum/us49_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-e79da5919590" tvg-name="Uzak Şehir - Uzak Şehir 48. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69806f41e901e71fe70d48a1.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 48. Bölüm
+#EXTINF:-1 tvg-id="kanald-e79da5919590" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/C/zz/us_48_bolum/us_48_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-c40cd5d3a5fb" tvg-name="Uzak Şehir - Uzak Şehir 47. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69776e03451668e2380898a1.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 47. Bölüm
+#EXTINF:-1 tvg-id="kanald-c40cd5d3a5fb" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/_/E7/us_47blm/us_47blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-772f08ef457f" tvg-name="Uzak Şehir - Uzak Şehir 46. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/696e1ca9452b16e1eaefe563.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 46. Bölüm
+#EXTINF:-1 tvg-id="kanald-772f08ef457f" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/k/G4/uzaksehir_46_bolum/uzaksehir_46_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-e4e0113bc7ed" tvg-name="Uzak Şehir - Uzak Şehir 45. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6964cf054514ff3cabc3f037.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 45. Bölüm
+#EXTINF:-1 tvg-id="kanald-e4e0113bc7ed" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/I/E8/us_45_bolum/us_45_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-35382362549e" tvg-name="Uzak Şehir - Uzak Şehir 44. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/695be8ef4514ff3cabc3e9ac.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 44. Bölüm
+#EXTINF:-1 tvg-id="kanald-35382362549e" tvg-name="Uzak Şehir - Bölüm" group-title="Türk Dizileri",Uzak Şehir - Bölüm
 https://kanaldvod.duhnet.tv/hls/i/ez/us_44_bolum/us_44_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-731138346bd0" tvg-name="Uzak Şehir - Uzak Şehir 43. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69493de54514ff3cabc3d47f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 43. Bölüm
-https://kanaldvod.duhnet.tv/hls/W/gG/us_43_bolum/us_43_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d6e946abebd7" tvg-name="Uzak Şehir - Uzak Şehir 42. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/694048014c5d448b7df6b34e.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 42. Bölüm
-https://kanaldvod.duhnet.tv/hls/j/68/us_42blm/us_42blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-2d5e89135791" tvg-name="Uzak Şehir - Uzak Şehir 41. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6936b8c53326b34dc45acd44.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 41. Bölüm
-https://kanaldvod.duhnet.tv/hls/e/NC/us_41_bolum_antbantvers/us_41_bolum_antbantvers.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-7d62e727b5f5" tvg-name="Uzak Şehir - Uzak Şehir 40. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/692d6a614c5d448b7df6a256.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 40. Bölüm
-https://kanaldvod.duhnet.tv/hls/j/BE/us_40_bolum_altbant_vers/us_40_bolum_altbant_vers.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-13f34a1d50ac" tvg-name="Uzak Şehir - Uzak Şehir 39. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6924693dc152b6c3003e6d18.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 39. Bölüm
-https://kanaldvod.duhnet.tv/hls/i/Mc/us_39_bolum_entegrasyonlu/us_39_bolum_entegrasyonlu.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-58c621077e47" tvg-name="Uzak Şehir - Uzak Şehir 38. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/691adc1bc152b6c3003e5915.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 38. Bölüm
-https://kanaldvod.duhnet.tv/hls/h/no/us_38blm/us_38blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-30a472040cdb" tvg-name="Uzak Şehir - Uzak Şehir 37. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6911f8eb9974e8ffe8aafbd2.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 37. Bölüm
-https://kanaldvod.duhnet.tv/hls/g/NE/us_37_bolum/us_37_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-2b5f31eff887" tvg-name="Uzak Şehir - Uzak Şehir 36. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6908db7dff7de6ead062a9fb.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 36. Bölüm
-https://kanaldvod.duhnet.tv/hls/O/31/us_36_bolum_altbantvers/us_36_bolum_altbantvers.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-e82910ff67f8" tvg-name="Uzak Şehir - Uzak Şehir 35. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68ff878b8a62c59ab13cb070.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 35. Bölüm
-https://kanaldvod.duhnet.tv/hls/r/OD/us_35_bolum_altbantvers2/us_35_bolum_altbantvers2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-7824296da31c" tvg-name="Uzak Şehir - Uzak Şehir 34. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68f63f89c01e916f970af30f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 34. Bölüm
-https://kanaldvod.duhnet.tv/hls/Q/uS/us_34_bolum_altbantvers/us_34_bolum_altbantvers.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-0747cd8e7073" tvg-name="Uzak Şehir - Uzak Şehir 33. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68ed021b8a62c59ab13ca003.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 33. Bölüm
-https://kanaldvod.duhnet.tv/hls/3/tx/uzaksehir_33_bolum/uzaksehir_33_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-a48727d3b842" tvg-name="Uzak Şehir - Uzak Şehir 32. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68e3bdd278516dcf7a0b9683.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 32. Bölüm
-https://kanaldvod.duhnet.tv/hls/p/mi/us_32bolum/us_32bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-71d16a50600d" tvg-name="Uzak Şehir - Uzak Şehir 31. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68da7d345230f6fc7d0a488c.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 31. Bölüm
-https://kanaldvod.duhnet.tv/hls/-/Ik/us_31_bolum/us_31_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-7754806503ad" tvg-name="Uzak Şehir - Uzak Şehir 30. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68d14aab2c2015c3eaccaab1.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 30. Bölüm
-https://kanaldvod.duhnet.tv/hls/2/we/us_30_bolum/us_30_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-325a0e69302e" tvg-name="Uzak Şehir - Uzak Şehir 29. Bölüm - Yeni Sezon" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68c7e8cff35cf5ba33dfc85f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 29. Bölüm - Yeni Sezon
-https://kanaldvod.duhnet.tv/hls/u/s5/us_29_bolum/us_29_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-ebcfa85890e3" tvg-name="Uzak Şehir - Uzak Şehir 28. Bölüm - Sezon Finali" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/683dd7f48951d67b2da3dee0.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 28. Bölüm - Sezon Finali
-https://kanaldvod.duhnet.tv/hls/B/5I/us28_sf_blm/us28_sf_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-696cfa8acbce" tvg-name="Uzak Şehir - Uzak Şehir 27. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68340cdb7b716da194a9f95f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 27. Bölüm
-https://kanaldvod.duhnet.tv/hls/q/Uq/us_27_blm/us_27_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-817fe37be65b" tvg-name="Uzak Şehir - Uzak Şehir 26. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/682b671a8e64107031533544.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 26. Bölüm
-https://kanaldvod.duhnet.tv/hls/Q/2b/us_26_bolum/us_26_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-3f0431e8581c" tvg-name="Uzak Şehir - Uzak Şehir 25. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6821fcb584687ed42a4b65d2.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 25. Bölüm
-https://kanaldvod.duhnet.tv/hls/M/Il/us_25_bolumm/us_25_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-ba8153bf1ed5" tvg-name="Uzak Şehir - Uzak Şehir 24. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6818cdafdb0c47dc3f613678.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 24. Bölüm
-https://kanaldvod.duhnet.tv/hls/e/dN/us_24_bolumm/us_24_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-b2633c3811fa" tvg-name="Uzak Şehir - Uzak Şehir 23. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/680fbd9d8e64107031531c85.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 23. Bölüm
-https://kanaldvod.duhnet.tv/hls/6/DH/us_23_blm/us_23_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-08119d7df674" tvg-name="Uzak Şehir - Uzak Şehir 22. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68066d2e84687ed42a4b49e5.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 22. Bölüm
-https://kanaldvod.duhnet.tv/hls/U/9F/us_22_bolumm/us_22_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-c729d284670d" tvg-name="Uzak Şehir - Uzak Şehir 21. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67fced3254509519c987e34a.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 21. Bölüm
-https://kanaldvod.duhnet.tv/hls/b/Jn/us_21_blm/us_21_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-b93ffe95828d" tvg-name="Uzak Şehir - Uzak Şehir 20. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67f3e5a47c2f3b2e95cfce9e.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 20. Bölüm
-https://kanaldvod.duhnet.tv/hls/I/XT/us_20_bolumm/us_20_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d2f1866c9fbc" tvg-name="Uzak Şehir - Uzak Şehir 19. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67e19dedbc6755a36ece1026.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 19. Bölüm
-https://kanaldvod.duhnet.tv/hls/t/yW/us_19_bolumm/us_19_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-6a823e0fac8c" tvg-name="Uzak Şehir - Uzak Şehir 18. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67d70887126d3227b2556328.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 18. Bölüm
-https://kanaldvod.duhnet.tv/hls/S/Xi/us_18_blm/us_18_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-9e3ea2d0e14a" tvg-name="Uzak Şehir - Uzak Şehir 17. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67cef2cb6b709ec36636c1a9.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 17. Bölüm
-https://kanaldvod.duhnet.tv/hls/F/cC/us_17_bolumm/us_17_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-20c59decb14f" tvg-name="Uzak Şehir - Uzak Şehir 16. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67c5bf219a1693e033e1ace4.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 16. Bölüm
-https://kanaldvod.duhnet.tv/hls/W/ta/us_16_blm/us_16_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-1ac22fb7ef70" tvg-name="Uzak Şehir - Uzak Şehir 15. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67bc9d4ffa3842d1b17b7d99.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 15. Bölüm
-https://kanaldvod.duhnet.tv/hls/o/8S/us_15_bolum_rev/us_15_bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-b2f6bc780fe7" tvg-name="Uzak Şehir - Uzak Şehir 14. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67b357d8fa3842d1b17b790d.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 14. Bölüm
-https://kanaldvod.duhnet.tv/hls/G/kV/us_14_blm/us_14_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-67c5b1d53277" tvg-name="Uzak Şehir - Uzak Şehir 13. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67aa2fd2da10d86907f3b60d.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 13. Bölüm
-https://kanaldvod.duhnet.tv/hls/_/ht/us_13_blm/us_13_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-0713521074dc" tvg-name="Uzak Şehir - Uzak Şehir 12. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67a0f8dcda10d86907f3a757.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 12. Bölüm
-https://kanaldvod.duhnet.tv/hls/L/xD/us_12_blm/us_12_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-325335945735" tvg-name="Uzak Şehir - Uzak Şehir 11. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/67979c350c78abb14dbe5537.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 11. Bölüm
-https://kanaldvod.duhnet.tv/hls/3/pt/us_11_bolumm/us_11_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-d5b284a5a998" tvg-name="Uzak Şehir - Uzak Şehir 10. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/678e7dde0c78abb14dbe4ecd.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 10. Bölüm
-https://kanaldvod.duhnet.tv/hls/X/pM/us_10_blm/us_10_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-254e5d9951fc" tvg-name="Uzak Şehir - Uzak Şehir 9. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/678522c8db1a2a8b155c655b.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 9. Bölüm
-https://kanaldvod.duhnet.tv/hls/z/ET/us_9_bolumm/us_9_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-f4489138829c" tvg-name="Uzak Şehir - Uzak Şehir 8. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6772a0d7220b6d097153fee3.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 8. Bölüm
-https://kanaldvod.duhnet.tv/hls/m/LV/us_8_bolumm/us_8_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-dc535e0ae7dd" tvg-name="Uzak Şehir - Uzak Şehir 7. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/676947ee0c78abb14dbe36f2.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 7. Bölüm
-https://kanaldvod.duhnet.tv/hls/q/S2/us_7_blm/us_7_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-a5db4e028910" tvg-name="Uzak Şehir - Uzak Şehir 6. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/676002b7220b6d097153f712.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 6. Bölüm
-https://kanaldvod.duhnet.tv/hls/t/QW/us_6blm_rev/us_6blm_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-2f600362633f" tvg-name="Uzak Şehir - Uzak Şehir 5. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6756e44df072a7bd36dce921.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 5. Bölüm
-https://kanaldvod.duhnet.tv/hls/l/9Z/us_5_blm/us_5_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-cf33c65152bf" tvg-name="Uzak Şehir - Uzak Şehir 4. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/674dbd0af072a7bd36dce364.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 4. Bölüm
-https://kanaldvod.duhnet.tv/hls/e/qG/us_4_bolum/us_4_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-bfbb3fce8bca" tvg-name="Uzak Şehir - Uzak Şehir 3. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6744893c066a80612a9e7373.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 3. Bölüm
-https://kanaldvod.duhnet.tv/hls/z/Au/us_3_blm_rev/us_3_blm_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-4d73b85c91e2" tvg-name="Uzak Şehir - Uzak Şehir 2. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/673b4240f072a7bd36dcce0a.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir 2. Bölüm
-https://kanaldvod.duhnet.tv/hls/m/j7/us_2_bolum/us_2_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-uzak-sehir-b4dd3e0f3e00" tvg-name="Uzak Şehir - Uzak Şehir İlk Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6731cb38f072a7bd36dcc19f.jpg" group-title="Türk Dizileri",Uzak Şehir - Uzak Şehir İlk Bölüm
-https://kanaldvod.duhnet.tv/hls/f/sn/us_1_blms/us_1_blms.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-7d6818f8f041" tvg-name="Haysiyet - Haysiyet 10. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6afc61b0db6b70dfad8cc932.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 10. Bölüm
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/Z/R8/yildiz_evi_terk_sh/yildiz_evi_terk_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/l/ri/simay_isten_ayrilacak/simay_isten_ayrilacak.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/F/j0/suzan_simay_ifsaladi_sh/suzan_simay_ifsaladi_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/S/bT/mehmet_simayin_gonlunu_aldi_sh/mehmet_simayin_gonlunu_aldi_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/_/mZ/mehmet_jestini_yapti/mehmet_jestini_yapti.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/H/Hr/affet_baba_sh/affet_baba_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/D/ih/arsamiz_artik_yok_sh/arsamiz_artik_yok_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-80d6e7f84a89" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
+https://kanaldvod.duhnet.tv/hls/K/JC/yildiz_ne_oldu_sh/yildiz_ne_oldu_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-7d6818f8f041" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/N/49/haysiyet_bolum_10/haysiyet_bolum_10.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-df0ef1ec9c4f" tvg-name="Haysiyet - Haysiyet 9. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6af344a7c25ae5c7a303f679.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 9. Bölüm
+#EXTINF:-1 tvg-id="kanald-df0ef1ec9c4f" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/D/TI/h_9blm/h_9blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-e9778e3ce3e8" tvg-name="Haysiyet - Haysiyet 8. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ae0afb4db6b70dfad8cbabd.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 8. Bölüm
+#EXTINF:-1 tvg-id="kanald-e9778e3ce3e8" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/t/gU/haysiyet_bolum_8/haysiyet_bolum_8.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-423ecc8f0f6a" tvg-name="Haysiyet - Haysiyet 7. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ad77d34db6b70dfad8caeaa.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 7. Bölüm
+#EXTINF:-1 tvg-id="kanald-423ecc8f0f6a" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/N/kS/haysiyet_bolum_7/haysiyet_bolum_7.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-c4a6308972ea" tvg-name="Haysiyet - Haysiyet 6. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ace3833c25ae5c7a303dd1c.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 6. Bölüm
+#EXTINF:-1 tvg-id="kanald-c4a6308972ea" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/e/6u/h6_blm/h6_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-20195f59aae1" tvg-name="Haysiyet - Haysiyet 5. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ac4fde5db6b70dfad8c9687.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 5. Bölüm
+#EXTINF:-1 tvg-id="kanald-20195f59aae1" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/H/kr/haysiyet_bolum5/haysiyet_bolum5.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-da2d518bd5fb" tvg-name="Haysiyet - Haysiyet 4. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6abc20dac25ae5c7a303cd94.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 4. Bölüm
+#EXTINF:-1 tvg-id="kanald-da2d518bd5fb" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/m/Hv/hay4blm/hay4blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-343fe85d6d45" tvg-name="Haysiyet - Haysiyet 3. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ab296038e6adc761812a07b.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 3. Bölüm
+#EXTINF:-1 tvg-id="kanald-343fe85d6d45" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/4/lZ/haysiyet_3_bolum/haysiyet_3_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-9aaa18ece402" tvg-name="Haysiyet - Haysiyet 2. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aa9529d8e6adc7618129062.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet 2. Bölüm
+#EXTINF:-1 tvg-id="kanald-9aaa18ece402" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/Y/sR/hay_2blm/hay_2blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-haysiyet-1753b3aabe24" tvg-name="Haysiyet - Haysiyet İlk Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a9ff419db6b70dfad8c7e1d.jpg" group-title="Türk Dizileri",Haysiyet - Haysiyet İlk Bölüm
+#EXTINF:-1 tvg-id="kanald-1753b3aabe24" tvg-name="Haysiyet - Bölüm" group-title="Türk Dizileri",Haysiyet - Bölüm
 https://kanaldvod.duhnet.tv/hls/T/7k/haysiyet1_bolum/haysiyet1_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-b76cd26df1a9" tvg-name="Güller ve Günahlar - Güller ve Günahlar 41. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6af8bd418e6adc761812dbe2.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 41. Bölüm
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/7/jI/sonay_zeynebe_silah_cekti/sonay_zeynebe_silah_cekti.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/I/Lu/masal_yarida_kaldi/masal_yarida_kaldi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/j/Tw/kadere_surpriz_sh/kadere_surpriz_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/1/J8/can_azrayi_kurtardi_sh/can_azrayi_kurtardi_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/d/d4/affetme_opucugu/affetme_opucugu.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/4/uN/kader_sizin_kardesiniz/kader_sizin_kardesiniz.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/N/o2/smkader_serhati_istemiyor/smkader_serhati_istemiyor.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-3618d60e2ee6" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
+https://kanaldvod.duhnet.tv/hls/m/Sg/cezaevi_saldiri/cezaevi_saldiri.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-b76cd26df1a9" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/k/0G/gg_bolum_41/gg_bolum_41.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-7029d699b056" tvg-name="Güller ve Günahlar - Güller ve Günahlar 40. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aef5074c25ae5c7a303f107.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 40. Bölüm
+#EXTINF:-1 tvg-id="kanald-7029d699b056" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/0/UY/gvg_bolum40/gvg_bolum40.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-0e1f712ec3ba" tvg-name="Güller ve Günahlar - Güller ve Günahlar 39. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6add19fadb6b70dfad8cb7af.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 39. Bölüm
+#EXTINF:-1 tvg-id="kanald-0e1f712ec3ba" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/A/-O/gvg_39blm/gvg_39blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-7d350f8952ac" tvg-name="Güller ve Günahlar - Güller ve Günahlar 38. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ad383918e6adc761812c05b.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 38. Bölüm
+#EXTINF:-1 tvg-id="kanald-7d350f8952ac" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/A/-0/gg_38_bolumm/gg_38_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-fe5dd98407bc" tvg-name="Güller ve Günahlar - Güller ve Günahlar 37. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aca8092c25ae5c7a303d98c.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 37. Bölüm
+#EXTINF:-1 tvg-id="kanald-fe5dd98407bc" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/r/fg/gvg_bolum37/gvg_bolum37.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-224288266b81" tvg-name="Güller ve Günahlar - Güller ve Günahlar 36. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ac153fd8e6adc761812bc7d.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 36. Bölüm
+#EXTINF:-1 tvg-id="kanald-224288266b81" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/U/jU/gg_36blm/gg_36blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-fd7c2b4b737a" tvg-name="Güller ve Günahlar - Güller ve Günahlar 35. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ab808818e6adc761812acfd.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 35. Bölüm
+#EXTINF:-1 tvg-id="kanald-fd7c2b4b737a" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/o/Jj/gg_35blmrev/gg_35blmrev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-61a25ea52d88" tvg-name="Güller ve Günahlar - Güller ve Günahlar 34. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aaee38d8e6adc76181297a8.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 34. Bölüm
+#EXTINF:-1 tvg-id="kanald-61a25ea52d88" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/p/Xb/gg_34_bolumm/gg_34_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-15d65a5be003" tvg-name="Güller ve Günahlar - Güller ve Günahlar 33. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aa58612db6b70dfad8c8436.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 33. Bölüm
+#EXTINF:-1 tvg-id="kanald-15d65a5be003" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/Z/KG/gvg_bol33/gvg_bol33.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-8484cabc1cf4" tvg-name="Güller ve Günahlar - Güller ve Günahlar 32. Bölüm - Sezon Finali" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a2bab09573a03dd661cb3f5.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 32. Bölüm - Sezon Finali
+#EXTINF:-1 tvg-id="kanald-8484cabc1cf4" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/W/0c/gvg32_sf/gvg32_sf.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-722434a5295c" tvg-name="Güller ve Günahlar - Güller ve Günahlar 31. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a2444896857e013a393c538.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 31. Bölüm
+#EXTINF:-1 tvg-id="kanald-722434a5295c" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/q/Iu/gvg_bolum31_tntsiz/gvg_bolum31_tntsiz.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-41dabc4b97e1" tvg-name="Güller ve Günahlar - Güller ve Günahlar 30. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a13f276cb5b0ace1709aa3d.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 30. Bölüm
+#EXTINF:-1 tvg-id="kanald-41dabc4b97e1" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/h/LW/gg_30_seb/gg_30_seb.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-87d231d761da" tvg-name="Güller ve Günahlar - Güller ve Günahlar 29. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a08def96857e013a393b565.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 29. Bölüm
+#EXTINF:-1 tvg-id="kanald-87d231d761da" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/r/8p/gvg_29_bolum/gvg_29_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-9f81207d7610" tvg-name="Güller ve Günahlar - Güller ve Günahlar 28. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69ff4f9e796e53dc255c773f.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 28. Bölüm
+#EXTINF:-1 tvg-id="kanald-9f81207d7610" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/I/l8/gvgbol28_tntsiz/gvgbol28_tntsiz.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-e32423720901" tvg-name="Güller ve Günahlar - Güller ve Günahlar 27. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69f66b06592b2cb39c7f134e.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 27. Bölüm
+#EXTINF:-1 tvg-id="kanald-e32423720901" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/2/r7/gg_27blm/gg_27blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-13c9ed26c9f4" tvg-name="Güller ve Günahlar - Güller ve Günahlar 26. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69eb7a3b2e1ebe9b5e9b8904.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 26. Bölüm
+#EXTINF:-1 tvg-id="kanald-13c9ed26c9f4" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/C/oo/gg_26_bolum/gg_26_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-eab06f869aeb" tvg-name="Güller ve Günahlar - Güller ve Günahlar 25. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69e248f72e1ebe9b5e9b8417.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 25. Bölüm
+#EXTINF:-1 tvg-id="kanald-eab06f869aeb" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/K/hd/gvg_25blm/gvg_25blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-e2bf657fd7f4" tvg-name="Güller ve Günahlar - Güller ve Günahlar 24. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69d90cd0592b2cb39c7efb49.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 24. Bölüm
+#EXTINF:-1 tvg-id="kanald-e2bf657fd7f4" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/7/oH/gvg24/gvg24.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-5f6b73e8455a" tvg-name="Güller ve Günahlar - Güller ve Günahlar 23. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69d17e662e1ebe9b5e9b7556.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 23. Bölüm
+#EXTINF:-1 tvg-id="kanald-5f6b73e8455a" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/x/Fw/gg_23blm/gg_23blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-88b8781c9d70" tvg-name="Güller ve Günahlar - Güller ve Günahlar 22. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69c8383a2e1ebe9b5e9b6775.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 22. Bölüm
+#EXTINF:-1 tvg-id="kanald-88b8781c9d70" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/z/PI/gg_22_bolum/gg_22_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-e2190b31ccd0" tvg-name="Güller ve Günahlar - Güller ve Günahlar 21. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69b41c04592b2cb39c7edfa4.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 21. Bölüm
+#EXTINF:-1 tvg-id="kanald-e2190b31ccd0" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/X/_D/gvg_bol21/gvg_bol21.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-b80e19aed9f9" tvg-name="Güller ve Günahlar - Güller ve Günahlar 20. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69aae42c592b2cb39c7ed3b2.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 20. Bölüm
+#EXTINF:-1 tvg-id="kanald-b80e19aed9f9" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/d/ad/gvg_20bolum_rev/gvg_20bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-b1874cee873d" tvg-name="Güller ve Günahlar - Güller ve Günahlar 19. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69a344f22f08540297119350.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 19. Bölüm
+#EXTINF:-1 tvg-id="kanald-b1874cee873d" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/l/AW/gg_19_bolum/gg_19_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-6e016d0ad49a" tvg-name="Güller ve Günahlar - Güller ve Günahlar 18. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69984606a47f78a539bffcf8.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 18. Bölüm
+#EXTINF:-1 tvg-id="kanald-6e016d0ad49a" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/8/lu/gg_18blm/gg_18blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-4f720d36739a" tvg-name="Güller ve Günahlar - Güller ve Günahlar 17. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/698f3e66b9280fd566ed1457.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 17. Bölüm
+#EXTINF:-1 tvg-id="kanald-4f720d36739a" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/I/Pj/gvg17/gvg17.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-439c301cbe89" tvg-name="Güller ve Günahlar - Güller ve Günahlar 16. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69879895c06c831ff986e68a.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 16. Bölüm
+#EXTINF:-1 tvg-id="kanald-439c301cbe89" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/8/IZ/gvg_16bolum/gvg_16bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-59532f80dfdf" tvg-name="Güller ve Günahlar - Güller ve Günahlar 15. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/697e5776b9280fd566ed01bc.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 15. Bölüm
+#EXTINF:-1 tvg-id="kanald-59532f80dfdf" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/q/A7/gg_15blmbant/gg_15blmbant.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-3141f796c7a1" tvg-name="Güller ve Günahlar - Güller ve Günahlar 14. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/697376fb4b07b960d12cdcb4.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 14. Bölüm
+#EXTINF:-1 tvg-id="kanald-3141f796c7a1" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/w/hW/gg_14_bolum/gg_14_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-e308d55c1b3b" tvg-name="Güller ve Günahlar - Güller ve Günahlar 13. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6967a2724c5d448b7df6d677.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 13. Bölüm
+#EXTINF:-1 tvg-id="kanald-e308d55c1b3b" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/2/Ai/gvg13/gvg13.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-a51c4f616d75" tvg-name="Güller ve Günahlar - Güller ve Günahlar 12. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6950231f4514ff3cabc3da8b.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 12. Bölüm
+#EXTINF:-1 tvg-id="kanald-a51c4f616d75" tvg-name="Güller ve Günahlar - Bölüm" group-title="Türk Dizileri",Güller ve Günahlar - Bölüm
 https://kanaldvod.duhnet.tv/hls/W/rs/gg_12_bolum/gg_12_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-15bafa286ac0" tvg-name="Güller ve Günahlar - Güller ve Günahlar 11. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6946e49a4c5d448b7df6beb7.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 11. Bölüm
-https://kanaldvod.duhnet.tv/hls/p/F3/gg_11_bolum_rev/gg_11_bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-7cd1d3fd0353" tvg-name="Güller ve Günahlar - Güller ve Günahlar 10. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/693c30c53326b34dc45ad26e.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 10. Bölüm
-https://kanaldvod.duhnet.tv/hls/_/gB/gvg_10blm_altbantli/gvg_10blm_altbantli.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-11d78d04f874" tvg-name="Güller ve Günahlar - Güller ve Günahlar 9. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6931708b4c5d448b7df6a736.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 9. Bölüm
-https://kanaldvod.duhnet.tv/hls/9/Um/gvg_9bolum/gvg_9bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-942a7cfb78c8" tvg-name="Güller ve Günahlar - Güller ve Günahlar 8. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/692860a7a36376219918170b.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 8. Bölüm
-https://kanaldvod.duhnet.tv/hls/S/yf/gg_8_bolum/gg_8_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-9550f9fee80d" tvg-name="Güller ve Günahlar - Güller ve Günahlar 7. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69241af2170fb5aeee3709a0.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 7. Bölüm
-https://kanaldvod.duhnet.tv/hls/8/L4/gvg_7blm/gvg_7blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-b1b072719116" tvg-name="Güller ve Günahlar - Güller ve Günahlar 6. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6918af9fe21084d03bc7103c.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 6. Bölüm
-https://kanaldvod.duhnet.tv/hls/o/G3/gg_6_bolum/gg_6_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-d48522799e14" tvg-name="Güller ve Günahlar - Güller ve Günahlar 5. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/690f2b329974e8ffe8aaf7c6.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 5. Bölüm
-https://kanaldvod.duhnet.tv/hls/B/ND/gg_5blm/gg_5blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-999e231fa3d6" tvg-name="Güller ve Günahlar - Güller ve Günahlar 4. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/69035a328a62c59ab13cb2bf.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 4. Bölüm
-https://kanaldvod.duhnet.tv/hls/W/1S/gvg_bol4_altbantli/gvg_bol4_altbantli.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-da0d37b40617" tvg-name="Güller ve Günahlar - Güller ve Günahlar 3. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68fbcaa13b12f09168144369.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 3. Bölüm
-https://kanaldvod.duhnet.tv/hls/e/4d/gg_3_bolum_rev/gg_3_bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-3a7b2968cbcb" tvg-name="Güller ve Günahlar - Güller ve Günahlar 2. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68f3db94c01e916f970af0c6.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar 2. Bölüm
-https://kanaldvod.duhnet.tv/hls/Z/rZ/gg_2_bolum_rev/gg_2_bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-guller-ve-gunahlar-7edefec96155" tvg-name="Güller ve Günahlar - Güller ve Günahlar İlk Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/68f24d30c01e916f970aef66.jpg" group-title="Türk Dizileri",Güller ve Günahlar - Güller ve Günahlar İlk Bölüm
-https://kanaldvod.duhnet.tv/hls/_/OS/gvg_1_blm/gvg_1_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-9c5e27b1e3e8" tvg-name="Daha 17 - Daha 17 25. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6af9f8d78e6adc761812de79.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 25. Bölüm
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/a/i0/bana_artik_yaklasma_doy25_sh/bana_artik_yaklasma_doy25_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/L/Vg/aras_teomani_kurtariyor_doy25sh/aras_teomani_kurtariyor_doy25sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/_/ra/leyla_gercegi_ogrendi_doy25sh/leyla_gercegi_ogrendi_doy25sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/x/BK/senden_nefret_ediyorum_doy25_sh/senden_nefret_ediyorum_doy25_sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/5/JB/ben_teoman_degilim_d24sh/ben_teoman_degilim_d24sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/7/NQ/ben_sana_aitim_d24sh/ben_sana_aitim_d24sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/g/nk/teoman_arasa_tuzak_kurdu_d24sh/teoman_arasa_tuzak_kurdu_d24sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-da51bd47aa8e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
+https://kanaldvod.duhnet.tv/hls/W/6K/aras_leylayi_optu_doy23sh/aras_leylayi_optu_doy23sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-9c5e27b1e3e8" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/V/Bd/daha17_bolum_25/daha17_bolum_25.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-db9f944437f2" tvg-name="Daha 17 - Daha 17 24. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6af06e4d8e6adc761812d459.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 24. Bölüm
+#EXTINF:-1 tvg-id="kanald-db9f944437f2" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/I/z9/doy_bolum24/doy_bolum24.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-1411e8669424" tvg-name="Daha 17 - Daha 17 23. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ae7873d8e6adc761812cf91.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 23. Bölüm
+#EXTINF:-1 tvg-id="kanald-1411e8669424" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/E/Q1/daha17_23blm/daha17_23blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-e75047dd1641" tvg-name="Daha 17 - Daha 17 22. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ade6821c25ae5c7a303e64c.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 22. Bölüm
+#EXTINF:-1 tvg-id="kanald-e75047dd1641" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/i/QK/doy_22blm/doy_22blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-6901687e3e5c" tvg-name="Daha 17 - Daha 17 21. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ad51431db6b70dfad8ca9e2.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 21. Bölüm
+#EXTINF:-1 tvg-id="kanald-6901687e3e5c" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/K/IC/daha17_21_bolum_rev/daha17_21_bolum_rev.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-5d71fb20fa3b" tvg-name="Daha 17 - Daha 17 20. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6acbd0cadb6b70dfad8c9c73.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 20. Bölüm
+#EXTINF:-1 tvg-id="kanald-5d71fb20fa3b" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/H/Nw/doy_bol20/doy_bol20.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-8b3456b40b88" tvg-name="Daha 17 - Daha 17 19. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ac2b9e3db6b70dfad8c92c3.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 19. Bölüm
+#EXTINF:-1 tvg-id="kanald-8b3456b40b88" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/j/7M/doy_19blm/doy_19blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-a62d995c0f67" tvg-name="Daha 17 - Daha 17 18. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ab9875b8e6adc761812b1dd.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 18. Bölüm
+#EXTINF:-1 tvg-id="kanald-a62d995c0f67" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/q/dn/doy18_blm/doy18_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-f8e129702d2e" tvg-name="Daha 17 - Daha 17 17. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6ab032668e6adc7618129a97.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 17. Bölüm
+#EXTINF:-1 tvg-id="kanald-f8e129702d2e" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/c/1H/daha17_17_bolum/daha17_17_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-948e9ff6b1e4" tvg-name="Daha 17 - Daha 17 16. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6aa6c20d8e6adc76181288be.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 16. Bölüm
+#EXTINF:-1 tvg-id="kanald-948e9ff6b1e4" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/Y/Px/doy_bolum16/doy_bolum16.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-60901aebe964" tvg-name="Daha 17 - Daha 17 15. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a9dbf4f8e6adc761812837e.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 15. Bölüm
+#EXTINF:-1 tvg-id="kanald-60901aebe964" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/N/aU/doy17_blm/doy17_blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-13703b5d487a" tvg-name="Daha 17 - Daha 17 14. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a94813eb91dc8a83ebb6612.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 14. Bölüm
+#EXTINF:-1 tvg-id="kanald-13703b5d487a" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/x/n6/d17_14_bolumm/d17_14_bolumm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-2b26274b4fb5" tvg-name="Daha 17 - Daha 17 13. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a8b20dcd62e6058c69ba73d.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 13. Bölüm
+#EXTINF:-1 tvg-id="kanald-2b26274b4fb5" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/d/nC/doy_bolum17/doy_bolum17.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-5b9c222b84b7" tvg-name="Daha 17 - Daha 17 12. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a82bac3e51cda0d0da2824a.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 12. Bölüm
+#EXTINF:-1 tvg-id="kanald-5b9c222b84b7" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/t/pX/daha17_12blm/daha17_12blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-cf79474545a1" tvg-name="Daha 17 - Daha 17 11. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a78d065cf2488f837790504.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 11. Bölüm
+#EXTINF:-1 tvg-id="kanald-cf79474545a1" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/u/sx/d17_11blm/d17_11blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-62a4dbadce74" tvg-name="Daha 17 - Daha 17 10. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a6f5537417d9a70a23d9e02.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 10. Bölüm
+#EXTINF:-1 tvg-id="kanald-62a4dbadce74" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/y/i_/doy_bol10/doy_bol10.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-56c643f01c96" tvg-name="Daha 17 - Daha 17 9. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a6653d5800655e3162c7209.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 9. Bölüm
+#EXTINF:-1 tvg-id="kanald-56c643f01c96" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/V/qm/daha17_9_bolum/daha17_9_bolum.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-d16a45dc96b6" tvg-name="Daha 17 - Daha 17 8. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a5d3dc6417d9a70a23d98e9.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 8. Bölüm
+#EXTINF:-1 tvg-id="kanald-d16a45dc96b6" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/P/SS/daha17_8blm/daha17_8blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-80a899a4d1fe" tvg-name="Daha 17 - Daha 17 7. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a53c351cf2488f83778f9a4.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 7. Bölüm
+#EXTINF:-1 tvg-id="kanald-80a899a4d1fe" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/f/jj/daha17_7blm/daha17_7blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-e12a0e86d1d8" tvg-name="Daha 17 - Daha 17 6. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a4a740a11471b9efed16ac2.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 6. Bölüm
+#EXTINF:-1 tvg-id="kanald-e12a0e86d1d8" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/N/Ud/daha17_bol6/daha17_bol6.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-0f7c1f4cf851" tvg-name="Daha 17 - Daha 17 5. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a41710711471b9efed16395.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 5. Bölüm
+#EXTINF:-1 tvg-id="kanald-0f7c1f4cf851" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/2/6x/d17_bolum_5/d17_bolum_5.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-ecc470d390e2" tvg-name="Daha 17 - Daha 17 4. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a3a2a5f9b15a3cbd4002007.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 4. Bölüm
+#EXTINF:-1 tvg-id="kanald-ecc470d390e2" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/E/iy/daha17_4blm/daha17_4blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-1b6d51afc3ff" tvg-name="Daha 17 - Daha 17 3. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a2f13c211471b9efed1549d.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 3. Bölüm
+#EXTINF:-1 tvg-id="kanald-1b6d51afc3ff" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/Q/NT/daha17_3blm/daha17_3blm.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-410860c1c1ad" tvg-name="Daha 17 - Daha 17 2. Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a25a0646857e013a393c775.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 2. Bölüm
+#EXTINF:-1 tvg-id="kanald-410860c1c1ad" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/n/sX/daha17_bolum2/daha17_bolum2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="kanald-daha-17-a5d296b3b179" tvg-name="Daha 17 - Daha 17 İlk Bölüm" tvg-logo="https://image.kanald.com.tr/i/kanald/100/1200x630/6a1c602acb5b0ace1709b730.jpg" group-title="Türk Dizileri",Daha 17 - Daha 17 İlk Bölüm
+#EXTINF:-1 tvg-id="kanald-a5d296b3b179" tvg-name="Daha 17 - Bölüm" group-title="Türk Dizileri",Daha 17 - Bölüm
 https://kanaldvod.duhnet.tv/hls/e/3a/d17_1_bolum/d17_1_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/6/Gs/vatan_size_minnettar_751/vatan_size_minnettar_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/u/Zj/riza_babaya_hain_suikast_751/riza_babaya_hain_suikast_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/R/SJ/ekip_kapana_kisildi_751/ekip_kapana_kisildi_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/j/v5/urgupte_operasyon_751/urgupte_operasyon_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/I/aE/herkesten_kacar_bozodan_kacmaz_751/herkesten_kacar_bozodan_kacmaz_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/P/Pm/polise_hain_pusu_750/polise_hain_pusu_750.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/Z/pJ/nazike_belayi_cekiyor_750/nazike_belayi_cekiyor_750.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-241c6c0b57c1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/7/nt/husnu_nazikeyi_bir_kez_daha_kurtariyor_750/husnu_nazikeyi_bir_kez_daha_kurtariyor_750.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-89cbb2d66dff" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/7/TV/as_751_bolum/as_751_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-ffab7dc92b20" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/J/Ut/as_750/as_750.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-b71a6a886e78" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/Y/rP/as749_bolum/as749_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-927b2b40cca0" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/6/Qm/as_748_entegrasyon/as_748_entegrasyon.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-d9f07fe91e5f" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/G/Pa/as_747_bolum/as_747_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-a59da04b093b" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/t/qR/as_746blm/as_746blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-cc57bb953969" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/6/-P/as_745bolum/as_745bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-f8793995c3ad" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/8/p5/as_744_bolum/as_744_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-540bb30cb8aa" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/I/Xx/as_743blm/as_743blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-0305ca1adda0" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/e/0z/as_742_bolum/as_742_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-b1ecc6fe147f" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/e/DY/as_741blm/as_741blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-ce59804fa569" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/a/9j/as_740_bolum/as_740_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-ceb3f544ba2d" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/c/Fe/as_739blm/as_739blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-e3afa185ffc8" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/Q/cZ/as_738_bolum/as_738_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-074cf2e65917" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/C/AV/as_737blm/as_737blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-c162ad83844e" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/R/C8/as_736_bolum/as_736_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-9e64566ffe8a" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/M/Qc/as_735bolum/as_735bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-246120cc00d3" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/R/3d/as_734bolum/as_734bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-244194669cc1" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/t/PW/as_733_bolum/as_733_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-66829e20e556" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/z/pj/as_732blm/as_732blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-f475a53c9060" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/Q/4S/as_731bolum/as_731bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-043ba5a232ef" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/b/1b/as_730blm/as_730blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-b444ab647e9c" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/9/74/as_729bolum/as_729bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-d3c5b9e9639c" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/w/7_/as_728blm/as_728blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-e0593afe9ae6" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/s/jj/arkasokaklar_727bolum/arkasokaklar_727bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kanald-00decef78038" tvg-name="Arka Sokaklar - Bölüm" group-title="Türk Dizileri",Arka Sokaklar - Bölüm
+https://kanaldvod.duhnet.tv/hls/P/Wx/as_726blm/as_726blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="atv-861ccecd7997" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2021/06/b0083e60-8561-4d8e-ad91-c783aef26f6b_0400.mp4
+#EXTINF:-1 tvg-id="atv-46d3cff52467" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/eskiya-dunyaya-hukumdar-olmaz/198_ayya/f1cdd8b8-4fb7-4934-b678-9c89a5c4111f_1800.mp4
+#EXTINF:-1 tvg-id="atv-5c33d067d28e" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/eskiya-dunyaya-hukumdar-olmaz/197_ezex/e952acae-3111-4f60-90ee-b8575e43592e_1800.mp4
+#EXTINF:-1 tvg-id="atv-d960ecb5711f" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/eskiya-dunyaya-hukumdar-olmaz/196_jsah/dbe4edc0-3f2d-4f4c-b7fe-57edd7f59520_1800.mp4
+#EXTINF:-1 tvg-id="atv-ae329d44e4b2" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/eskiya-dunyaya-hukumdar-olmaz/195_7cz9/0992fdab-33ec-46f4-bf89-6a63015537e1_0400.mp4
+#EXTINF:-1 tvg-id="atv-e03395a6878c" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2021/06/565a4bc3-c952-4600-b7e1-09e5e56637b0_0400.mp4
+#EXTINF:-1 tvg-id="atv-e69ed5cd15ed" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2021/06/043084c0-852d-46c4-a945-37f0f53d75e8_1800.mp4
+#EXTINF:-1 tvg-id="atv-1317631a10cb" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2021/05/19e252a9-a361-4b23-9b24-3cc3ef616d9f_0400.mp4
+#EXTINF:-1 tvg-id="atv-fe71054b8cb7" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2021/05/9ca154ae-7fd6-4204-b4ab-8dc0c89d2514_0400.mp4
+#EXTINF:-1 tvg-id="atv-d89302fa7f5f" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2023/08/4a9ebfeb-2de7-4c9f-90e4-77c7cb16cf15_0400.mp4
+#EXTINF:-1 tvg-id="atv-da50a8dd3738" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2022/08/2676802b-5e9d-4639-9dd6-b2567ce479ac_0400.mp4
+#EXTINF:-1 tvg-id="atv-e7fb2c4b1cf7" tvg-name="Eskiya Dunyaya Hukumdar Olmaz - Bölüm" group-title="Türk Dizileri",Eskiya Dunyaya Hukumdar Olmaz - Bölüm
+https://atv-vod.ercdn.net/video/2022/08/48c1f21d-7659-48b3-bc7c-87584635d757_0400.mp4
+#EXTINF:-1 tvg-id="atv-6ea4601b4540" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/sen-anlat-karadeniz/64_olto/4ee5f463-af9d-4f72-a1ea-63f00ef7254f_1800.mp4
+#EXTINF:-1 tvg-id="atv-234408895b06" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/sen-anlat-karadeniz/63_m3zq/43b4bb24-abaa-4e20-8927-b2c0e834fa78_1800.mp4
+#EXTINF:-1 tvg-id="atv-e97a2b031905" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/sen-anlat-karadeniz/62_r0xv/39555603-a4e9-4eb0-b9ae-28d6da376856_1800.mp4
+#EXTINF:-1 tvg-id="atv-89b728a78272" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/sen-anlat-karadeniz/61_ejse/7effc4c1-b61b-4983-acae-56620fdd1391_1800.mp4
+#EXTINF:-1 tvg-id="atv-90e9558150ca" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/dizi/sen-anlat-karadeniz/60_1yhq/606ebc72-4e64-49e1-bc39-b898f08c846f_1800.mp4
+#EXTINF:-1 tvg-id="atv-9f3461b7978c" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2019/11/33a312dc-17a9-4041-90a3-f62a1903abe7_0800.mp4
+#EXTINF:-1 tvg-id="atv-c51ba33f7f67" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2019/11/9ec41fa0-5527-44ce-9ade-262c6ee6aeb2_0800.mp4
+#EXTINF:-1 tvg-id="atv-f00d6d97fb2f" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2019/11/16f05848-a91e-4982-978d-5bbfc9b6d4a0_0800.mp4
+#EXTINF:-1 tvg-id="atv-af6690b22202" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2019/11/e054bf89-f6ab-4cf9-b533-d4e8588c6224_0800.mp4
+#EXTINF:-1 tvg-id="atv-bd5f4ff08d41" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2023/08/52395d24-e2b0-4511-838c-88e8113b27ad_0400.mp4
+#EXTINF:-1 tvg-id="atv-1753086e86da" tvg-name="Sen Anlat Karadeniz - Bölüm" group-title="Türk Dizileri",Sen Anlat Karadeniz - Bölüm
+https://atv-vod.ercdn.net/video/2022/08/e6710b09-7f82-4017-85f6-69e9ecbb6d06_0400.mp4
+#EXTINF:-1 tvg-id="atv-4439e09f602d" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/190_f8t6/de58c78a-09a8-4039-8edc-2f441a59cb01_1800.mp4
+#EXTINF:-1 tvg-id="atv-70e4c5659e76" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/189_tllw/e538f5de-7bb2-4b64-b1d5-69328ce46d53_1800.mp4
+#EXTINF:-1 tvg-id="atv-e861bf95ae9d" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/188_rkxb/af5ad9ad-c2c0-4abe-8057-fe124ca5dd0d_1800.mp4
+#EXTINF:-1 tvg-id="atv-c50a50855e5d" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/187_taiw/9ac13d25-3afd-416d-b34b-82997d5b6d64_1800.mp4
+#EXTINF:-1 tvg-id="atv-6ddad39f186a" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/186_jwcx/0767da06-fd10-4c21-aaf8-a366625f1cff_1800.mp4
+#EXTINF:-1 tvg-id="atv-f33d540b394b" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/2023/08/de346cbd-8ac6-43f8-b3d8-a73fa2b8f7d8_0400.mp4
+#EXTINF:-1 tvg-id="atv-7981a35e769e" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/2022/08/d6c1228d-d4f6-498c-b2da-b9f9844f3671_0400.mp4
+#EXTINF:-1 tvg-id="atv-574e9b9dd60a" tvg-name="Avrupa Yakasi - Bölüm" group-title="Türk Dizileri",Avrupa Yakasi - Bölüm
+https://atv-vod.ercdn.net/video/2022/08/14ce0cb2-a8e8-471d-878f-48b0ee055077_0400.mp4
+#EXTINF:-1 tvg-id="atv-8a6c310bf800" tvg-name="Kirgin Cicekler - Bölüm" group-title="Türk Dizileri",Kirgin Cicekler - Bölüm
+https://atv-vod.ercdn.net/video/2023/08/7d2ea79c-7499-4454-8e1a-1ab25739395c_0800.mp4
+#EXTINF:-1 tvg-id="atv-a682dcabb77b" tvg-name="Kirgin Cicekler - Bölüm" group-title="Türk Dizileri",Kirgin Cicekler - Bölüm
+https://atv-vod.ercdn.net/video/2022/07/d0d83b92-e1ba-450c-a3b8-b3031ecc784c_0400.mp4
+#EXTINF:-1 tvg-id="atv-e72e0458076c" tvg-name="Kirgin Cicekler - Bölüm" group-title="Türk Dizileri",Kirgin Cicekler - Bölüm
+https://atv-vod.ercdn.net/video/2022/07/36504407-2d94-4a72-9614-c003fbf84f60_0400.mp4
