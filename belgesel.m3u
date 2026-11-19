@@ -17,11 +17,13 @@ https://agro.fatihdemirsoy.com:8181/memfs/efe70a0b-aea8-48f3-bfda-72fff7f48a7b_o
 http://176.65.153.3:8042/play/a03c/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/yYL6cLc0/CGTN-Documentary-svg.webp" group-title="Türkiye Belgesel",CGTN DOCUMENTARY
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 group-title="Türkiye Belgesel",Yaban Hayatı
+https://raw.githubusercontent.com/sunarproje/yt/main/streams/yaban-hayat.m3u8
 #EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-logo="https://i.imgur.com/VwWTnf0.png" group-title="Türkiye Belgesel",TGRT Belgesel (576p) [Not 24/7]
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CuriosityNOW.de@EN" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Türkiye Belgesel",Curiosity NOW EN (1080p)
-https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Crime360.us@SD" tvg-logo="https://i.imgur.com/IjtaG1m.png" group-title="Türkiye Belgesel",Crime 360 (720p)
 https://jmp2.uk/plu-657880c46e4f6a00087404d0.m3u8
+#EXTINF:-1 tvg-id="CuriosityNOW.de@EN" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Türkiye Belgesel",Curiosity NOW EN (1080p)
+https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-country="TR" tvg-language="Turkish" group-title="Türkiye Belgesel",GZT
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8

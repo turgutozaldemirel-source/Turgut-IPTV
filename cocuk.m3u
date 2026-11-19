@@ -29,6 +29,16 @@ https://narrative-popkids-rakuten.amagi.tv/playlist.m3u8
 https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/bNfW9g8H/38736982-ico.png" group-title="Türkiye Çocuk",SAT7 KİDS
 https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dBeIdkiWzWhH5JynDvCDpwAqbY5.jpg" group-title="Türkiye Çocuk",┃TR┃ Barbie: Skipper and the Big Babysitting Adventure
+http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=1398808.mkv&play_token=ad4aOzPqyM&type=movie
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ArUqADkwycYtNVuXSoSXVrdJ8iJ.jpg" group-title="Türkiye Çocuk",┃TR┃ Turbo Çocuk
+http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=377924.mkv&play_token=vzJMM1rZPd&type=movie
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zjNLF98PcZ4VLg6Ifl9ucuwkzOI.jpg" group-title="Türkiye Çocuk",┃TR┃ Axel 2: Uzay Çocuklarının Maceraları
+http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=377802.mkv&play_token=qTJv9aTZhB&type=movie
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bCiTioVufIGpIgC8OlG7boEzm9.jpg" group-title="Türkiye Çocuk",┃TR┃ Final Fantasy VII : Advent Çocukları
+http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=377737.mkv&play_token=rSjCQ102P7&type=movie
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ms3qa9LH9kosaGCSe22NJ7fDPv9.jpg" group-title="Türkiye Çocuk",┃TR┃ Apollo 10½: Uzay Çağında Çocuk Olmak
+http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=377673.mkv&play_token=iwm8bsLzYS&type=movie
 #EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png" group-title="Türkiye Çocuk",TRT Cocuk (1440p)
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-logo="https://i.imgur.com/8PmXz9t.png" group-title="Türkiye Çocuk",TRT Diyanet Cocuk (720p)

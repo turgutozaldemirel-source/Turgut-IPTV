@@ -2,17 +2,17 @@ TURGUT IPTV GUNCELLEME RAPORU
 -----------------------------
 Bulunan kaynak yayını: 692
 Çalışan otomatik yayın: 815
-Manuel yayın: 445
-Toplam ana liste: 1226
+Manuel yayın: 1027
+Toplam ana liste: 1808
 
 KATEGORİLER:
-Türkiye: 20 (turkiye.m3u)
+Türkiye: 28 (turkiye.m3u)
 Türk Spor: 8 (turk-spor.m3u)
 Latin Amerika Spor: 11 (latin-amerika.m3u)
-Dünya Spor: 334 (world-sport.m3u)
-Film-Dizi: 101 (film-dizi.m3u)
+Dünya Spor: 338 (world-sport.m3u)
+Film-Dizi: 324 (film-dizi.m3u)
 Haber: 210 (haber.m3u)
-Müzik: 92 (muzik.m3u)
-Çocuk: 89 (cocuk.m3u)
+Müzik: 107 (muzik.m3u)
+Çocuk: 94 (cocuk.m3u)
 Radyo: 2 (radyo.m3u)
-Belgesel: 13 (belgesel.m3u)
+Belgesel: 14 (belgesel.m3u)
