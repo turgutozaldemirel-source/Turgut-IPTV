@@ -1,8 +1,580 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="TRT1(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-1-tr.png" group-title="Ulusal",TRT1 (1440p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://trt.daioncdn.net/trt-1/master_1440p.m3u8?&sid=8k898t3yxlug&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
+#EXTINF:-1 tvg-id="TRT1(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-1-tr.png" group-title="Ulusal",TRT1 (1080p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://trt.daioncdn.net/trt-1/master_1080p.m3u8?&sid=859hosiff9au&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
+#EXTINF:-1 tvg-id="TRT1(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-1-tr.png" group-title="Ulusal",TRT1 (720p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://trt.daioncdn.net/trt-1/master_720p.m3u8?&sid=859hosiff9au&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2
+#EXTINF:-1 tvg-id="TRTKURDI(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-kurdi-tr.png" group-title="Ulusal",TRT KURDİ (1440p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trtkurdi.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1 tvg-id="TRTKURDI(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-kurdi-tr.png" group-title="Ulusal",TRT KURDİ (1080p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trtkurdi.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="TRTKURDI(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-kurdi-tr.png" group-title="Ulusal",TRT KURDİ (720p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRTKURDI(src05).tr" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/trt-kurdi-tr.png" group-title="Ulusal",TRT KURDİ (480p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trtkurdi.medya.trt.com.tr/master_480.m3u8
+#EXTINF:-1 tvg-id="TRT2(src09).tr" tvg-logo="" group-title="Ulusal",TRT 2 (1440p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trt2.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1 tvg-id="TRT2(src09).tr" tvg-logo="" group-title="Ulusal",TRT 2 (1080p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="TRT2(src09).tr" tvg-logo="" group-title="Ulusal",TRT 2 (720p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trt2.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRT2(src09).tr" tvg-logo="" group-title="Ulusal",TRT 2 (480p)
+#EXTVLCOPT:http-referer="https://www.tabii.com/"
+https://tv-trt2.medya.trt.com.tr/master_480.m3u8
+#EXTINF:-1 tvg-id="ATV(src05).tr" tvg-logo="" group-title="Ulusal", Atv (1080p)
+https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1773191892&st=R0Zi21YNAeb87xjPdhFmwA&sid=88ev08qbhx3f&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3|User-Agent=Mozilla/5.0&Referer=https://www.atv.com.tr/
+#EXTINF:-1  tvg-id="ATV(src05).tr" tvg-logo="" group-title="Ulusal", Atv (720p)
+https://trkvz.daioncdn.net/atv/atv_720p.m3u8?e=1773191892&st=R0Zi21YNAeb87xjPdhFmwA&sid=88ev08qbhx3f&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3|User-Agent=Mozilla/5.0&Referer=https://www.atv.com.tr/
+#EXTINF:-1 tvg-id="ATV(src05).tr" tvg-logo="" group-title="Ulusal", Atv (480p)
+https://trkvz.daioncdn.net/atv/atv_480p.m3u8?e=1773191892&st=R0Zi21YNAeb87xjPdhFmwA&sid=88ev08qbhx3f&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3|User-Agent=Mozilla/5.0&Referer=https://www.atv.com.tr/
+#EXTINF:-1 tvg-id="ATV(src05).tr" tvg-logo="" group-title="Ulusal", Atv (360p)
+https://trkvz.daioncdn.net/atv/atv_360p.m3u8?e=1773191892&st=R0Zi21YNAeb87xjPdhFmwA&sid=88ev08qbhx3f&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3|User-Agent=Mozilla/5.0&Referer=https://www.atv.com.tr/
+#EXTINF:-1 tvg-id="NOW(src09).tr" tvg-logo="" group-title="Ulusal",NOW (720p)
+#EXTVLCOPT:http-referer="https://www.nowtv.com.tr/"
+https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e=1773205219&st=MZ3x7txZxCqhi0YqyPADUQ
+#EXTINF:-1 tvg-id="NOW(src09).tr" tvg-logo="" group-title="Ulusal",NOW (480p)
+#EXTVLCOPT:http-referer="https://www.nowtv.com.tr/"
+https://nowtv-live-ad.ercdn.net/nowtv/nowtv_480p.m3u8?e=1773205219&st=MZ3x7txZxCqhi0YqyPADUQ
+#EXTINF:-1 tvg-id="NOW(src09).tr" tvg-logo"" group-title="Ulusal",NOW (360p)
+#EXTVLCOPT:http-referer="https://www.nowtv.com.tr/"
+https://nowtv-live-ad.ercdn.net/nowtv/nowtv_360p.m3u8?e=1773205219&st=MZ3x7txZxCqhi0YqyPADUQ
+#EXTINF:-1 tvg-id="KANALD(src09).tr" tvg-logo="" group-title="Ulusal",Kanal D (1080p)
+#EXTVLCOPT:http-referer="https://www.kanald.com.tr/"
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=859jhvmn96hf&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 tvg-id="KANALD(src09).tr" tvg-logo="" group-title="Ulusal",Kanal D (720p)
+#EXTVLCOPT:http-referer="https://www.kanald.com.tr/"
+https://demiroren.daioncdn.net/kanald/kanald_720p.m3u8?&sid=859jhvmn96hf&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 tvg-id="KANALD(src09).tr" tvg-logo="" group-title="Ulusal",Kanal D (480p)
+#EXTVLCOPT:http-referer="https://www.kanald.com.tr/"
+https://demiroren.daioncdn.net/kanald/kanald_480p.m3u8?&sid=859jhvmn96hf&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 tvg-id="KANALD(src09).tr" tvg-logo="" group-title="Ulusal",Kanal D (360p)
+#EXTVLCOPT:http-referer="https://www.kanald.com.tr/"
+https://demiroren.daioncdn.net/kanald/kanald_360p.m3u8?&sid=859jhvmn96hf&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 tvg-id="KANAL7(src05).tr" tvg-logo="" group-title="Ulusal", Kanal 7 (1080p)
+#EXTVLCOPT:http-referer="https://www.kanal7.com/"
+https://kanal7.daioncdn.net/kanal7/kanal7_1080p.m3u8?&sid=859k2nbi4wx3&app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
+#EXTINF:-1 tvg-id="KANAL7(src05).tr" tvg-logo="" group-title="Ulusal", Kanal 7 (720p)
+#EXTVLCOPT:http-referer="https://www.kanal7.com/"
+https://kanal7.daioncdn.net/kanal7/kanal7_720p.m3u8?&sid=859k2nbi4wx3&app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
+#EXTINF:-1 tvg-id="KANAL7(src05).tr" tvg-logo="Kanal7.tr" group-title="Ulusal", Kanal 7 (480p)
+#EXTVLCOPT:http-referer="https://www.kanal7.com/"
+https://kanal7.daioncdn.net/kanal7/kanal7_480p.m3u8?&sid=859k2nbi4wx3&app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
+#EXTINF:-1 tvg-id="KANAL7(src05).tr" tvg-logo="" group-title="Ulusal", Kanal 7 (360p)
+#EXTVLCOPT:http-referer="https://www.kanal7.com/"
+https://kanal7.daioncdn.net/kanal7/kanal7_360p.m3u8?&sid=859k2nbi4wx3&app=f99587ad-1637-494d-8255-da35b09d17a1&ce=3
+#EXTINF:-1 tvg-id="TV8(src05).tr" tvg-logo="" group-title="Ulusal", TV8 (1080P)
+#EXTVLCOPT:http-referer="https://www.tv8.com.tr/"
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=859kc10mqffq&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-id="TV8(src05).tr" tvg-logo="" group-title="Ulusal", TV8 (720p)
+#EXTVLCOPT:http-referer="https://www.tv8.com.tr/"
+https://tv8.daioncdn.net/tv8/tv8_720p.m3u8?&sid=859kc10mqffq&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-id="TV8(src05).tr" tvg-logo="" group-title="Ulusal", TV8 (480p)
+#EXTVLCOPT:http-referer="https://www.tv8.com.tr/"
+https://tv8.daioncdn.net/tv8/tv8_480p.m3u8?&sid=859kc10mqffq&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1  tvg-id="TV8(src05).tr" tvg-logo="" group-title="Ulusal", TV8(360p)
+#EXTVLCOPT:http-referer="https://www.tv8.com.tr/"
+https://tv8.daioncdn.net/tv8/tv8_360p.m3u8?&sid=859kc10mqffq&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-id="TV85(src09).tr" tvg-logo="" group-title="Ulusal", TV8,5 (1080p)
+#EXTVLCOPT:http-referer="https://www.tv8bucuk.com/"
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?&sid=859kqxa1spyc&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
+#EXTINF:-1 tvg-id="TV85(src09).tr" tvg-logo="" group-title="Ulusal", TV8,5 (720p)
+#EXTVLCOPT:http-referer="https://www.tv8bucuk.com/"
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_720p.m3u8?&sid=859kqxa1spyc&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
+#EXTINF:-1 tvg-id="TV85(src09).tr" tvg-logo="" group-title="Ulusal", TV8,5 (480p)
+#EXTVLCOPT:http-referer="https://www.tv8bucuk.com/"
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_480p.m3u8?&sid=859kqxa1spyc&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
+#EXTINF:-1 tvg-id="TV85(src09).tr" tvg-logo="" group-title="Ulusal", TV8,5 (360p)
+#EXTVLCOPT:http-referer="https://www.tv8bucuk.com/"
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_360p.m3u8?&sid=859kqxa1spyc&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
+#EXTINF:-1 tvg-id="STARTV(src05).tr" tvg-logo="" group-title="Ulusal", Star (720p)
+#EXTVLCOPT:http-referer="https://www.startv.com.tr/"
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=859l7pyazxlp&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+#EXTINF:-1 tvg-id="STARTV(src05).tr" tvg-logo="" group-title="Ulusal", Star (480p)
+#EXTVLCOPT:http-referer="https://www.startv.com.tr/"
+https://dogus.daioncdn.net/startv/startv_480p.m3u8?&sid=859l7pyazxlp&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+#EXTINF:-1 tvg-id="STARTV(src05).tr" tvg-logo="" group-title="Ulusal", Star (360p)
+#EXTVLCOPT:http-referer="https://www.startv.com.tr/"
+https://dogus.daioncdn.net/startv/startv_360p.m3u8?&sid=859l7pyazxlp&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+#EXTINF:-1 tvg-id="TEVE2(src05).tr" tvg-logo="" group-title="Ulusal", Teve2 (1080p)
+#EXTVLCOPT:http-referer="https://www.tv2.com.tr/"
+https://demiroren.daioncdn.net/teve2/teve2_1080p.m3u8?&sid=859li294cccl&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+#EXTINF:-1 tvg-id="TEVE2(src05).tr" tvg-logo="" group-title="Ulusal", Teve2 (720p)
+#EXTVLCOPT:http-referer="https://www.tv2.com.tr/"
+https://demiroren.daioncdn.net/teve2/teve2_720p.m3u8?&sid=859li294cccl&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+#EXTINF:-1 tvg-id="TEVE2(src05).tr" tvg-logo="" group-title="Ulusal", Teve2 (480p)
+#EXTVLCOPT:http-referer="https://www.tv2.com.tr/"
+https://demiroren.daioncdn.net/teve2/teve2_480p.m3u8?&sid=859li294cccl&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+#EXTINF:-1 tvg-id="TEVE2(src05).tr"  tvg-logo="" group-title="Ulusal", Teve2 (360p)
+#EXTVLCOPT:http-referer="https://www.tv2.com.tr/"
+https://demiroren.daioncdn.net/teve2/teve2_360p.m3u8?&sid=859li294cccl&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd&ce=3
+#EXTINF:-1  tvg-id="A2(src05).tr" tvg-logo="" group-title="Ulusal", A2 (1080p)
+#EXTVLCOPT:http-referer="https://www.atv.com.tr/"
+#EXTVLCOPT:http-user-agent="Mozilla/5.0"
+https://trkvz.daioncdn.net/a2tv/a2tv_1080p.m3u8?e=1771797206&st=rq1_eMD4FdIK8A7mJ-hXmA&sid=86t9ge9q2h2s&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
+#EXTINF:-1 tvg-id="A2(src05).tr" tvg-logo="" group-title="Ulusal", A2 (720p)
+#EXTVLCOPT:http-referer="https://www.atv.com.tr/"
+#EXTVLCOPT:http-user-agent="Mozilla/5.0"
+https://trkvz.daioncdn.net/a2tv/a2tv_720p.m3u8?e=1771797206&st=rq1_eMD4FdIK8A7mJ-hXmA&sid=86t9ge9q2h2s&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
+#EXTINF:-1 tvg-id="A2(src05).tr" tvg-logo="" group-title="Ulusal", A2 (480p)
+#EXTVLCOPT:http-referer="https://www.atv.com.tr/"
+#EXTVLCOPT:http-user-agent="Mozilla/5.0"
+https://trkvz.daioncdn.net/a2tv/a2tv_480p.m3u8?e=1771797206&st=rq1_eMD4FdIK8A7mJ-hXmA&sid=86t9ge9q2h2s&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
+#EXTINF:-1 tvg-id="A2(src05).tr" tvg-logo="" group-title="Ulusal", A2 (360p)
+#EXTVLCOPT:http-referer="https://www.atv.com.tr/"
+#EXTVLCOPT:htto-user-agent="Mozilla/5.0"
+https://trkvz.daioncdn.net/a2tv/a2tv_360p.m3u8?e=1771797206&st=rq1_eMD4FdIK8A7mJ-hXmA&sid=86t9ge9q2h2s&app=59363a60-be96-4f73-9eff-355d0ff2c758&ce=3
+#EXTINF:-1 tvg-id="360(src05).tr" tvg-logo="" group-title="Ulusal",360 (720p)
+#EXTVLCOPT:http-referer="https://www.tv360.com.tr/"
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-id="360(src05).tr" tvg-logo="" group-title="Ulusal",360 (360p)
+#EXTVLCOPT:http-referer="https://www.tv360.com.tr/"
+https://turkmedya-live.ercdn.net/tv360/tv360_360p.m3u8
+#EXTINF:-1 tvg-id="TLC(src05).tr" tvg-logo="" group-title="Ulusal", TLC (720p)
+#EXTVLCOPT:http-referer="https://www.tlctv.com.tr/"
+https://dogus.daioncdn.net/tlc/tlc_720p.m3u8?token=SHFJQzQrRkJQSjMySjNOWlBHSnlJOHFtYWRwbGdzOExsMDJ0dExHWDB2RT0=&sid=859ndzyvhii8&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&ce=3
+#EXTINF:-1 tvg-id="TLC(src05).tr" tvg-logo="" group-title="Ulusal", TLC (480p)
+#EXTVLCOPT:http-referer="https://www.tlctv.com.tr/"
+https://dogus.daioncdn.net/tlc/tlc_480p.m3u8?token=SHFJQzQrRkJQSjMySjNOWlBHSnlJOHFtYWRwbGdzOExsMDJ0dExHWDB2RT0=&sid=859ndzyvhii8&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&ce=3
+#EXTINF:-1 tvg-id="TLC(src05).tr" tvg-logo="" group-title="Ulusal", TLC (360p)
+#EXTVLCOPT:http-referer="https://www.tlctv.com.tr/"
+https://dogus.daioncdn.net/tlc/tlc_360p.m3u8?token=SHFJQzQrRkJQSjMySjNOWlBHSnlJOHFtYWRwbGdzOExsMDJ0dExHWDB2RT0=&sid=859ndzyvhii8&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&ce=3
+#EXTINF:-1 tvg-id="DMAX(src05).tr" tvg-logo="" group-title="Ulusal", DMAX (720p)
+#EXTVLCOPT:http-referer="https://www.dmax.com.tr/"
+https://dogus.daioncdn.net/dmax/dmax_720p.m3u8?token=RVlMSWxlU1Exc0QzemhZaGt0UnlDWWNRVnQ1b0VMbWpHYndYRjRrM2l0Yz0=&sid=859nsaxc33ff&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+#EXTINF:-1 tvg-id="DMAX(src05).tr" tvg-logo="" group-title="Ulusal", DMAX (480p)
+#EXTVLCOPT:http-referer="https://www.dmax.com.tr/"
+https://dogus.daioncdn.net/dmax/dmax_480p.m3u8?token=RVlMSWxlU1Exc0QzemhZaGt0UnlDWWNRVnQ1b0VMbWpHYndYRjRrM2l0Yz0=&sid=859nsaxc33ff&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+#EXTINF:-1 tvg-id="DMAX(src05).tr" tvg-logo="" group-title="Ulusal", DMAX (360p)
+#EXTVLCOPT:http-referer="https://www.dmax.com.tr/"
+https://dogus.daioncdn.net/dmax/dmax_360p.m3u8?token=RVlMSWxlU1Exc0QzemhZaGt0UnlDWWNRVnQ1b0VMbWpHYndYRjRrM2l0Yz0=&sid=859nsaxc33ff&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+#EXTINF:-1 tvg-id="BEYAZTV(src05).tr" tvg-logo="" group-title="Ulusal", Beyaz tv (1080p)
+#EXTVLCOPT:http-referer="https://beyaztv.com.tr/"
+https://beyaztv.daioncdn.net/beyaztv/beyaztv_1080p.m3u8?&sid=859o3g9mjdk6&app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
+#EXTINF:-1 tvg-id="BEYAZTV(src05).tr" tvg-logo="" group-title="Ulusal", Beyaz tv (720p)
+#EXTVLCOPT:http-referer="https://beyaztv.com.tr/"
+https://beyaztv.daioncdn.net/beyaztv/beyaztv_720p.m3u8?&sid=859o3g9mjdk6&app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
+#EXTINF:-1 tvg-id="BEYAZTV(src05).tr" tvg-logo="" group-title="Ulusal", Beyaz tv (480p)
+#EXTVLCOPT:http-referer="https://beyaztv.com.tr/"
+https://beyaztv.daioncdn.net/beyaztv/beyaztv_480p.m3u8?&sid=859o3g9mjdk6&app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
+#EXTINF:-1 tvg-id="BEYAZTV(src05).tr" tvg-logo="" group-title="Ulusal", Beyaz tv (360p)
+#EXTVLCOPT:http-referer="https://beyaztv.com.tr/"
+https://beyaztv.daioncdn.net/beyaztv/beyaztv_360p.m3u8?&sid=859o3g9mjdk6&app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3
+#EXTINF:-1 tvg-id="MELTEMTV(src09).tr" tvg-logo="" group-title="Ulusal", Meltem tv
+#EXTVLCOPT:http-referer="https://meltemtv.com.tr/"
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+#EXTINF:-1 tvg-id="TV4(src09).tr" tvg-logo="" group-title="Ulusal",TV4
+#EXTVLCOPT:http-referer="https://www.tv4.com.tr/"
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="LalegulTV.tr" tvg-logo="" group-title="Ulusal", Lalegül tv
+#EXTVLCOPT:http-referer="https://lalegultv.com.tr/"
+https://lbl.netmedya.net/hls/lalegultv.m3u8
 
+
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor1
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor2
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor3
+https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor4
+https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor5
+https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor6
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Tabii Spor" tvg-logo="https://image.milimaj.com/i/milliyet/75/0x0/66ebe052677058f33337d70b.jpg" group-title="Spor",Tabii Spor7
+https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 + |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1NzYyMTY4OTdhZjEzZTdmYzIwZjY=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 50 FPS |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzNTI0MjEwNTMwNDIwMzA5MGM1ZWI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 (720P) |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM4NDA0NzU2NTNjMDM3Nzg3ZjYwYzE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 [LIVE DURING EVENTS ONLY] |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM0Mjg5ODQ3MDM0NGYyODhmNGUyMWQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",BEIN SPORTS 1 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMwMDExMzM5NGM1NGQ1MDg4MjVjOQ==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 H265 |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI0MDM0MjUwMzE4NzNhNDMwMGQxZTQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 HD (TURKEY) |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzU5MzQ5Mzg2MDQxODk1MDY1YjExYg==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 1 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzY2MjE3OTYyMGNjNmI4NzBjMDY0NQ==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 2 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE0NDcyNDE1MDZlNzNjZTY2NzM1NTU=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 2 |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1MDk0NjYxOTEzNjRiMjRkOWU2OGQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 2 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI4NTE1MzkxNDNiYjI0MThlNTc4YzQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 2 SD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMyMzYzNjI5MTE2MjQ1ZGU0NzllNDI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 2 UHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM2OTQ2NjI0NzU2NTVmZmNiYTZiNDc=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 3 |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI4MzQ1MTQ5NDNhODRjNTc4OTY5MWU=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 3 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE3MDA1OTU4MDE1OTM3NWQxMjdhNjA=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 3 SD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIwNjM3MTMyOTMyNWM1OGRjMzFhMA==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 3 UHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM0MTAxNjc1NjBmZDdiMmY0ZjQ2YmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 4K FEED(UYDU) |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE1MzY3MzA2MjdlMzcwYTkxYThjM2Y=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 5 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM4MzE3NTc2MThmMjJiY2FjY2ZlOTI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 5 FHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQwMDAzMTU2MDEyYjkzOTg5OTIwODk=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 5 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI3Mzc5NjM0ODZkODJlYzUwYWQ5OTI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 720P FEED |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 8K FEED |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS FEED (OZEL FEED YAYIN) |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE0NTM2OTIzMTQyMzc3MWI1OTUyODk=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzExOTczMzYwMDAxMGUyNzU3N2E4YmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI4MDYwNzk2MTIxYmRlOWNiNTE5YmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM5ODk5OTU1MzMxMjMzNGZlNTE5NmM=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER RAW |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE2NDY2MzI4MjU0ZGJjYjYxNmMxZGI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 1 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEyMjE1ODcwNjdhNzc2MDUzNjdiNTQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 1 |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI4MzI0MzA1MzViYTQ0MDhkZjI4NmE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 1 FHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQwNzE0NzQ3NDMyMzIyNzQ3ZTlhZmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 1 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIyNTI4MTQyMzU5NTg1Y2Y5NWFiOQ==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 2 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1ODk2ODIzNWEwZjFjMmI3NDYxZQ==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 2 |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQwMTcyOTUxMjcwMmI5NzY5MTc5NDM=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 2 FHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM0MDc5MzYyNDI4YjQ0MGNiYmMwYjI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS MAX 2 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIyMTI2NTk4MjA0ZDUzNjQ3NjdkYWU=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPOTS1 SD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE0MzIzOTUzNTJmNDAwNjJmZTk0Yg==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S SPORT |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMzNDY1NDk3MjI5MDE5ODI2MzNmM2E=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S SPORT |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM3MTgzMzYyOTUxODRjMWYzMTE3YWE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S SPORT 2 |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEzMTM3Njg1MTZiYWFhN2NkZTEzNDc=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S SPORT 2 |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzEyMzQ2MDQ4ODA2YTFhNWM0MTM3YzE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S SPORT+3 MAC SAATI |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMyNjkzNzIzMjY4ZWMxNjY3Y2ZjMWE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT 1 UHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM1MzE3NjIxOTU0NDkwYTQ5ZDRiZDU=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT 2 HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzExODM0MDk0NTJlYTY0NTdhMWRkMDg=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT 2 UHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM5NDM2NTEwMzAyZGRlYjRhZjVmYzY=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT HD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzkxOTk5MzE2ODE1ZmJhNDFhYjAwZA==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT PLUS FHD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQwMzYwNDYyMTkzM2RkNDdkN2U5YTE=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT+1 MAC SAATI |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI1NTk3NTY3OTFiZjVhNDMzMjBhNzQ=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORT+2 MAC SAATI |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIzMTQxODM1NjYwMTdlYTNlMGE5N2M=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORTS 1 SD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzMyMDI5MDUyMzdiZTQ2ZTUzN2U2Yg==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Spor",S-SPORTS 2 SD |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI2NDM5OTkwMzIzM2YxNGU3ODE3MjE=
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 1B 1S
+https://hls12.playmix.uno/hls/beastgames-s01e01-dual-nxdcz3ibpkirmp4-GDLuUf8K7T06.mp4/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 2B 1S
+https://hls12.playmix.uno/hls/beastgames-s01e02-dual-6vj644cw102mmp4-m53YcjVUmZc.mp4/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 3B 1S
+https://s231.rapidrame.com/hls2/01/00022/bbl9ds2wl2k2_,l,.urlset/master.m3u8?t=KTqUjyk25hDAUgrKKuCCYD09kED8_i0FiUH-u1gHSyM&s=1773075732&e=86400&f=110479&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 4B 1S
+https://hls12.playmix.uno/hls/beastgames-s01e04-dual-08h65gugqb4cmp4-B71inyAh8mz.mp4/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 5B 1S
+https://s231.rapidrame.com/hls2/01/00022/31z1a8z901x8_,l,.urlset/master.m3u8?t=1cvA4w1_2AovLu-pfJd79hgKKtiJWpVHclbl1wQU7q4&s=1773075890&e=86400&f=110881&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 6B 1S
+https://s231.rapidrame.com/hls2/01/00022/m3ebppxynzhq_,l,.urlset/master.m3u8?t=2muqltJs4-vJcVpXL1ftMEqcL8qmabSbyBQlSjmI4CA&s=1773075931&e=86400&f=111271&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 7B 1S
+https://s231.rapidrame.com/hls2/01/00022/hq3z2vuonsh7_,l,.urlset/master.m3u8?t=N7GbcPsD68I7g9i33J-dlN4nORdRoA6T87fFhithWSU&s=1773075949&e=86400&f=111428&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 8B 1S
+https://s231.rapidrame.com/hls2/01/00022/ed1l17tx665h_,l,.urlset/master.m3u8?t=XX-0kGmafoEliJdZbox1MkzE01zuum4fvotPLXNYL48&s=1773075976&e=86400&f=111732&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 9B 1S
+https://s230.rapidrame.com/hls2/01/00022/9az2mlbjeo2f_,l,.urlset/master.m3u8?t=6T9lyXbpY8Cr_JLiEs_i2-qk3Blz1c-PBmO04NHOMhI&s=1773075996&e=86400&f=111946&srv=s429&i=0.0&sp=0&p1=s230&p2=s230
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 10B 1S
+https://s230.rapidrame.com/hls2/01/00022/28hjtej0xkiz_,l,.urlset/master.m3u8?t=ptsgCxisFJC7BogfME4jgnHdIF1rYUFKvUsAXLN-HdU&s=1773076028&e=86400&f=112159&srv=s429&i=0.0&sp=0&p1=s230&p2=s230
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 1B 2S
+https://balancehls12.playmix.uno/hls/beastgames-s02e01-dual-cugsbywot3qimp4-8h9zLXRfO8d.mp4/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 2B 2S
+https://balancehls9.playmix.uno/hls/beastgames-s02e02-dual-utnr8cy49yptmp4-3v6KA2FfiIx.mp4/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 3B 2S
+https://srv12.cdnimages1996.shop/hls/beastgames-s02e03-dual-t44kdgsiu63lmp4-iihkAxgvHxo.mp4/txt/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 4B 2S
+https://srv12.cdnimages1079.shop/hls/beastgames-s02e04-dual-18jauhhfe8mrmp4-CWe9RADWo2Y.mp4/txt/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 5B 2S
+https://srv12.cdnimages127.shop/hls/beastgames-s02e05-dual-rsnfejc1l7p1mp4-kk82XXJiQeR.mp4/txt/master.txt
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 6B 2S
+https://s230.rapidrame.com/hls2/01/00025/qcu0cuzqphgs_,l,.urlset/master.m3u8?t=AGqAv8t3SPfllLnQ5_kt_lWXfnSB3yWEIgkFmFO0bvw&s=1773076797&e=86400&f=129700&srv=s429&i=0.0&sp=0&p1=s230&p2=s230
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 7B 2S
+https://s230.rapidrame.com/hls2/01/00025/ebpnh40ti396_,l,.urlset/master.m3u8?t=bbLKxvdYyCZ-hQzp733fwpH7ZMBouk03DuRbhPXoln0&s=1773076817&e=86400&f=129838&srv=s429&i=0.0&sp=0&p1=s230&p2=s230
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 8B 2S
+https://s231.rapidrame.com/hls2/01/00025/tah3m0ewgdjk_,l,.urlset/master.m3u8?t=1lgCZw9SRLrO_v4fff62yBmH30bfnYZxE2XyHp_G6Cs&s=1773076837&e=86400&f=129993&srv=s429&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 9B 2S
+https://s231.rapidrame.com/hls2/01/00026/yft75byjbh19_,l,.urlset/master.m3u8?t=6ajzgZfugY-59SMTx43JEFeUpcZoKfsjl7X1zCjP1jU&s=1773076858&e=86400&f=130123&srv=s433&i=0.0&sp=0&p1=s231&p2=s231
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbrJzvBIgMM4Wp45uigmLtu_Xc0fknlcxnksCvVuS6V8jJewxhWoyy6ww&s=10" group-title="Diziler",Beast games 10B 2S
+https://s231.rapidrame.com/hls2/01/00026/ue9xem6bbkri_,l,.urlset/master.m3u8?t=TdwcvNA11sjOAQKTZRE8P7ynmMBE05Qo-R6n51gDX_o&s=1773076886&e=86400&f=130307&srv=s433&i=0.0&sp=0&p1=s231&p2=s231
+
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 1B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/1/PDTHALEF1HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=3eWV_GKP7-sh76ug3yhSWw&e=1773169783&sid=45FXT19VX0-AxhxdKfODZA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 2B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/2/PDTHALEF2HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=VVD2YoszL2QPigmwr1D_aw&e=1773169661&sid=AS9LZ7Lze0eb_IKkTOANxQ
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 3B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/3/PDTHALEF3HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=CL14oWZERNLQfT7oLZA2zg&e=1773170498&sid=aArOMmcNm0SnoID195xBDA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 4B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/4/PDTHALEF4HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=Tg3lRs2o2G960nqG-nUJpA&e=1773168426&sid=4djuMBJ1g0u3p5WkkMPGiQ
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 5B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/5/PDTHALEF5HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=mQZMo_8vuUZefUKKm-q8Yg&e=1773170866&sid=iS95DtzbgkOQ8zRlmZD7qA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 6B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/6/PDTHALEF6HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=aLQ2fPSSuI4XfV8_5LCDaQ&e=1773170577
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 7B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/7/PDTHALEF7HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=BuFbmTFZF0J6HdjMhbD-rA&e=1773170607&sid=QalyCFnQTkiDc0rMRYdjMQ
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 8B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/8/PDTHALEF8HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=ydK63lW6OCLh_4ooOyjrtA&e=1773170343&sid=PXSsNGaC4kauCqT9SyOnMA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 9B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/9/PDTHALEF9HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=zUOpVbXWQUSouM484AVlIA&e=1773170504&sid=LlTvS27WZ06-B7RhR0iukg
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 10B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/10/PDTHALEF10HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=uKHQX1aBRa74Of_ZWemO6w&e=1773169953&sid=RBq3qMl2yUe97mtJ4inS5g
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 11B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/11/PDTHALEF11HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=a4c4sp3jgN4dZmlAxDzLzw&e=1773171524&sid=xvWOFbao50mB8YAYqXp_Tg
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 12B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/12/PDTHALEF12HDYENISONRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=5KZdsotaS-g85c9RBNZrtQ&e=1773171143&sid=S_eJlF-yikOujn6YNJyGpA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 13B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/13/PDTHALEF13HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=CUTAE4HI_ioVhly30vzSkA&e=1773171503&sid=Cmal1nPbr0S9MPafiBznIg
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 14B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/14/PDTHALEF14HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=GVJJ3BUV1U_qly6QM5--mQ&e=1773171435
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 15B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/15/PDTHALEF15HDRKLMRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=UswgPoS-mrgZYKXs8QxCMw&e=1773171480
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 16B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/16/PDTHALEF16HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=0ELt9bIFxcEFfOkzo0hduQ&e=1773169600
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 17B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/17/PDTHALEF17HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=YwN5TMPXaCh5r-VMiozveQ&e=1773170843&sid=h42xi2oLGUaTMo1BpWdk1Q
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 18B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/18/PDTHALEF18HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=44R-sDUFqQ6kTmRhIFrKXw&e=1773171635&sid=kt03ZgFx7UW-yl1J-2V1QA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 19B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/19/PDTHALEF19HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=J3mXW19alVy0Z89ffMIdSQ&e=1773171512&sid=u-vf2H0kD02ArQL4OYKVQA
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 20B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/20/PDTHALEF20HDYENIRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=47Sgfh3gNv_p_jmMLUmLjg&e=1773171775&sid=r5AX09vZOUmlXwptUi-wgg
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 21B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/21/PDTHALEF21HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=NtVjkOHA7H2mv2Xku7RsoA&e=1773171675&sid=yc9ajmru2keJVf40lKTPig
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 22B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/22/PDTHALEF22HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=M70y-QF6rNsbULh9c-u-Wg&e=1773171845&sid=stiL-hxZaUeZbNEiPswBfw
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 23B 1S
+https://nowtv-vod.ercdn.net/Halef-Koklerin-Cagrisi/bolumler/23/PDTHALEF23HDRTUK7YASVEUZERISIDDETOLUMSUZDAVRANISLAR.smil/playlist.m3u8?st=2h4-69kk4l4arONpVtmPRQ&e=1773503514&sid=eISDiY1sG0WBbtXLHGKb_g
+#EXTINF:-1 tvg-logo="https://dokuz8habernet.teimg.com/dokuz8haber-net/uploads/2025/09/halef.jpg" group-title="Diziler",Halef: Köklerin Çağrısı 24B 1S
+https://video.twimg.com/amplify_video/2032198792624160768/pl/YGR1DCPIm9BW19S_.m3u8?tag=21
+
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 1B 1S
+https://httxxkbiqd.erbvr.com/vms/f/45/40/f454096a-e21b-43e5-b410-6125409dcd06/f454096a-e21b-43e5-b410-6125409dcd06.smil/.m3u8?st=bZ56ZNVbhE3xbaVYVykhRw&e=1773527671
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ  2B 1S
+https://httxxkbiqd.erbvr.com/vms/3/6a/3f/36a3fc7b-dcf8-454a-a514-d71cb2e5d548/36a3fc7b-dcf8-454a-a514-d71cb2e5d548.smil/.m3u8?st=GqvwgcXwKjHdZWKWzwytFg&e=1773527745
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 3B 1S
+https://httxxkbiqd.erbvr.com/vms/9/8f/c5/98fc53d4-9de0-4097-9b02-af26a9252fda/98fc53d4-9de0-4097-9b02-af26a9252fda.smil/.m3u8?st=zdE-IAoVW2ubXhRsngrEkg&e=1773527793
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 4B 1S
+https://httxxkbiqd.erbvr.com/vms/c/bf/26/cbf26662-6897-4030-8e3d-b88e69709f3e/cbf26662-6897-4030-8e3d-b88e69709f3e.smil/.m3u8?st=zK2ZZBLFxJHhaB7zIQAhqQ&e=1773527857
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 5B 1S 
+https://httxxkbiqd.erbvr.com/vms/8/70/a8/870a8ce5-dbf2-4768-ad21-14f40b275347/870a8ce5-dbf2-4768-ad21-14f40b275347.smil/.m3u8?st=IsO22cBvAAuT6f3V3B1XzA&e=1773528039
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 6B 1S
+https://httxxkbiqd.erbvr.com/vms/9/bf/29/9bf295a1-2910-49f4-a0d9-0075caa019ac/9bf295a1-2910-49f4-a0d9-0075caa019ac.smil/.m3u8?st=2S4UBOXDp0yZkk8VlWjqCg&e=1773528058
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 7B 1S
+https://httxxkbiqd.erbvr.com/vms/f/53/10/f5310982-9dc7-4e1e-a89f-9c817a744730/f5310982-9dc7-4e1e-a89f-9c817a744730.smil/.m3u8?st=X9Tjygaa3Rx3So_VmyE6cg&e=1773528077
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 8B 1S
+https://httxxkbiqd.erbvr.com/vms/4/ee/73/4ee73195-34bb-452a-ae59-0bc04a38884b/4ee73195-34bb-452a-ae59-0bc04a38884b.smil/.m3u8?st=PDQS7PcscjpW7V1L0Yj9Cg&e=1773528092
+#EXTINF:-1 tvg-logo"https://iasbh.tmgrup.com.tr/09d44b/1200/675/0/0/1500/843?u=https://isbh.tmgrup.com.tr/sbh/2025/11/25/1764066357407.jpg" group-title"Diziler", A.B.İ 9B 1S
+https://httxxkbiqd.erbvr.com/vms/d/85/e5/d85e5995-7e38-495c-b809-f16ea4a4d368/d85e5995-7e38-495c-b809-f16ea4a4d368.smil/.m3u8?st=XXSoOnvDcbfHTagJEGORDA&e=1773528109
 
 #EXTM3U
+#EXTINF:-1 tvg-logo"https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler",Galip Derviş 1B 1S
+https://kanaldvod.duhnet.tv//S2/HLS_VOD/5401_2b86/index.m3u8?key=5465eeb0cf45af1064b70a0b&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 2B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/5852_6f08/index.m3u8?key=5465eeb0cf45af1064b70a0e&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 3B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/6099_6546/index.m3u8?key=5465eeb0cf45af1064b70a11&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 4B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/6327_3409/index.m3u8?key=5465eeb1cf45af1064b70a14&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 5B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/6544_5a19/index.m3u8?key=5465eeb1cf45af1064b70a17&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 6B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/6683_869f/index.m3u8?key=5465eeb1cf45af1064b70a1a&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 7B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/6684_118f/index.m3u8?key=5465eeb1cf45af1064b70a1d&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 8B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/7054_4fe5/index.m3u8?key=5465eeb1cf45af1064b70a20&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 9B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/7476_2e4d/index.m3u8?key=5465eeb2cf45af1064b70a23&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 10B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/8116_964f/index.m3u8?key=5465eeb2cf45af1064b70a26&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 11B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/8440_a1e1/index.m3u8?key=5465eeb2cf45af1064b70a29&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 12B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/8842_7177/index.m3u8?key=5465eeb2cf45af1064b70a2c&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 13B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/9500_7c5e/index.m3u8?key=5465eeb2cf45af1064b70a2f&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 14B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/9481_8464/index.m3u8?key=5465eeb2cf45af1064b70a32&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 15B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/10056_015d/index.m3u8?key=5465eeb3cf45af1064b70a35&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 16B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/10057_0dc8/index.m3u8?key=5465eeb3cf45af1064b70a38&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 17B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/10446_f437/index.m3u8?key=5465eeb3cf45af1064b70a3b&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 18B 1S
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/10447_8c1a/index.m3u8?key=5465eeb3cf45af1064b70a3e&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 19B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/15419_f7a4/index.m3u8?key=5465eeb3cf45af1064b70a41&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 20B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/15981_5bd4/index.m3u8?key=5465eeb4cf45af1064b70a44&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 21B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/16298_1f30/index.m3u8?key=5465eeb4cf45af1064b70a47&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 22B 2S
+https://kanaldvod.duhnet.tv//S4/HLS_VOD/16736_064d/index.m3u8?key=5465eeb4cf45af1064b70a4a&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 23B 2S
+https://kanaldvod.duhnet.tv//S4/HLS_VOD/17241_426d/index.m3u8?key=5465eeb4cf45af1064b70a4d&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 24B 2S
+https://kanaldvod.duhnet.tv//S4/HLS_VOD/17856_77cc/index.m3u8?key=5465eeb4cf45af1064b70a50&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 25B 2S
+https://kanaldvod.duhnet.tv//S4/HLS_VOD/19697_390d/index.m3u8?key=5465eeb4cf45af1064b70a53&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 26B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/20651_10d9/index.m3u8?key=5465eeb4cf45af1064b70a56&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 27B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/21590_305d/index.m3u8?key=5465eeb4cf45af1064b70a59&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 28B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/24649_87ff/index.m3u8?key=5465eeb5cf45af1064b70a5c&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 29B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/25583_e780/index.m3u8?key=5465eeb5cf45af1064b70a5f&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 30B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/26573_26d0/index.m3u8?key=5465eeb5cf45af1064b70a62&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 31B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/27906_c45a/index.m3u8?key=5465eeb5cf45af1064b70a65&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 32B 2S
+https://kanaldvod.duhnet.tv//S3/HLS_VOD/29098_69b2/index.m3u8?key=5465eeb5cf45af1064b70a68&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 33B 2S
+https://kanaldvod.duhnet.tv//S5/HLS_VOD/33633_1cd7/index.m3u8?key=5465eeb5cf45af1064b70a6b&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 34B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/34609_f413/index.m3u8?key=5465eeb6cf45af1064b70a6e&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 35B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/35548_667c/index.m3u8?key=5465eeb6cf45af1064b70a71&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 36B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/36455_cb20/index.m3u8?key=5465eeb6cf45af1064b70a74&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 37B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/37305_4c88/index.m3u8?key=5465eeb6cf45af1064b70a77&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 38B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/38264_3b01/index.m3u8?key=5465eeb6cf45af1064b70a7a&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 39B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/39901_7215/index.m3u8?key=5465eeb7cf45af1064b70a7d&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 40B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/40695_4752/index.m3u8?key=5465eeb7cf45af1064b70a80&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 41B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/41499_a79d/index.m3u8?key=5465eeb7cf45af1064b70a83&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 42B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/42223_089a/index.m3u8?key=5465eeb7cf45af1064b70a86&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 43B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/42871_9019/index.m3u8?key=5465eeb7cf45af1064b70a89&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 44B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/43680_0868/index.m3u8?key=5465eeb8cf45af1064b70a8c&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 45B 2S
+https://kanaldvod.duhnet.tv/S7/HLS_VOD/44336_b142/index.m3u8?key=5465eeb8cf45af1064b70a8f&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 46B 2S
+https://kanaldvod.duhnet.tv//S7/HLS_VOD/44942_487b/index.m3u8?key=5465eeb8cf45af1064b70a92&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 47B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/56878_7649/index.m3u8?key=5465eeb8cf45af1064b70a96&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 48B 2S
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/57438_86b0/index.m3u8?key=5465eeb8cf45af1064b70a99&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 49B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/58085_5dda/index.m3u8?key=5465eeb9cf45af1064b70a9c&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 50B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/58689_3db7/index.m3u8?key=5465eeb9cf45af1064b70a9f&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 51B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/59225_bb91/index.m3u8?key=5472fe0ef630990874605f85&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 52B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/60336_e398/index.m3u8?key=547c1582f493b82d5c622c00&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 53B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/60893_a771/index.m3u8?key=5481a9d9f493b81ad49e63dc&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 54B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/61434_8ae2/index.m3u8?key=548c34d9f97adb1fd01d5438&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 55B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/62019_229a/index.m3u8?key=549432acf493b80f4c2c1b86&app=com.kanald&part=1-1&min=350&max=1250
+#EXTINF:-1  tvg-logo="https://image.kanald.com.tr/i/kanald/70/0x0/6834d5b484687ed42a4b7f10.jpg" group-title="Diziler" ,Galip Derviş 56B 2S
+https://kanaldvod.duhnet.tv//S8/HLS_VOD/62633_e7cd/index.m3u8?key=549d529ef493b832dc76e5cf&app=com.kanald&part=1-1&min=350&max=1250
 
-#EXTM3U
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pWpgSuXUJ7nKVA8ifUveRRziy6e.jpg" group-title="┃TR┃ SERI FILMLER",┃TR┃ Rambo III
 http://nexusconnects.org:80/play/movie.php?mac=A0:BB:3E:03:BA:6C&stream=1334312.mkv&play_token=KLfc1ebhXf&type=movie
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dz7PpKgAL6ZMjHuuxqLV5Il3fK8.jpg" group-title="┃TR┃ SERI FILMLER",┃TR┃ Rambo: İlk Kan 2
