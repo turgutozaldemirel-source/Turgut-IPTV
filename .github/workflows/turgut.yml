@@ -39,6 +39,7 @@ jobs:
           import json
           import time
           import html
+          import hashlib
           import unicodedata
           import requests
           from pathlib import Path
@@ -65,7 +66,6 @@ jobs:
               "Connection": "keep-alive"
           }
 
-          # Eski kaynakların korunmuştur.
           SOURCES = [
               "https://iptv-org.github.io/iptv/countries/tr.m3u",
               "https://iptv-org.github.io/iptv/languages/tur.m3u",
@@ -185,6 +185,15 @@ jobs:
               "metro fm", "virgin radio", "power fm"
           ]
 
+          KANALD_BASE = "https://www.kanald.com.tr"
+
+          KANALD_SHOWS = [
+              ("uzak-sehir", "Uzak Şehir"),
+              ("haysiyet", "Haysiyet"),
+              ("guller-ve-gunahlar", "Güller ve Günahlar"),
+              ("daha-17", "Daha 17")
+          ]
+
           def norm(value):
               value = unicodedata.normalize("NFKD", str(value))
               value = value.encode("ascii", "ignore").decode().lower()
@@ -215,6 +224,12 @@ jobs:
 
           def channel_key(entry):
               info = entry[0]
+
+              # Dizi kayıtları birbirinden ayrı tutulur.
+              if 'group-title="Türk Dizileri"' in info:
+                  match = re.search(r'tvg-id="([^"]+)"', info)
+                  return match.group(1) if match else norm(base_name(entry))
+
               match = re.search(r'tvg-id="([^"]+)"', info, re.I)
               if match:
                   raw = re.sub(r"@.*$", "", match.group(1))
@@ -237,6 +252,9 @@ jobs:
               return False
 
           def category(entry):
+              if 'group-title="Türk Dizileri"' in entry[0]:
+                  return "Türk Dizileri"
+
               n = channel_key(entry)
               name = norm(base_name(entry))
 
@@ -331,6 +349,9 @@ jobs:
               return result
 
           def is_turkish(entry):
+              if 'group-title="Türk Dizileri"' in entry[0]:
+                  return True
+
               name = base_name(entry)
               n = norm(clean_name(name))
               info = entry[0]
@@ -447,6 +468,154 @@ jobs:
                   for url in dict.fromkeys(found)
               ]
 
+          def kanal_dizi_scan():
+              results = []
+
+              for slug, title in KANALD_SHOWS:
+                  root = f"{KANALD_BASE}/{slug}/bolumler"
+                  root_html = fetch_text(root, 22)
+
+                  if not root_html:
+                      print("Dizi sayfası açılamadı:", title)
+                      continue
+
+                  pages = [root]
+
+                  page_links = re.findall(
+                      r'href=["\']([^"\']*\?page=\d+[^"\']*)',
+                      root_html,
+                      re.I
+                  )
+
+                  for link in page_links:
+                      pages.append(urljoin(root, html.unescape(link)))
+
+                  episode_links = []
+
+                  for page in dict.fromkeys(pages):
+                      page_html = (
+                          root_html if page == root
+                          else fetch_text(page, 20)
+                      )
+
+                      if not page_html:
+                          continue
+
+                      pattern = (
+                          r'href=["\'](/'
+                          + re.escape(slug)
+                          + r'/bolumler/[^"\'?#]+)'
+                      )
+
+                      found = re.findall(pattern, page_html, re.I)
+
+                      episode_links.extend(
+                          urljoin(KANALD_BASE, html.unescape(x))
+                          for x in found
+                      )
+
+                  episode_links = list(dict.fromkeys(episode_links))
+                  episode_links = episode_links[:80]
+
+                  print(
+                      "Kanal D bölüm sayfası:",
+                      title,
+                      len(episode_links)
+                  )
+
+                  for episode_url in episode_links:
+                      raw = fetch_text(episode_url, 20)
+
+                      if not raw:
+                          continue
+
+                      source = raw.replace('\\"', '"')
+
+                      match = re.search(
+                          r'"contentUrl"\s*:\s*"([^"]+)"',
+                          source
+                      )
+
+                      if not match:
+                          continue
+
+                      stream = (
+                          html.unescape(match.group(1))
+                          .replace("\\/", "/")
+                          .replace("\\u0026", "&")
+                      )
+
+                      parsed = urlparse(stream)
+
+                      if parsed.hostname != "kanaldvod.duhnet.tv":
+                          continue
+
+                      if not parsed.path.lower().endswith(
+                          (".m3u8", ".mp4")
+                      ):
+                          continue
+
+                      before = source[
+                          max(0, match.start() - 2500):match.start()
+                      ]
+
+                      names = re.findall(
+                          r'"name"\s*:\s*"([^"]+)"',
+                          before
+                      )
+
+                      episode_name = (
+                          html.unescape(names[-1])
+                          if names else ""
+                      )
+
+                      if not re.search(r"Bölüm", episode_name, re.I):
+                          og = re.search(
+                              r'<meta property="og:title" content="([^"]+)"',
+                              raw,
+                              re.I
+                          )
+
+                          if og:
+                              episode_name = html.unescape(og.group(1))
+
+                      if not re.search(r"Bölüm", episode_name, re.I):
+                          continue
+
+                      display = f"{title} - {episode_name}"
+
+                      logo_match = re.search(
+                          r'<meta property="og:image" content="([^"]+)"',
+                          raw,
+                          re.I
+                      )
+
+                      logo = (
+                          html.unescape(logo_match.group(1))
+                          if logo_match else ""
+                      )
+
+                      uid = hashlib.sha1(
+                          episode_url.encode("utf-8")
+                      ).hexdigest()[:12]
+
+                      safe_name = display.replace('"', "'")
+
+                      info = (
+                          '#EXTINF:-1 '
+                          f'tvg-id="kanald-{slug}-{uid}" '
+                          f'tvg-name="{safe_name}" '
+                          f'tvg-logo="{logo}" '
+                          'group-title="Türk Dizileri",'
+                          f'{safe_name}'
+                      )
+
+                      results.append((info, stream))
+
+              results = unique(results)
+              print("KANAL D DİZİLERİ TOPLAM:", len(results))
+              return results
+
           def allowed_url(url):
               return url.startswith(("http://", "https://"))
 
@@ -460,9 +629,6 @@ jobs:
                       allow_redirects=True
                   )
                   status = response.status_code
-                  content_type = response.headers.get(
-                      "Content-Type", ""
-                  ).lower()
                   first = next(response.iter_content(1024), b"")
                   response.close()
 
@@ -508,12 +674,12 @@ jobs:
                   response.close()
 
                   text = data.decode("utf-8", errors="ignore").lstrip()
+
                   if not text.startswith("#EXTM3U"):
                       return False, "Geçerli HLS manifesti değil"
 
                   lines = [x.strip() for x in text.splitlines() if x.strip()]
 
-                  # Master playlist: bir varyant manifestini de kontrol et.
                   for index, line in enumerate(lines):
                       if "#EXT-X-STREAM-INF" in line:
                           for child in lines[index + 1:]:
@@ -523,7 +689,6 @@ jobs:
                                   )
                           return False, "Master playlist varyantı yok"
 
-                  # Media playlist: ilk segmenti kontrol et.
                   segment = next(
                       (
                           line for line in lines
@@ -533,8 +698,7 @@ jobs:
                   )
 
                   if segment:
-                      segment_url = urljoin(url, segment)
-                      ok, reason = check_http(segment_url)
+                      ok, reason = check_http(urljoin(url, segment))
                       if ok:
                           return True, "HLS manifest ve segment erişilebilir"
                       return False, "Segment: " + reason
@@ -553,15 +717,12 @@ jobs:
               url = entry[1]
               path = urlparse(url).path.lower()
 
-              # Radyo akışları: MP3/AAC/OGG/Opus gibi formatlar.
               if is_radio(entry):
                   return check_http(url)
 
-              # Bu bot otomatik TV doğrulamasında HLS kullanır.
               if path.endswith(".m3u8") or ".m3u8" in path:
                   return check_hls(url)
 
-              # Diğer formatlar yalnızca erişim kontrolünden geçer.
               return check_http(url)
 
           def load_state():
@@ -597,7 +758,6 @@ jobs:
               old_state = load_state()
               manual = get_manual()
 
-              # İlk yedek bir kere oluşturulur, mevcut yedeğe dokunulmaz.
               if not BACKUP.exists():
                   write_m3u(BACKUP, manual)
 
@@ -606,15 +766,18 @@ jobs:
               manual_keys = {channel_key(x) for x in manual}
 
               previous = read_m3u(AUTO)
+
               print("Manuel kayıt:", len(manual))
               print("Önceki otomatik kayıt:", len(previous))
 
               fetched = []
+
               with ThreadPoolExecutor(max_workers=10) as pool:
                   for result in pool.map(fetch_m3u, SOURCES):
                       fetched.extend(result)
 
               official_items = list(OFFICIAL_SITES.items())
+
               with ThreadPoolExecutor(max_workers=8) as pool:
                   for result in pool.map(
                       lambda item: official_scan(item[0], item[1]),
@@ -622,21 +785,24 @@ jobs:
                   ):
                       fetched.extend(result)
 
-              # Elle eklenen kaynak dosyası:
-              # Kanal Adı|https://adres/yayin.m3u8
-              # Radyo adı|https://adres/radyo.mp3
+              # Kanal D resmi dizileri
+              fetched.extend(kanal_dizi_scan())
+
               extra = Path("ekstra_alternatifler.txt")
+
               if extra.exists():
                   for raw in extra.read_text(
                       encoding="utf-8", errors="ignore"
                   ).splitlines():
                       line = raw.strip()
+
                       if not line or line.startswith("#") or "|" not in line:
                           continue
 
                       name, url = [
                           x.strip() for x in line.split("|", 1)
                       ]
+
                       if not allowed_url(url):
                           continue
 
@@ -655,22 +821,24 @@ jobs:
                           url
                       ))
 
-              # Eski otomatik kayıtlar önce gelir; yeni kaynaklar eklenir.
               candidates = [
                   item for item in previous + fetched
                   if item[1] not in manual_urls
                   and is_turkish(item)
                   and allowed_url(item[1])
               ]
+
               candidates = unique(candidates)
 
               groups = {}
+
               for entry in candidates:
                   key = channel_key(entry)
                   if key:
                       groups.setdefault(key, []).append(entry)
 
               selected = []
+
               for key, entries in groups.items():
                   selected.extend(
                       unique(entries)[:MAX_TEST_PER_CHANNEL]
@@ -703,15 +871,11 @@ jobs:
                   else:
                       failures += 1
                       rejected_count += 1
-                      status = "failed"
 
-                      # 401/403 yetki hatalarında eski kaydı koruma.
                       auth_error = (
                           "401" in reason or "403" in reason
                       )
 
-                      # Diğer geçici hatalarda eski çalışan kaydı
-                      # sınırlı süre koru; ilk kez görülenleri ekleme.
                       if (
                           not auth_error
                           and url in old_state
@@ -720,6 +884,8 @@ jobs:
                           per_channel.setdefault(key, []).append(entry)
                           stale_count += 1
                           status = "temporary"
+                      else:
+                          status = "failed"
 
                       failed_log.append(
                           f"{base_name(entry)} | {reason} | {url}"
@@ -733,8 +899,8 @@ jobs:
                       "reason": reason
                   }
 
-              # Kanal başına en fazla 8 alternatif.
               auto_working = []
+
               for key, entries in per_channel.items():
                   auto_working.extend(
                       unique(entries)[:MAX_ALTERNATIVES]
@@ -748,11 +914,12 @@ jobs:
               for entry in auto_working:
                   key = channel_key(entry)
                   start_number = 1 if key in manual_keys else 0
+
                   display_counts[key] = (
                       display_counts.get(key, start_number) + 1
                   )
-                  number = display_counts[key]
 
+                  number = display_counts[key]
                   original = base_name(entry)
                   group = category(entry)
 
@@ -761,12 +928,16 @@ jobs:
                       else original + " Alternatif " + str(number)
                   )
 
-                  info = (
-                      '#EXTINF:-1 group-title="' + group +
-                      '" tvg-id="' + key +
-                      '" tvg-name="' + original +
-                      '",' + display
-                  )
+                  # Dizi kayıtlarının özgün adını ve kategorisini koru.
+                  if 'group-title="Türk Dizileri"' in entry[0]:
+                      info = entry[0]
+                  else:
+                      info = (
+                          '#EXTINF:-1 group-title="' + group +
+                          '" tvg-id="' + key +
+                          '" tvg-name="' + original +
+                          '",' + display
+                      )
 
                   final_auto.append((info, entry[1]))
 
@@ -786,6 +957,11 @@ jobs:
 
               elapsed = round(time.time() - start, 1)
 
+              series_count = sum(
+                  1 for info, url in final_auto
+                  if 'group-title="Türk Dizileri"' in info
+              )
+
               report = [
                   "TURGUT IPTV TURKEY ULTIMATE RAPORU",
                   "===================================",
@@ -793,23 +969,29 @@ jobs:
                   "Manuel kayıt: " + str(len(manual)),
                   "Otomatik kayıt: " + str(len(final_auto)),
                   "Toplam kayıt: " + str(len(final_entries)),
+                  "Türk dizileri: " + str(series_count),
                   "Başarılı kontrol: " + str(good_count),
                   "Geçici korunan kayıt: " + str(stale_count),
                   "Başarısız kontrol: " + str(rejected_count),
+                  "",
+                  "DİZİLER:",
+                  "- Uzak Şehir",
+                  "- Güller ve Günahlar",
+                  "- Daha 17",
+                  "- Haysiyet",
                   "",
                   "NOTLAR:",
                   "- 401/403 yayınları otomatik listede tutulmaz.",
                   "- Geçici bağlantı hatalarında eski kayıtlar sınırlı korunabilir.",
                   "- Radyo yayınları Türkiye Radyo kategorisine alınır.",
                   "- GitHub kontrolü Peru'dan erişim garantisi vermez.",
-                  "- Televizo alternatifleri ayrı kanal kaydı olarak gösterebilir.",
-                  "- Resmî sayfa taraması dinamik JavaScript yayınlarını bulamayabilir.",
-                  "- DRM, oturum veya erişim kısıtlamaları aşılmaz.",
+                  "- DRM ve erişim kısıtlamaları aşılmaz.",
                   "",
                   "HATA KAYITLARI:"
               ]
 
               report.extend(failed_log[:250])
+
               REPORT.write_text(
                   "\n".join(report) + "\n",
                   encoding="utf-8"
@@ -827,7 +1009,7 @@ jobs:
       - name: Commit playlists and report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Hourly Turkish IPTV and radio update"
+          commit_message: "Hourly Turkish IPTV and series update"
           file_pattern: |
             Turgut.m3u
             Turgut_auto.m3u
