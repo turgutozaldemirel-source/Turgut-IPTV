@@ -1,0 +1,203 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://r.resimlink.com/-rlQxcgY.png" group-title="Türk Dizileri",ATV AVRUPA
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LVFGLXHUW45A8PBECGUURD6K/6888/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/m2V1w7dp/TV8-Int-logosu-removebg-preview.png" group-title="Türk Dizileri",TV8 İNT
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/LVFGLXHUW45A8PBECGUURD6K/6897/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/GpDpZDjg/images-removebg-preview-(7).png" group-title="Türk Dizileri",SHOW TÜRK
+http://45.159.94.49:8080/play/live.php?mac=00:1A:79:08:47:02&stream=94092&extension=ts
+#EXTINF:-1 tvg-logo="https://alanyatelevizyonucomtr.teimg.com/alanyatelevizyonu-com-tr/uploads/2023/11/a-t-v-l-o-g-o-1.svg" group-title="Türk Dizileri",ATV ALANYA
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w116897790.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mDg57Tk7/37923086-ico.png" group-title="Türk Dizileri",ATV CİNEMA
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/ZEEDV4QP6HVZU3YXP49H3ECB/2120/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/di3XX5L.png" group-title="Türk Dizileri",AS STAR TV
+https://live.livestreamtv.ca/azstar/ngrp:azstar/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://r.resimlink.com/Yv3JO6.webp" group-title="Türk Dizileri",KANAL D RO
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/DEZWG4KWUAEXFK/6984/index.m3u8
+#EXTINF:-1 tvg-logo="https://r.resimlink.com/iRrdB63XZHhI.webp" group-title="Türk Dizileri",KANAL D2
+https://stream2.kanald.ro/iphone/knd2-live_low/index.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Türk Dizileri",ATV (Turkiye) (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="Türk Dizileri",Kanal D (Turkiye) (1080p)
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Türk Dizileri",Star TV (Turkiye) (720p)
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Türk Dizileri",Kanal D Drama (1080p)
+http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
+#EXTINF:-1 tvg-id="AnthonyBourdainPartsUnknown.us@UK" tvg-logo="https://i.imgur.com/dAO9llk.png" group-title="Türk Dizileri",Anthony Bourdain: Parts Unknown
+https://jmp2.uk/plu-69173ce8abd4703b27f71d44.m3u8
+#EXTINF:-1 tvg-id="ClassiqueTV.br@SD" tvg-logo="https://i.imgur.com/rHxcraT.png" group-title="Türk Dizileri",Classique TV (360p)
+https://stmv1.srvif.com/classique/classique/playlist.m3u8
+#EXTINF:-1 tvg-id="GroovyTV.gr@SD" tvg-logo="https://i.imgur.com/ZYNQuf1.png" group-title="Türk Dizileri",Groovy TV (360p)
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTrendingNow.us@SD" tvg-logo="https://images.pluto.tv/channels/673247127d5da5000817b4d6/colorLogoPNG_1732662634386.png" group-title="Türk Dizileri",Pluto TV Trending Now
+https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
+#EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" tvg-logo="https://i.imgur.com/OR9APjb.png" group-title="Türk Dizileri",TVS Drive In Movie (360p)
+https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
+#EXTINF:-1 tvg-id="SonarBangla.in@SD" tvg-logo="https://papaji.freetvindia.com/media/1518_FreeTV_Sonar_Bangla.png" group-title="Türk Dizileri",Sonar Bangla (360p)
+https://samitaorigin.tangotv.in/SONARBANGLA/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="SoneriCinema.in@SD" tvg-logo="https://papaji.freetvindia.com/media/1056_FreeTV_Soneri_Cinema.png" group-title="Türk Dizileri",Soneri Cinema (360p)
+https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="NOW.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Türk Dizileri",NOW (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-name="Kanal D Drama" tvg-country="TR" tvg-language="Albanian;Turkish;Spanish" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Türk Dizileri" x-tier="community" x-status="verified" x-quality="1080p",Kanal D Drama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+#EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-logo="" group-title="Türk Dizileri",30A TV Classic Movies (720p)
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+#EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@SD" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Türk Dizileri",Adrenalina Pura TV (720p)
+https://jmp2.uk/plu-61b793ccf571b80007b7a610.m3u8
+#EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@Brazil" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Türk Dizileri",Adrenalina Pura TV Brazil
+https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
+#EXTINF:-1 tvg-id="ClassicCinema.us@SD" tvg-logo="https://i.imgur.com/FJoPnTb.png" group-title="Türk Dizileri",Classic Cinema (240p) [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
+#EXTINF:-1 tvg-id="NostalgiaTV.ro@HD" tvg-logo="https://assets.antenaplay.ro/2026/03/10/fX5tvuPLymvvR8lQmwO7.png" group-title="Türk Dizileri",Nostalgia TV (1080p)
+https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8
+#EXTINF:-1 tvg-id="PlutoTVNetmovies.us@BR" tvg-logo="https://images.pluto.tv/channels/663b9de4f999220008230fa8/colorLogoPNG.png" group-title="Türk Dizileri",Pluto TV Netmovies
+https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Family Movies (1080p)
+https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Germany" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Family Movies Germany (1080p)
+https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Family Movies Italy (1080p)
+https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@UK" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Family Movies UK (1080p)
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
+#EXTINF:-1 tvg-id="ServusTV.at@SD" tvg-logo="https://i.imgur.com/6W637Gn.png" group-title="Türk Dizileri",ServusTV (576p)
+https://s6.hopslan.com/servuz1/index.m3u8
+#EXTINF:-1 tvg-id="ShubhCinemaTV.in@SD" tvg-logo="https://i.imgur.com/RQhorAG.png" group-title="Türk Dizileri",Shubh Cinema TV (720p)
+https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:-1 tvg-id="SuriyanTV.in@SD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Suriyan-tv-logo_2000_X_1125_Transpharent.png" group-title="Türk Dizileri",Suriyan TV (576p)
+https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8
+#EXTINF:-1 tvg-id="ThalaaTV.in@HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/thalaa-tv.png" group-title="Türk Dizileri",Thalaa TV (1080p)
+https://streams2.sofast.tv/ptnr-khabriya/title-THALAA-TV-TAM_Khabriya/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c9d5c8a0-8c52-47bc-954d-e64a11314de2/manifest.m3u8
+#EXTINF:-1 tvg-id="ViasatKinoWorld.ua@SD" tvg-logo="https://i.imgur.com/GPiE2Rb.png" http-referrer="http://live.tvstitch.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Türk Dizileri",Viasat Kino World
+http://777905.live.tvstitch.com/playlist.m3u8?master=102&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ==
+#EXTINF:-1 tvg-id="altustuistanbul" tvg-name="Altı Üstü İstanbul" group-title="Türk Dizileri",Altı Üstü İstanbul - ATV
+https://httxxkbiqd.erbvr.com/vms/3/20/2b/3202b526-eee1-419c-89cf-0d945d55f1e8/3202b526-eee1-419c-89cf-0d945d55f1e8_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="altustuistanbul" tvg-name="Altı Üstü İstanbul" group-title="Türk Dizileri",Altı Üstü İstanbul - ATV
+https://httxxkbiqd.erbvr.com/vms/a/da/97/ada9758d-c03d-4a32-ab61-4eddb2d2d30d/ada9758d-c03d-4a32-ab61-4eddb2d2d30d_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/188_rkxb/af5ad9ad-c2c0-4abe-8057-fe124ca5dd0d_1800.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/2023/08/de346cbd-8ac6-43f8-b3d8-a73fa2b8f7d8_0400.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/190_f8t6/de58c78a-09a8-4039-8edc-2f441a59cb01_1800.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/187_taiw/9ac13d25-3afd-416d-b34b-82997d5b6d64_1800.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://httxxkbiqd.erbvr.com/vms/2/67/b0/267b02fd-4c66-4ed3-9c3f-2c8889a868bc/267b02fd-4c66-4ed3-9c3f-2c8889a868bc_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/189_tllw/e538f5de-7bb2-4b64-b1d5-69328ce46d53_1800.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/2022/08/14ce0cb2-a8e8-471d-878f-48b0ee055077_0400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/3/L9/hastaligin_nuksetti_donus_uckizkardes_shorts/hastaligin_nuksetti_donus_uckizkardes_shorts.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/3/L9/hastaligin_nuksetti_donus_uckizkardes_shorts/hastaligin_nuksetti_donus_uckizkardes_shorts_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/8/Nk/turkan_derya_ya_tokat_atti_uckizkardes_shorts/turkan_derya_ya_tokat_atti_uckizkardes_shorts.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/8/Nk/turkan_derya_ya_tokat_atti_uckizkardes_shorts/turkan_derya_ya_tokat_atti_uckizkardes_shorts_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/L/rz/somer_ve_turkan_kurtulabilecek_mi_uckizkardes_shorts/somer_ve_turkan_kurtulabilecek_mi_uckizkardes_shorts.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/L/rz/somer_ve_turkan_kurtulabilecek_mi_uckizkardes_shorts/somer_ve_turkan_kurtulabilecek_mi_uckizkardes_shorts_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/U/3i/sadik_duyduklarina_inanamadi_uckizkardes_shorts/sadik_duyduklarina_inanamadi_uckizkardes_shorts.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/U/3i/sadik_duyduklarina_inanamadi_uckizkardes_shorts/sadik_duyduklarina_inanamadi_uckizkardes_shorts_2400.mp4
+#EXTINF:-1 tvg-id="ATVAlanya.tr@SD" tvg-logo="https://i.imgur.com/bUwarR0.png" group-title="Türk Dizileri",ATV Alanya (1080p)
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTalkies.in@SD" tvg-logo="https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png" group-title="Türk Dizileri",India Talkies (360p)
+https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="MoviesNow.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW/images/LOGO_HD/image.png" group-title="Türk Dizileri",Movies Now HD (576p)
+http://27.124.71.27/Movies_Now/index.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Drama Movies (1080p)
+https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Germany" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Drama Movies Germany (1080p)
+https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Italy" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Drama Movies Italy (1080p)
+https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@UK" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Türk Dizileri",Rakuten TV Drama Movies UK (1080p)
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+#EXTINF:-1 tvg-id="altustuistanbul" tvg-name="Altı Üstü İstanbul" group-title="Türk Dizileri",Altı Üstü İstanbul - ATV
+https://httxxkbiqd.erbvr.com/vms/b/7a/70/b7a70176-7fd1-453a-bd8f-9eae0a15c1a6/b7a70176-7fd1-453a-bd8f-9eae0a15c1a6_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="altustuistanbul" tvg-name="Altı Üstü İstanbul" group-title="Türk Dizileri",Altı Üstü İstanbul - ATV
+https://httxxkbiqd.erbvr.com/vms/5/66/e1/566e105b-79d9-4380-b7d8-15fc116b8036/566e105b-79d9-4380-b7d8-15fc116b8036_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://httxxkbiqd.erbvr.com/vms/4/aa/9d/4aa9d646-5c3b-4363-881b-0b4b84207f85/4aa9d646-5c3b-4363-881b-0b4b84207f85_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/2022/08/d6c1228d-d4f6-498c-b2da-b9f9844f3671_0400.mp4
+#EXTINF:-1 tvg-id="avrupayakas" tvg-name="Avrupa Yakası" group-title="Türk Dizileri",Avrupa Yakası - ATV
+https://atv-vod.ercdn.net/video/dizi/avrupa-yakasi/186_jwcx/0767da06-fd10-4c21-aaf8-a366625f1cff_1800.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/-/gd/ulviye_hanim_temizlikcilik_mi_yapiyor_1948_1/ulviye_hanim_temizlikcilik_mi_yapiyor_1948_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/-/gd/ulviye_hanim_temizlikcilik_mi_yapiyor_1948_1/ulviye_hanim_temizlikcilik_mi_yapiyor_1948_1_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/-P/primle_degil_sevildigimiz_icin_buradayiz_1/primle_degil_sevildigimiz_icin_buradayiz_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/-P/primle_degil_sevildigimiz_icin_buradayiz_1/primle_degil_sevildigimiz_icin_buradayiz_1_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/B/4g/yesim_ve_tugba_arasinda_elbise_krizi_1/yesim_ve_tugba_arasinda_elbise_krizi_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/B/4g/yesim_ve_tugba_arasinda_elbise_krizi_1/yesim_ve_tugba_arasinda_elbise_krizi_1_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/B/Lv/cemilenin_yurek_yakan_cocuk_hasreti_1/cemilenin_yurek_yakan_cocuk_hasreti_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/B/Lv/cemilenin_yurek_yakan_cocuk_hasreti_1/cemilenin_yurek_yakan_cocuk_hasreti_1_2400.mp4
+#EXTINF:-1 tvg-id="Kinowood.ua@SD" tvg-logo="https://i.imgur.com/PQcXNBI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Türk Dizileri",Kinowood (1080p)
+http://stream.mcquack.net/446/index.m3u8
+#EXTINF:-1 tvg-id="altustuistanbul" tvg-name="Altı Üstü İstanbul" group-title="Türk Dizileri",Altı Üstü İstanbul - ATV
+https://httxxkbiqd.erbvr.com/vms/e/47/60/e4760a98-9dcb-4f0a-a5bc-61f8a881182b/e4760a98-9dcb-4f0a-a5bc-61f8a881182b_1080p_3000k.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/B/sI/uzaksehir_bolum_71/uzaksehir_bolum_71.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/t/Wk/nare_atesi_kacirdi/nare_atesi_kacirdi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/s/fw/cihan_kacirildi/cihan_kacirildi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/i/gO/us_66_bolum/us_66_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/d/bx/us_67_bolum/us_67_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/d/nL/us_72blm/us_72blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="gullervegunahlar" tvg-name="Güller ve Günahlar" group-title="Türk Dizileri",Güller ve Günahlar - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/wU/gg_son_oyunu_zeynep_41/gg_son_oyunu_zeynep_41.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="gullervegunahlar" tvg-name="Güller ve Günahlar" group-title="Türk Dizileri",Güller ve Günahlar - Kanal D
+https://kanaldvod.duhnet.tv/hls/o/Jj/gg_35blmrev/gg_35blmrev.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="gullervegunahlar" tvg-name="Güller ve Günahlar" group-title="Türk Dizileri",Güller ve Günahlar - Kanal D
+https://kanaldvod.duhnet.tv/hls/p/Xb/gg_34_bolumm/gg_34_bolumm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="daha17" tvg-name="Daha 17" group-title="Türk Dizileri",Daha 17 - Kanal D
+https://kanaldvod.duhnet.tv/hls/q/7C/teoman_arasa_nefret_kustu_25/teoman_arasa_nefret_kustu_25.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="daha17" tvg-name="Daha 17" group-title="Türk Dizileri",Daha 17 - Kanal D
+https://kanaldvod.duhnet.tv/hls/I/z9/doy_bolum24/doy_bolum24.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="arkasokaklar" tvg-name="Arka Sokaklar" group-title="Türk Dizileri",Arka Sokaklar - Kanal D
+https://kanaldvod.duhnet.tv/hls/D/86/as_hayatta_kalma_ustasi_751/as_hayatta_kalma_ustasi_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="arkasokaklar" tvg-name="Arka Sokaklar" group-title="Türk Dizileri",Arka Sokaklar - Kanal D
+https://kanaldvod.duhnet.tv/hls/U/6J/as_selin_kacirilinca_mesut_751/as_selin_kacirilinca_mesut_751.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="arkasokaklar" tvg-name="Arka Sokaklar" group-title="Türk Dizileri",Arka Sokaklar - Kanal D
+https://kanaldvod.duhnet.tv/hls/J/Ut/as_750/as_750.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/2/to/yasar_ipegin_yildiz_tilbe_ve_besi_bir_yerde_anisi_1/yasar_ipegin_yildiz_tilbe_ve_besi_bir_yerde_anisi_1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/2/to/yasar_ipegin_yildiz_tilbe_ve_besi_bir_yerde_anisi_1/yasar_ipegin_yildiz_tilbe_ve_besi_bir_yerde_anisi_1_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/uN/kader_sizin_kardesiniz/kader_sizin_kardesiniz.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/uN/kader_sizin_kardesiniz/kader_sizin_kardesiniz_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/5/JB/ben_teoman_degilim_d24sh/ben_teoman_degilim_d24sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/5/JB/ben_teoman_degilim_d24sh/ben_teoman_degilim_d24sh_2400.mp4
+#EXTINF:-1 tvg-id="uzaksehir" tvg-name="Uzak Şehir" group-title="Türk Dizileri",Uzak Şehir - Kanal D
+https://kanaldvod.duhnet.tv/hls/5/fR/beyaz_ve_aileler_yarisiyor_bj33sh/beyaz_ve_aileler_yarisiyor_bj33sh.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="gullervegunahlar" tvg-name="Güller ve Günahlar" group-title="Türk Dizileri",Güller ve Günahlar - Kanal D
+https://kanaldvod.duhnet.tv/hls/A/-O/gvg_39blm/gvg_39blm.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="gullervegunahlar" tvg-name="Güller ve Günahlar" group-title="Türk Dizileri",Güller ve Günahlar - Kanal D
+https://kanaldvod.duhnet.tv/hls/5/ls/gg_serhat_berraka_aci_41/gg_serhat_berraka_aci_41.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="daha17" tvg-name="Daha 17" group-title="Türk Dizileri",Daha 17 - Kanal D
+https://kanaldvod.duhnet.tv/hls/0/lo/bana_niye_yalan_soylediniz_25/bana_niye_yalan_soylediniz_25.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="arkasokaklar" tvg-name="Arka Sokaklar" group-title="Türk Dizileri",Arka Sokaklar - Kanal D
+https://kanaldvod.duhnet.tv/hls/7/TV/as_751_bolum/as_751_bolum.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="arkasokaklar" tvg-name="Arka Sokaklar" group-title="Türk Dizileri",Arka Sokaklar - Kanal D
+https://kanaldvod.duhnet.tv/hls/4/vv/as_nazikenin_yersiz_751/as_nazikenin_yersiz_751.smil/playlist.m3u8

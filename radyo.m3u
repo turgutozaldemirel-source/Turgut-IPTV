@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://r.resimlink.com/Y6aWHoUwgQ.png" group-title="Türkiye Radyo",RADYO VİVA
+http://46.20.3.231:80/;
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rmKQSsHZ/images.png" group-title="Türkiye Radyo",BABA RADYO
+https://babaradyo.turkhosted.com/best/babaradyo.stream/playlist.m3u8
