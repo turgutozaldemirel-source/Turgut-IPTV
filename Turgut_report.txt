@@ -1,12 +1,12 @@
 TURGUT IPTV RAPORU
-2026-11-19 13:23:16 UTC
+2026-11-19 22:15:03 UTC
 
 Kaynaklardan alınan: 697
 Resmî canlı sayfalardan bulunan: 17
-Dizi bağlantısı adayı: 43
-Kontrolden geçen otomatik kayıt: 574
+Dizi bağlantısı adayı: 42
+Kontrolden geçen otomatik kayıt: 501
 Manuel kayıt: 445
-Toplam ana liste: 989
+Toplam ana liste: 916
 
 ATV hedefleri:
 - Avrupa Yakası
@@ -38,7 +38,7 @@ Kanal D hedefleri:
 
 DİZİ TARAMA RAPORU:
 ATV: katalogda bulunan hedef dizi: 2
-Altı Üstü İstanbul: 3 doğrudan medya bağlantısı
+Altı Üstü İstanbul: 2 doğrudan medya bağlantısı
 Avrupa Yakası: 8 doğrudan medya bağlantısı
 Katalogda bulunamayan hedefler: Çocuklar Duymasın
 Star TV: katalogda bulunan hedef dizi: 0
