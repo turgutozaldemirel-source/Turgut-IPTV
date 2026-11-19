@@ -1,0 +1,61 @@
+TURGUT IPTV RAPORU
+2026-11-19 04:12:44 UTC
+
+Kaynaklardan alınan: 697
+Resmî canlı sayfalardan bulunan: 17
+Dizi bağlantısı adayı: 44
+Kontrolden geçen otomatik kayıt: 534
+Manuel kayıt: 445
+Toplam ana liste: 949
+
+ATV hedefleri:
+- Avrupa Yakası
+- Çocuklar Duymasın
+- Altı Üstü İstanbul
+
+Star TV hedefleri:
+- Sevdiğim Sensin
+- Çirkin
+- Tuzlu Kahve
+- Başkalarının Hayatı
+- Yalı Çapkını
+- Ömer
+- Sefirin Kızı
+- Kiralık Aşk
+- Medcezir
+- Paramparça
+- İstanbullu Gelin
+- Ufak Tefek Cinayetler
+- Kardeş Çocukları
+- Gecenin Ucunda
+- Duy Beni
+
+Kanal D hedefleri:
+- Uzak Şehir
+- Güller ve Günahlar
+- Arka Sokaklar
+- Daha 17
+
+DİZİ TARAMA RAPORU:
+ATV: katalogda bulunan hedef dizi: 2
+Altı Üstü İstanbul: 4 doğrudan medya bağlantısı
+Avrupa Yakası: 8 doğrudan medya bağlantısı
+Katalogda bulunamayan hedefler: Çocuklar Duymasın
+Star TV: katalogda bulunan hedef dizi: 0
+Katalogda bulunamayan hedefler: Sevdiğim Sensin, Çirkin, Tuzlu Kahve, Başkalarının Hayatı, Yalı Çapkını, Ömer, Sefirin Kızı, Kiralık Aşk, Medcezir, Paramparça, İstanbullu Gelin, Ufak Tefek Cinayetler, Kardeş Çocukları, Gecenin Ucunda, Duy Beni
+Kanal D: katalogda bulunan hedef dizi: 4
+Uzak Şehir: 8 doğrudan medya bağlantısı
+Güller ve Günahlar: 8 doğrudan medya bağlantısı
+Daha 17: 8 doğrudan medya bağlantısı
+Arka Sokaklar: 8 doğrudan medya bağlantısı
+
+KAYNAK RAPORU:
+https://iptv-org.github.io/iptv/countries/tr.m3u: 178 kayıt
+https://iptv-org.github.io/iptv/languages/tur.m3u: 181 kayıt
+https://streams.uzunmuhalefet.com/lists/tr.m3u: 0 kayıt
+https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tr.m3u: 99 kayıt
+https://iptv-org.github.io/iptv/categories/sports.m3u: 539 kayıt
+https://iptv-org.github.io/iptv/categories/news.m3u: 1067 kayıt
+https://iptv-org.github.io/iptv/categories/music.m3u: 784 kayıt
+https://iptv-org.github.io/iptv/categories/movies.m3u: 782 kayıt
+https://iptv-org.github.io/iptv/categories/kids.m3u: 458 kayıt
