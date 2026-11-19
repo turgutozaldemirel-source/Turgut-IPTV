@@ -1847,6 +1847,23 @@ https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
 https://tv-trt3.live.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Türkiye Belgesel" tvg-id="trtdiyanetcocuk" tvg-name="TRT Diyanet Cocuk (720p)",TRT Diyanet Cocuk (720p) Alternatif 2
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzQ5OTQ4NTQ5NzRkZjA5MTY5ZWE1MA==
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS 8K FEED |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzIxMTM0NjIzOTg0M2RkZWRlOGZhYmM=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS FEED (OZEL FEED YAYIN) |D
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzE0NTM2OTIzMTQyMzc3MWI1OTUyODk=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER |E
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzExOTczMzYwMDAxMGUyNzU3N2E4YmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER |H
+#EXTVLCOPT:http-user-agent=salam
+http://telif-atma-deathless-siker-adami-free-yayin.mywire.org/redom/packet/1.m3u8?v=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzI4MDYwNzk2MTIxYmRlOWNiNTE5YmI=
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="Watched",BEIN SPORTS HABER HD |D
+#EXTVLCOPT:http-user-agent=salam
+
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="turkhabertv" tvg-name="TurkHaber TV (720p)",TurkHaber TV (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="turksattanitim" tvg-name="Turksat Tanitim (1080p) [Geo-blocked]",Turksat Tanitim (1080p) [Geo-blocked]
