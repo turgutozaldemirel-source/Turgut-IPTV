@@ -1,12 +1,12 @@
 TURGUT IPTV RAPORU
-2026-11-19 04:12:44 UTC
+2026-11-19 05:01:30 UTC
 
 Kaynaklardan alınan: 697
 Resmî canlı sayfalardan bulunan: 17
 Dizi bağlantısı adayı: 44
-Kontrolden geçen otomatik kayıt: 534
+Kontrolden geçen otomatik kayıt: 561
 Manuel kayıt: 445
-Toplam ana liste: 949
+Toplam ana liste: 976
 
 ATV hedefleri:
 - Avrupa Yakası
