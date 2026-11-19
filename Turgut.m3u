@@ -928,9 +928,9 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&amp;ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="kanald" tvg-name="Kanal D",Kanal D Alternatif 3
 https://kdlive.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 2
-https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=CLCTWQAoMWtV2EDww8pceA&e=1795072396
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=VWIEnHWi7b7PWjalbesyZg&e=1795073569
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="now" tvg-name="NOW",NOW Alternatif 3
-https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=CLCTWQAoMWtV2EDww8pceA&e=1795072396
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=VWIEnHWi7b7PWjalbesyZg&e=1795073569
 #EXTINF:-1 group-title="Türkiye Haber" tvg-id="haberturk" tvg-name="Habertürk",Habertürk Alternatif 2
 https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
 #EXTINF:-1 group-title="Türkiye Ulusal" tvg-id="360" tvg-name="360",360 Alternatif 2
