@@ -49,8 +49,10 @@ jobs:
 
           FAIL_LIMIT = 5
           MIN_FAIL_AGE_HOURS = 36
-          TIMEOUT = 15
-          WORKERS = 25
+          SOURCE_WORKERS = 12
+          STREAM_WORKERS = 40
+          SOURCE_TIMEOUT = (5, 10)
+          STREAM_TIMEOUT = (4, 7)
 
           OUTPUTS = {
               "Türkiye": "turkiye.m3u",
@@ -110,14 +112,10 @@ jobs:
           ]
 
           INTERNATIONAL_SPORT_NAMES = [
-              "espn", "espn 1", "espn 2", "espn 3", "espn 4",
-              "espn premium", "espn sur", "espn deportes",
-              "espn brasil", "espn argentina", "espn chile",
-              "espn colombia", "espn peru", "espn uruguay",
-              "espn mexico", "espn centroamerica",
-              "bein sports", "bein sports usa", "bein sports xtra",
-              "bein sports en espanol", "bein sports espanol",
-              "l1 max", "l1max", "liga 1 max", "liga max", "limax",
+              "espn", "bein sports", "bein sports usa",
+              "bein sports xtra", "bein sports en espanol",
+              "bein sports espanol", "l1 max", "l1max",
+              "liga 1 max", "liga max", "limax",
           ]
 
           PERU_NAMES = [
@@ -148,6 +146,7 @@ jobs:
 
               for raw in content.splitlines():
                   line = raw.strip()
+
                   if not line or line == "#EXTM3U":
                       continue
 
@@ -155,6 +154,7 @@ jobs:
                       if current:
                           records.append(current)
                       current = [line]
+
                   elif current:
                       current.append(line)
                       if line.startswith(("http://", "https://")):
@@ -165,6 +165,7 @@ jobs:
                   records.append(current)
 
               result = []
+
               for lines in records:
                   url = next(
                       (x for x in lines if x.startswith(("http://", "https://"))),
@@ -195,26 +196,25 @@ jobs:
               match = re.search(r'group-title="([^"]*)"', info, re.I)
               return match.group(1) if match else ""
 
-          def attributes(record):
-              return norm(record.get("info", ""))
-
           def is_turkish(record):
               if record.get("force_turkish"):
                   return True
 
               name = norm(channel_name(record))
               group = norm(group_name(record))
-              data = attributes(record)
+              data = norm(record.get("info", ""))
 
               known = any(norm(x) in name for x in TURKISH_NAMES)
+
               metadata = (
-                  'tvg-country="tr"' in data
-                  or 'tvg-language="turkish"' in data
+                  'tvg country tr' in data
+                  or 'tvg language turkish' in data
                   or "turkish" in group
                   or "turkiye" in group
                   or "turkey" in group
                   or "turkce" in group
               )
+
               return known or metadata
 
           def is_peru_channel(record):
@@ -245,9 +245,7 @@ jobs:
               if not is_turkish(record):
                   return None
 
-              if any(x in name or x in group for x in [
-                  "radyo", "radio", "fm"
-              ]):
+              if any(x in name or x in group for x in ["radyo", "radio", "fm"]):
                   return "Radyo"
 
               if any(x in name or x in group for x in [
@@ -282,27 +280,34 @@ jobs:
 
               return "Türkiye"
 
-          def fetch_source(url):
+          def fetch_source(item):
+              url, source_type = item
+
               try:
                   response = requests.get(
-                      url, headers=HEADERS, timeout=25
+                      url,
+                      headers=HEADERS,
+                      timeout=SOURCE_TIMEOUT
                   )
                   response.raise_for_status()
+                  content = response.text
 
-                  if "#EXTM3U" not in response.text[:5000]:
-                      return None
+                  if "#EXTM3U" not in content[:5000]:
+                      print("Geçersiz M3U kaynağı:", url)
+                      return item, None
 
-                  return response.text
+                  return item, content
+
               except Exception as exc:
-                  print("Kaynak erişilemedi:", url, str(exc)[:180])
-                  return None
+                  print("Kaynak erişilemedi:", url, str(exc)[:150])
+                  return item, None
 
           def check_stream(record):
               try:
                   response = requests.get(
                       record["url"],
                       headers={**HEADERS, "Range": "bytes=0-4095"},
-                      timeout=TIMEOUT,
+                      timeout=STREAM_TIMEOUT,
                       stream=True,
                       allow_redirects=True,
                   )
@@ -326,6 +331,7 @@ jobs:
 
                   chunk = next(response.iter_content(4096), b"")
                   response.close()
+
                   sample = chunk[:1000].lstrip().lower()
 
                   if b"<html" in sample or b"<!doctype html" in sample:
@@ -378,10 +384,25 @@ jobs:
               kept = []
               now = datetime.now(timezone.utc)
 
-              for record in records:
+              print("Yayın kontrolü:", kind, len(records))
+
+              def check_one(record):
+                  return record, check_stream(record)
+
+              results = []
+
+              with ThreadPoolExecutor(max_workers=STREAM_WORKERS) as pool:
+                  futures = [pool.submit(check_one, r) for r in records]
+
+                  for future in as_completed(futures):
+                      try:
+                          results.append(future.result())
+                      except Exception:
+                          continue
+
+              for record, result in results:
                   key = key_for(kind, record["url"])
                   entry = state.get(key, {})
-                  result = check_stream(record)
 
                   if result == "ok":
                       state[key] = {
@@ -451,23 +472,46 @@ jobs:
                       manual.append(record)
                       manual_urls.add(record["url"])
 
+              print("Kaynaklar paralel indiriliyor:", len(SOURCES))
+
               discovered = []
               successful_sources = 0
 
-              for url, source_type in SOURCES:
-                  content = fetch_source(url)
+              with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
+                  futures = [
+                      pool.submit(fetch_source, item)
+                      for item in SOURCES
+                  ]
 
-                  if content is None:
-                      continue
+                  for future in as_completed(futures):
+                      item, content = future.result()
 
-                  successful_sources += 1
-                  force = source_type == "turkish"
+                      if content is None:
+                          continue
 
-                  for record in parse_m3u(content, force_turkish=force):
-                      category = classify(record)
-                      if category:
-                          record["category"] = category
-                          discovered.append(record)
+                      successful_sources += 1
+                      source_type = item[1]
+                      force = source_type == "turkish"
+
+                      records = parse_m3u(
+                          content,
+                          force_turkish=force
+                      )
+
+                      for record in records:
+                          category = classify(record)
+
+                          if category:
+                              record["category"] = category
+                              discovered.append(record)
+
+                      print(
+                          "Başarılı kaynak:",
+                          successful_sources,
+                          "/",
+                          len(SOURCES),
+                          item[0]
+                      )
 
               if successful_sources == 0:
                   raise RuntimeError(
@@ -475,13 +519,19 @@ jobs:
                   )
 
               discovered = unique(discovered)
+
+              print("Keşfedilen kayıt:", len(discovered))
+              print("Yeni yayınlar kontrol ediliyor...")
+
               checked_new = []
 
-              with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+              with ThreadPoolExecutor(max_workers=STREAM_WORKERS) as pool:
                   futures = {
                       pool.submit(check_stream, record): record
                       for record in discovered
                   }
+
+                  completed = 0
 
                   for future in as_completed(futures):
                       record = futures[future]
@@ -494,10 +544,22 @@ jobs:
                       if result in ("ok", "unknown"):
                           checked_new.append(record)
 
+                      completed += 1
+
+                      if completed % 100 == 0:
+                          print(
+                              "Yeni yayın kontrolü:",
+                              completed,
+                              "/",
+                              len(discovered)
+                          )
+
+              print("Eski otomatik yayınlar kontrol ediliyor...")
               old_auto = validate_records(
                   old_auto, "auto", state, report
               )
 
+              print("Manuel yayınlar kontrol ediliyor...")
               manual = validate_records(
                   manual, "manual", state, report
               )
@@ -513,6 +575,8 @@ jobs:
               auto = unique(old_auto + checked_new)
               combined = unique(manual + auto)
 
+              print("Listeler yazılıyor...")
+
               write_playlist(MANUAL, manual)
               write_playlist(AUTO, auto)
               write_playlist(MAIN, combined)
@@ -523,33 +587,50 @@ jobs:
                       if classify(r) == category
                   ]
                   write_playlist(filename, selected)
+                  print("Liste oluşturuldu:", filename, len(selected))
 
               with open(STATE, "w", encoding="utf-8") as f:
-                  json.dump(state, f, ensure_ascii=False, indent=2)
+                  json.dump(
+                      state,
+                      f,
+                      ensure_ascii=False,
+                      indent=2
+                  )
 
               report.insert(
                   0,
-                  "Güncelleme: " + datetime.now(timezone.utc).isoformat()
+                  "Güncelleme: "
+                  + datetime.now(timezone.utc).isoformat()
               )
               report.insert(
                   1,
                   "Başarılı kaynak: "
-                  + str(successful_sources) + "/" + str(len(SOURCES))
+                  + str(successful_sources)
+                  + "/"
+                  + str(len(SOURCES))
               )
-              report.insert(2, "Yeni keşfedilen: " + str(len(checked_new)))
+              report.insert(
+                  2,
+                  "Yeni keşfedilen: "
+                  + str(len(checked_new))
+              )
               report.insert(3, "Otomatik yayın: " + str(len(auto)))
               report.insert(4, "Manuel yayın: " + str(len(manual)))
               report.insert(5, "Toplam yayın: " + str(len(combined)))
               report.insert(
                   6,
                   "Peru kanal sayısı: "
-                  + str(sum(1 for r in combined if classify(r) == "Peru"))
+                  + str(sum(
+                      1 for r in combined
+                      if classify(r) == "Peru"
+                  ))
               )
 
               with open(REPORT, "w", encoding="utf-8") as f:
                   f.write("\n".join(report) + "\n")
 
               print("\n".join(report))
+              print("IPTV GÜNCELLEME TAMAMLANDI")
 
           if __name__ == "__main__":
               main()
