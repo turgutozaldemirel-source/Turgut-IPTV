@@ -38,6 +38,7 @@ jobs:
           import json
           import hashlib
           import requests
+
           from datetime import datetime, timezone, timedelta
           from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -54,6 +55,10 @@ jobs:
           SOURCE_TIMEOUT = (5, 10)
           STREAM_TIMEOUT = (4, 7)
 
+          # ==================================
+          # NORMAL IPTV OUTPUTS
+          # ==================================
+
           OUTPUTS = {
               "Türkiye": "turkiye.m3u",
               "Türk Spor": "turk-spor.m3u",
@@ -66,6 +71,39 @@ jobs:
               "Radyo": "radyo.m3u",
               "Belgesel": "belgesel.m3u",
           }
+
+          # ==================================
+          # FILM SOURCES
+          # ==================================
+
+          FILM_SOURCES = [
+              (
+                  "https://raw.githubusercontent.com/patr0nq/flmS/refs/heads/main/filmmodu_tum.m3u",
+                  "FilmModu"
+              ),
+              (
+                  "https://raw.githubusercontent.com/patr0nq/flmS/refs/heads/main/jetfilm_tum.m3u",
+                  "JetFilm"
+              ),
+          ]
+
+          FILM_OUTPUTS = {
+              "4K": "film-4k.m3u",
+              "1080P": "film-1080p.m3u",
+              "720P": "film-720p.m3u",
+              "480P": "film-480p.m3u",
+          }
+
+          FILM_REPORT = "Film_report.txt"
+
+          FILM_HEADERS = {
+              "User-Agent": "Mozilla/5.0",
+              "Accept": "*/*",
+          }
+
+          # ==================================
+          # IPTV SOURCES
+          # ==================================
 
           SOURCES = [
               ("https://iptv-org.github.io/iptv/countries/tr.m3u", "turkish"),
@@ -123,20 +161,28 @@ jobs:
               "america tv", "america television",
           ]
 
+          # ==================================
+          # COMMON FUNCTIONS
+          # ==================================
+
           def norm(value):
               value = str(value or "").lower()
+
               table = str.maketrans({
                   "ı": "i", "ğ": "g", "ü": "u",
                   "ş": "s", "ö": "o", "ç": "c",
                   "á": "a", "é": "e",
               })
+
               value = value.translate(table)
               value = re.sub(r"[^a-z0-9]+", " ", value)
+
               return " ".join(value.split())
 
           def read_text(path):
               if not os.path.exists(path):
                   return ""
+
               with open(path, "r", encoding="utf-8", errors="replace") as f:
                   return f.read()
 
@@ -153,10 +199,12 @@ jobs:
                   if line.startswith("#EXTINF:"):
                       if current:
                           records.append(current)
+
                       current = [line]
 
                   elif current:
                       current.append(line)
+
                       if line.startswith(("http://", "https://")):
                           records.append(current)
                           current = []
@@ -168,14 +216,22 @@ jobs:
 
               for lines in records:
                   url = next(
-                      (x for x in lines if x.startswith(("http://", "https://"))),
+                      (
+                          x for x in lines
+                          if x.startswith(("http://", "https://"))
+                      ),
                       None
                   )
+
                   if not url:
                       continue
 
                   info = next(
-                      (x for x in lines if x.startswith("#EXTINF:")), ""
+                      (
+                          x for x in lines
+                          if x.startswith("#EXTINF:")
+                      ),
+                      ""
                   )
 
                   result.append({
@@ -189,170 +245,22 @@ jobs:
 
           def channel_name(record):
               info = record.get("info", "")
-              return info.rsplit(",", 1)[-1].strip() if "," in info else ""
+
+              return (
+                  info.rsplit(",", 1)[-1].strip()
+                  if "," in info else ""
+              )
 
           def group_name(record):
               info = record.get("info", "")
-              match = re.search(r'group-title="([^"]*)"', info, re.I)
-              return match.group(1) if match else ""
 
-          def is_turkish(record):
-              if record.get("force_turkish"):
-                  return True
-
-              name = norm(channel_name(record))
-              group = norm(group_name(record))
-              data = norm(record.get("info", ""))
-
-              known = any(norm(x) in name for x in TURKISH_NAMES)
-
-              metadata = (
-                  'tvg country tr' in data
-                  or 'tvg language turkish' in data
-                  or "turkish" in group
-                  or "turkiye" in group
-                  or "turkey" in group
-                  or "turkce" in group
+              match = re.search(
+                  r'group-title="([^"]*)"',
+                  info,
+                  re.I
               )
 
-              return known or metadata
-
-          def is_peru_channel(record):
-              name = norm(channel_name(record))
-              return any(norm(x) in name for x in PERU_NAMES)
-
-          def is_turk_sport(record):
-              name = norm(channel_name(record))
-              return any(norm(x) in name for x in TURK_SPORT_NAMES)
-
-          def is_world_sport(record):
-              name = norm(channel_name(record))
-              return any(norm(x) in name for x in INTERNATIONAL_SPORT_NAMES)
-
-          def classify(record):
-              name = norm(channel_name(record))
-              group = norm(group_name(record))
-
-              if is_peru_channel(record):
-                  return "Peru"
-
-              if is_world_sport(record):
-                  return "Dünya Spor"
-
-              if is_turk_sport(record):
-                  return "Türk Spor"
-
-              if not is_turkish(record):
-                  return None
-
-              if any(x in name or x in group for x in ["radyo", "radio", "fm"]):
-                  return "Radyo"
-
-              if any(x in name or x in group for x in [
-                  "haber", "news", "ntv", "cnn turk",
-                  "haberturk", "ekol tv", "sozcu tv", "tele1"
-              ]):
-                  return "Haber"
-
-              if any(x in name or x in group for x in [
-                  "muzik", "music", "kral pop", "power turk",
-                  "dream turk", "number one"
-              ]):
-                  return "Müzik"
-
-              if any(x in name or x in group for x in [
-                  "cocuk", "kids", "minika", "cartoon"
-              ]):
-                  return "Çocuk"
-
-              if any(x in name or x in group for x in [
-                  "belgesel", "documentary"
-              ]):
-                  return "Belgesel"
-
-              if any(x in group for x in [
-                  "movie", "movies", "film", "series", "dizi"
-              ]):
-                  return "Film-Dizi"
-
-              if "sports" in group or "spor" in group:
-                  return "Türk Spor"
-
-              return "Türkiye"
-
-          def fetch_source(item):
-              url, source_type = item
-
-              try:
-                  response = requests.get(
-                      url,
-                      headers=HEADERS,
-                      timeout=SOURCE_TIMEOUT
-                  )
-                  response.raise_for_status()
-                  content = response.text
-
-                  if "#EXTM3U" not in content[:5000]:
-                      print("Geçersiz M3U kaynağı:", url)
-                      return item, None
-
-                  return item, content
-
-              except Exception as exc:
-                  print("Kaynak erişilemedi:", url, str(exc)[:150])
-                  return item, None
-
-          def check_stream(record):
-              try:
-                  response = requests.get(
-                      record["url"],
-                      headers={**HEADERS, "Range": "bytes=0-4095"},
-                      timeout=STREAM_TIMEOUT,
-                      stream=True,
-                      allow_redirects=True,
-                  )
-
-                  status = response.status_code
-                  content_type = response.headers.get(
-                      "Content-Type", ""
-                  ).lower()
-
-                  if status in (404, 410):
-                      response.close()
-                      return "dead"
-
-                  if status in (403, 429) or status >= 500:
-                      response.close()
-                      return "unknown"
-
-                  if status not in (200, 206):
-                      response.close()
-                      return "unknown"
-
-                  chunk = next(response.iter_content(4096), b"")
-                  response.close()
-
-                  sample = chunk[:1000].lstrip().lower()
-
-                  if b"<html" in sample or b"<!doctype html" in sample:
-                      return "unknown"
-
-                  if record["url"].lower().split("?")[0].endswith(".m3u8"):
-                      if b"#extm3u" in sample or "mpegurl" in content_type:
-                          return "ok"
-                      return "unknown"
-
-                  if chunk or "video" in content_type or "audio" in content_type:
-                      return "ok"
-
-                  return "unknown"
-
-              except Exception:
-                  return "unknown"
-
-          def key_for(kind, url):
-              digest = hashlib.sha256(url.encode("utf-8")).hexdigest()
-              return kind + ":" + digest
+              return match.group(1) if match else ""
 
           def unique(records):
               result = []
@@ -380,91 +288,602 @@ jobs:
               except Exception:
                   return {}
 
+          # ==================================
+          # CHANNEL CLASSIFICATION
+          # ==================================
+
+          def is_turkish(record):
+              if record.get("force_turkish"):
+                  return True
+
+              name = norm(channel_name(record))
+              group = norm(group_name(record))
+              data = norm(record.get("info", ""))
+
+              known = any(
+                  norm(x) in name
+                  for x in TURKISH_NAMES
+              )
+
+              metadata = (
+                  "tvg country tr" in data
+                  or "tvg language turkish" in data
+                  or "turkish" in group
+                  or "turkiye" in group
+                  or "turkey" in group
+                  or "turkce" in group
+              )
+
+              return known or metadata
+
+          def is_peru_channel(record):
+              name = norm(channel_name(record))
+
+              return any(
+                  norm(x) in name
+                  for x in PERU_NAMES
+              )
+
+          def is_turk_sport(record):
+              name = norm(channel_name(record))
+
+              return any(
+                  norm(x) in name
+                  for x in TURK_SPORT_NAMES
+              )
+
+          def is_world_sport(record):
+              name = norm(channel_name(record))
+
+              return any(
+                  norm(x) in name
+                  for x in INTERNATIONAL_SPORT_NAMES
+              )
+
+          def classify(record):
+              name = norm(channel_name(record))
+              group = norm(group_name(record))
+
+              if is_peru_channel(record):
+                  return "Peru"
+
+              if is_world_sport(record):
+                  return "Dünya Spor"
+
+              if is_turk_sport(record):
+                  return "Türk Spor"
+
+              if not is_turkish(record):
+                  return None
+
+              if any(
+                  x in name or x in group
+                  for x in ["radyo", "radio", "fm"]
+              ):
+                  return "Radyo"
+
+              if any(
+                  x in name or x in group
+                  for x in [
+                      "haber", "news", "ntv", "cnn turk",
+                      "haberturk", "ekol tv", "sozcu tv", "tele1"
+                  ]
+              ):
+                  return "Haber"
+
+              if any(
+                  x in name or x in group
+                  for x in [
+                      "muzik", "music", "kral pop", "power turk",
+                      "dream turk", "number one"
+                  ]
+              ):
+                  return "Müzik"
+
+              if any(
+                  x in name or x in group
+                  for x in [
+                      "cocuk", "kids", "minika", "cartoon"
+                  ]
+              ):
+                  return "Çocuk"
+
+              if any(
+                  x in name or x in group
+                  for x in ["belgesel", "documentary"]
+              ):
+                  return "Belgesel"
+
+              if any(
+                  x in group
+                  for x in ["movie", "movies", "film", "series", "dizi"]
+              ):
+                  return "Film-Dizi"
+
+              if "sports" in group or "spor" in group:
+                  return "Türk Spor"
+
+              return "Türkiye"
+
+          # ==================================
+          # STREAM CHECKING
+          # ==================================
+
+          def check_stream(record):
+              try:
+                  response = requests.get(
+                      record["url"],
+                      headers={
+                          **HEADERS,
+                          "Range": "bytes=0-4095"
+                      },
+                      timeout=STREAM_TIMEOUT,
+                      stream=True,
+                      allow_redirects=True,
+                  )
+
+                  status = response.status_code
+
+                  content_type = response.headers.get(
+                      "Content-Type", ""
+                  ).lower()
+
+                  if status in (404, 410):
+                      response.close()
+                      return "dead"
+
+                  if status in (403, 429) or status >= 500:
+                      response.close()
+                      return "unknown"
+
+                  if status not in (200, 206):
+                      response.close()
+                      return "unknown"
+
+                  chunk = next(
+                      response.iter_content(4096),
+                      b""
+                  )
+
+                  response.close()
+
+                  sample = chunk[:1000].lstrip().lower()
+
+                  if (
+                      b"<html" in sample
+                      or b"<!doctype html" in sample
+                  ):
+                      return "unknown"
+
+                  if record["url"].lower().split("?")[0].endswith(".m3u8"):
+                      if (
+                          b"#extm3u" in sample
+                          or "mpegurl" in content_type
+                      ):
+                          return "ok"
+
+                      return "unknown"
+
+                  if chunk or "video" in content_type or "audio" in content_type:
+                      return "ok"
+
+                  return "unknown"
+
+              except Exception:
+                  return "unknown"
+
+          def key_for(kind, url):
+              digest = hashlib.sha256(
+                  url.encode("utf-8")
+              ).hexdigest()
+
+              return kind + ":" + digest
+
           def validate_records(records, kind, state, report):
               kept = []
               now = datetime.now(timezone.utc)
 
               print("Yayın kontrolü:", kind, len(records))
 
-              def check_one(record):
-                  return record, check_stream(record)
+              with ThreadPoolExecutor(
+                  max_workers=STREAM_WORKERS
+              ) as pool:
 
-              results = []
-
-              with ThreadPoolExecutor(max_workers=STREAM_WORKERS) as pool:
-                  futures = [pool.submit(check_one, r) for r in records]
+                  futures = {
+                      pool.submit(check_stream, record): record
+                      for record in records
+                  }
 
                   for future in as_completed(futures):
+                      record = futures[future]
+
                       try:
-                          results.append(future.result())
+                          result = future.result()
                       except Exception:
+                          result = "unknown"
+
+                      key = key_for(kind, record["url"])
+                      entry = state.get(key, {})
+
+                      if result == "ok":
+                          state[key] = {
+                              "failures": 0,
+                              "first_failure": None,
+                              "last_result": "ok",
+                          }
+
+                          kept.append(record)
                           continue
 
-              for record, result in results:
-                  key = key_for(kind, record["url"])
-                  entry = state.get(key, {})
+                      if result == "unknown":
+                          entry["last_result"] = "unknown"
+                          state[key] = entry
 
-                  if result == "ok":
-                      state[key] = {
-                          "failures": 0,
-                          "first_failure": None,
-                          "last_result": "ok",
-                      }
-                      kept.append(record)
-                      continue
+                          kept.append(record)
 
-                  if result == "unknown":
-                      entry["last_result"] = "unknown"
+                          report.append(
+                              "Belirsiz kontrol, yayın korundu: "
+                              + channel_name(record)
+                          )
+
+                          continue
+
+                      if not entry.get("first_failure"):
+                          entry["first_failure"] = now.isoformat()
+
+                      entry["failures"] = (
+                          int(entry.get("failures", 0)) + 1
+                      )
+
+                      entry["last_result"] = "dead"
                       state[key] = entry
-                      kept.append(record)
-                      report.append(
-                          "Belirsiz kontrol, yayın korundu: "
-                          + channel_name(record)
-                      )
-                      continue
 
-                  if not entry.get("first_failure"):
-                      entry["first_failure"] = now.isoformat()
+                      try:
+                          first = datetime.fromisoformat(
+                              entry["first_failure"]
+                          )
 
-                  entry["failures"] = int(entry.get("failures", 0)) + 1
-                  entry["last_result"] = "dead"
-                  state[key] = entry
+                          age = now - first
 
-                  try:
-                      first = datetime.fromisoformat(entry["first_failure"])
-                      age = now - first
-                  except Exception:
-                      age = timedelta(0)
+                      except Exception:
+                          age = timedelta(0)
 
-                  if (
-                      entry["failures"] >= FAIL_LIMIT
-                      and age >= timedelta(hours=MIN_FAIL_AGE_HOURS)
-                  ):
-                      report.append(
-                          "Bozuk yayın kaldırıldı: " + channel_name(record)
-                      )
-                  else:
-                      kept.append(record)
-                      report.append(
-                          "Yayın korundu: " + channel_name(record)
-                          + " | " + str(entry["failures"])
-                          + "/" + str(FAIL_LIMIT)
-                      )
+                      if (
+                          entry["failures"] >= FAIL_LIMIT
+                          and age >= timedelta(
+                              hours=MIN_FAIL_AGE_HOURS
+                          )
+                      ):
+                          report.append(
+                              "Bozuk yayın kaldırıldı: "
+                              + channel_name(record)
+                          )
+
+                      else:
+                          kept.append(record)
+
+                          report.append(
+                              "Yayın korundu: "
+                              + channel_name(record)
+                              + " | "
+                              + str(entry["failures"])
+                              + "/" + str(FAIL_LIMIT)
+                          )
 
               return kept
+
+          # ==================================
+          # FILM QUALITY CLASSIFICATION
+          # ==================================
+
+          def film_quality(record):
+              info = " ".join(record["lines"]).lower()
+
+              info += " " + channel_name(record).lower()
+              info += " " + group_name(record).lower()
+              info += " " + record["url"].lower()
+
+              # 4K / 2160P
+              if re.search(
+                  r'2160\s*p|2160p|4k|uhd',
+                  info,
+                  re.I
+              ):
+                  return "4K"
+
+              # 1080P
+              if re.search(
+                  r'1080\s*p|1080p|full[\s._-]?hd',
+                  info,
+                  re.I
+              ):
+                  return "1080P"
+
+              # 720P
+              if re.search(
+                  r'720\s*p|720p',
+                  info,
+                  re.I
+              ):
+                  return "720P"
+
+              # 480P
+              if re.search(
+                  r'480\s*p|480p',
+                  info,
+                  re.I
+              ):
+                  return "480P"
+
+              return None
+
+          def set_film_group(record, quality):
+              new_lines = []
+
+              group = "TURGUT FILM | " + quality
+
+              for line in record["lines"]:
+                  if line.startswith("#EXTINF:"):
+
+                      if re.search(
+                          r'group-title="[^"]*"',
+                          line,
+                          re.I
+                      ):
+                          line = re.sub(
+                              r'group-title="[^"]*"',
+                              'group-title="' + group + '"',
+                              line,
+                              count=1,
+                              flags=re.I
+                          )
+
+                      else:
+                          line = line.replace(
+                              "#EXTINF:",
+                              '#EXTINF: group-title="' + group + '" ',
+                              1
+                          )
+
+                  new_lines.append(line)
+
+              record["lines"] = new_lines
+
+              record["info"] = next(
+                  (
+                      x for x in new_lines
+                      if x.startswith("#EXTINF:")
+                  ),
+                  record.get("info", "")
+              )
+
+              return record
+
+          # ==================================
+          # FILM ARCHIVE UPDATER
+          # ==================================
+
+          def update_film_archive():
+              print("\nFILM ARŞİVİ GÜNCELLENİYOR")
+
+              films = {
+                  quality: []
+                  for quality in FILM_OUTPUTS
+              }
+
+              seen_urls = set()
+              source_results = []
+              successful = 0
+
+              for source_url, source_name in FILM_SOURCES:
+
+                  try:
+                      print("Film kaynağı indiriliyor:", source_name)
+
+                      response = requests.get(
+                          source_url,
+                          headers=FILM_HEADERS,
+                          timeout=(10, 60)
+                      )
+
+                      response.raise_for_status()
+
+                      content = response.text
+
+                      if "#EXTM3U" not in content[:5000]:
+                          print(
+                              "Geçersiz film listesi:",
+                              source_name
+                          )
+                          continue
+
+                      records = parse_m3u(content)
+
+                      successful += 1
+                      source_results.append(
+                          source_name + ": " + str(len(records))
+                      )
+
+                      print(
+                          source_name,
+                          "kayıt sayısı:",
+                          len(records)
+                      )
+
+                      for record in records:
+
+                          quality = film_quality(record)
+
+                          if quality is None:
+                              continue
+
+                          url = record["url"]
+
+                          if url in seen_urls:
+                              continue
+
+                          seen_urls.add(url)
+
+                          record = set_film_group(
+                              record,
+                              quality
+                          )
+
+                          films[quality].append(record)
+
+                  except Exception as exc:
+                      print(
+                          "Film kaynağı hatası:",
+                          source_name,
+                          str(exc)[:200]
+                      )
+
+              # Bir kaynak geçici olarak açılamazsa
+              # o kaynağın eski dosyalarını koru.
+              if successful == 0:
+                  print(
+                      "Hiçbir film kaynağı açılamadı. "
+                      "Eski film listeleri korunuyor."
+                  )
+
+                  return
+
+              # Eski dosyaları yedek olarak oku.
+              for quality, filename in FILM_OUTPUTS.items():
+
+                  old_records = parse_m3u(
+                      read_text(filename)
+                  )
+
+                  existing = {
+                      r["url"]
+                      for r in films[quality]
+                  }
+
+                  for record in old_records:
+
+                      if record["url"] in existing:
+                          continue
+
+                      # Başarısız kaynaklar nedeniyle
+                      # kaybolabilecek eski kayıtları koru.
+                      films[quality].append(record)
+                      existing.add(record["url"])
+
+              report = [
+                  "TURGUT FILM ARŞİVİ",
+                  "Güncelleme: "
+                  + datetime.now(timezone.utc).isoformat(),
+                  "Başarılı film kaynağı: "
+                  + str(successful)
+                  + "/" + str(len(FILM_SOURCES)),
+              ]
+
+              for quality, filename in FILM_OUTPUTS.items():
+
+                  films[quality] = unique(
+                      films[quality]
+                  )
+
+                  write_playlist(
+                      filename,
+                      films[quality]
+                  )
+
+                  count = len(films[quality])
+
+                  report.append(
+                      quality + ": "
+                      + str(count)
+                      + " film | "
+                      + filename
+                  )
+
+                  print(
+                      "Film listesi oluşturuldu:",
+                      filename,
+                      count
+                  )
+
+              report.extend(source_results)
+
+              with open(
+                  FILM_REPORT,
+                  "w",
+                  encoding="utf-8"
+              ) as f:
+                  f.write("\n".join(report) + "\n")
+
+              print("\n".join(report))
+              print("FILM ARŞİVİ TAMAMLANDI")
+
+          # ==================================
+          # SOURCE FETCHER
+          # ==================================
+
+          def fetch_source(item):
+              url, source_type = item
+
+              try:
+                  response = requests.get(
+                      url,
+                      headers=HEADERS,
+                      timeout=SOURCE_TIMEOUT
+                  )
+
+                  response.raise_for_status()
+
+                  content = response.text
+
+                  if "#EXTM3U" not in content[:5000]:
+                      print(
+                          "Geçersiz M3U kaynağı:",
+                          url
+                      )
+
+                      return item, None
+
+                  return item, content
+
+              except Exception as exc:
+                  print(
+                      "Kaynak erişilemedi:",
+                      url,
+                      str(exc)[:150]
+                  )
+
+                  return item, None
+
+          # ==================================
+          # MAIN IPTV UPDATER
+          # ==================================
 
           def main():
               report = []
               state = load_state()
 
-              old_auto = parse_m3u(read_text(AUTO))
-              manual = parse_m3u(read_text(MANUAL))
-              old_main = parse_m3u(read_text(MAIN))
+              old_auto = parse_m3u(
+                  read_text(AUTO)
+              )
 
-              manual_urls = {r["url"] for r in manual}
-              auto_urls = {r["url"] for r in old_auto}
+              manual = parse_m3u(
+                  read_text(MANUAL)
+              )
+
+              old_main = parse_m3u(
+                  read_text(MAIN)
+              )
+
+              manual_urls = {
+                  r["url"] for r in manual
+              }
+
+              auto_urls = {
+                  r["url"] for r in old_auto
+              }
 
               for record in old_main:
+
                   if (
                       record["url"] not in manual_urls
                       and record["url"] not in auto_urls
@@ -472,26 +891,37 @@ jobs:
                       manual.append(record)
                       manual_urls.add(record["url"])
 
-              print("Kaynaklar paralel indiriliyor:", len(SOURCES))
+              print(
+                  "Kaynaklar paralel indiriliyor:",
+                  len(SOURCES)
+              )
 
               discovered = []
               successful_sources = 0
 
-              with ThreadPoolExecutor(max_workers=SOURCE_WORKERS) as pool:
+              with ThreadPoolExecutor(
+                  max_workers=SOURCE_WORKERS
+              ) as pool:
+
                   futures = [
                       pool.submit(fetch_source, item)
                       for item in SOURCES
                   ]
 
                   for future in as_completed(futures):
+
                       item, content = future.result()
 
                       if content is None:
                           continue
 
                       successful_sources += 1
+
                       source_type = item[1]
-                      force = source_type == "turkish"
+
+                      force = (
+                          source_type == "turkish"
+                      )
 
                       records = parse_m3u(
                           content,
@@ -499,6 +929,7 @@ jobs:
                       )
 
                       for record in records:
+
                           category = classify(record)
 
                           if category:
@@ -515,17 +946,27 @@ jobs:
 
               if successful_sources == 0:
                   raise RuntimeError(
-                      "Hiçbir kaynak açılamadı. Mevcut listeler korundu."
+                      "Hiçbir IPTV kaynağı açılamadı. "
+                      "Mevcut listeler korundu."
                   )
 
               discovered = unique(discovered)
 
-              print("Keşfedilen kayıt:", len(discovered))
-              print("Yeni yayınlar kontrol ediliyor...")
+              print(
+                  "Keşfedilen kayıt:",
+                  len(discovered)
+              )
+
+              print(
+                  "Yeni yayınlar kontrol ediliyor..."
+              )
 
               checked_new = []
 
-              with ThreadPoolExecutor(max_workers=STREAM_WORKERS) as pool:
+              with ThreadPoolExecutor(
+                  max_workers=STREAM_WORKERS
+              ) as pool:
+
                   futures = {
                       pool.submit(check_stream, record): record
                       for record in discovered
@@ -534,6 +975,7 @@ jobs:
                   completed = 0
 
                   for future in as_completed(futures):
+
                       record = futures[future]
 
                       try:
@@ -554,42 +996,80 @@ jobs:
                               len(discovered)
                           )
 
-              print("Eski otomatik yayınlar kontrol ediliyor...")
-              old_auto = validate_records(
-                  old_auto, "auto", state, report
+              print(
+                  "Eski otomatik yayınlar kontrol ediliyor..."
               )
 
-              print("Manuel yayınlar kontrol ediliyor...")
+              old_auto = validate_records(
+                  old_auto,
+                  "auto",
+                  state,
+                  report
+              )
+
+              print(
+                  "Manuel yayınlar kontrol ediliyor..."
+              )
+
               manual = validate_records(
-                  manual, "manual", state, report
+                  manual,
+                  "manual",
+                  state,
+                  report
               )
 
               manual = unique(manual)
-              manual_urls = {r["url"] for r in manual}
+
+              manual_urls = {
+                  r["url"] for r in manual
+              }
 
               checked_new = [
                   r for r in checked_new
                   if r["url"] not in manual_urls
               ]
 
-              auto = unique(old_auto + checked_new)
-              combined = unique(manual + auto)
+              auto = unique(
+                  old_auto + checked_new
+              )
 
-              print("Listeler yazılıyor...")
+              combined = unique(
+                  manual + auto
+              )
+
+              print("IPTV listeleri yazılıyor...")
 
               write_playlist(MANUAL, manual)
               write_playlist(AUTO, auto)
               write_playlist(MAIN, combined)
 
               for category, filename in OUTPUTS.items():
+
                   selected = [
                       r for r in combined
                       if classify(r) == category
                   ]
-                  write_playlist(filename, selected)
-                  print("Liste oluşturuldu:", filename, len(selected))
 
-              with open(STATE, "w", encoding="utf-8") as f:
+                  write_playlist(
+                      filename,
+                      selected
+                  )
+
+                  print(
+                      "Liste oluşturuldu:",
+                      filename,
+                      len(selected)
+                  )
+
+              # Film arşivini ayrı olarak güncelle.
+              update_film_archive()
+
+              with open(
+                  STATE,
+                  "w",
+                  encoding="utf-8"
+              ) as f:
+
                   json.dump(
                       state,
                       f,
@@ -602,38 +1082,65 @@ jobs:
                   "Güncelleme: "
                   + datetime.now(timezone.utc).isoformat()
               )
+
               report.insert(
                   1,
                   "Başarılı kaynak: "
                   + str(successful_sources)
-                  + "/"
-                  + str(len(SOURCES))
+                  + "/" + str(len(SOURCES))
               )
+
               report.insert(
                   2,
                   "Yeni keşfedilen: "
                   + str(len(checked_new))
               )
-              report.insert(3, "Otomatik yayın: " + str(len(auto)))
-              report.insert(4, "Manuel yayın: " + str(len(manual)))
-              report.insert(5, "Toplam yayın: " + str(len(combined)))
+
+              report.insert(
+                  3,
+                  "Otomatik yayın: "
+                  + str(len(auto))
+              )
+
+              report.insert(
+                  4,
+                  "Manuel yayın: "
+                  + str(len(manual))
+              )
+
+              report.insert(
+                  5,
+                  "Toplam yayın: "
+                  + str(len(combined))
+              )
+
               report.insert(
                   6,
                   "Peru kanal sayısı: "
-                  + str(sum(
-                      1 for r in combined
-                      if classify(r) == "Peru"
-                  ))
+                  + str(
+                      sum(
+                          1 for r in combined
+                          if classify(r) == "Peru"
+                      )
+                  )
               )
 
-              with open(REPORT, "w", encoding="utf-8") as f:
-                  f.write("\n".join(report) + "\n")
+              with open(
+                  REPORT,
+                  "w",
+                  encoding="utf-8"
+              ) as f:
+
+                  f.write(
+                      "\n".join(report) + "\n"
+                  )
 
               print("\n".join(report))
               print("IPTV GÜNCELLEME TAMAMLANDI")
 
           if __name__ == "__main__":
               main()
+
           PY
 
           python updater.py
@@ -658,7 +1165,12 @@ jobs:
             muzik.m3u \
             cocuk.m3u \
             radyo.m3u \
-            belgesel.m3u
+            belgesel.m3u \
+            film-4k.m3u \
+            film-1080p.m3u \
+            film-720p.m3u \
+            film-480p.m3u \
+            Film_report.txt
 
-          git diff --cached --quiet || git commit -m "Update IPTV playlists"
+          git diff --cached --quiet || git commit -m "Update IPTV and film archives"
           git push
