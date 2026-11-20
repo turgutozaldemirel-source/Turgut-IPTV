@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://r.resimlink.com/Y6aWHoUwgQ.png" group-title="Türkiye Radyo",RADYO VİVA
-http://46.20.3.231:80/;
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/rmKQSsHZ/images.png" group-title="Türkiye Radyo",BABA RADYO
-https://babaradyo.turkhosted.com/best/babaradyo.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://r.resimlink.com/6Uea_.webp" group-title="RADYO",KRAL FM
+https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8?listeningSessionID=689a71b34a7d0fef_650218_ELAz7Pop__000000061yg&downloadSessionID=0&listenerid=3239e3f5e40f1819ee16c17a3a5f5b3e&awparams=companionAds%3Atrue
+#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="News",Fox News Radio (720p)
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
