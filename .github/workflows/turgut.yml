@@ -4,7 +4,7 @@ name: Turgut IPTV Turkey Ultimate
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */4 * * *"
 
 permissions:
   contents: write
@@ -19,20 +19,18 @@ jobs:
     timeout-minutes: 55
 
     steps:
-      - name: Depoyu indir
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Python kur
+      - name: Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Gereken paketleri yükle
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+      - name: Install
+        run: pip install requests
 
-      - name: IPTV listelerini güncelle
+      - name: Update IPTV
         run: |
           cat > updater.py <<'PY'
           import os
@@ -40,8 +38,8 @@ jobs:
           import json
           import hashlib
           import requests
+          from datetime import datetime, timezone, timedelta
           from concurrent.futures import ThreadPoolExecutor, as_completed
-          from urllib.parse import urlparse
 
           MAIN = "Turgut.m3u"
           AUTO = "Turgut_auto.m3u"
@@ -49,11 +47,16 @@ jobs:
           STATE = "stream_state.json"
           REPORT = "Turgut_report.txt"
 
+          FAIL_LIMIT = 5
+          MIN_FAIL_AGE_HOURS = 36
+          TIMEOUT = 15
+          WORKERS = 25
+
           OUTPUTS = {
               "Türkiye": "turkiye.m3u",
               "Türk Spor": "turk-spor.m3u",
-              "Latin Amerika Spor": "latin-amerika.m3u",
               "Dünya Spor": "world-sport.m3u",
+              "Peru": "peru.m3u",
               "Film-Dizi": "film-dizi.m3u",
               "Haber": "haber.m3u",
               "Müzik": "muzik.m3u",
@@ -63,506 +66,490 @@ jobs:
           }
 
           SOURCES = [
-              "https://iptv-org.github.io/iptv/countries/tr.m3u",
-              "https://iptv-org.github.io/iptv/languages/tur.m3u",
-              "https://iptv-org.github.io/iptv/categories/sports.m3u",
-              "https://iptv-org.github.io/iptv/categories/news.m3u",
-              "https://iptv-org.github.io/iptv/categories/music.m3u",
-              "https://iptv-org.github.io/iptv/categories/movies.m3u",
-              "https://iptv-org.github.io/iptv/categories/series.m3u",
-              "https://iptv-org.github.io/iptv/categories/kids.m3u",
-              "https://iptv-org.github.io/iptv/categories/radio.m3u",
-              "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+              ("https://iptv-org.github.io/iptv/countries/tr.m3u", "turkish"),
+              ("https://iptv-org.github.io/iptv/languages/tur.m3u", "turkish"),
+              ("https://iptv-org.github.io/iptv/countries/pe.m3u", "peru"),
+              ("https://iptv-org.github.io/iptv/categories/sports.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/radio.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/news.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/music.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/movies.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/series.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/kids.m3u", "general"),
+              ("https://iptv-org.github.io/iptv/categories/documentary.m3u", "general"),
+              ("https://raw.githubusercontent.com/nexonic/iptv/main/turkey.m3u", "turkish"),
           ]
-
-          EXTRA_SOURCES = [
-              "https://streams.uzunmuhalefet.com/",
-              "https://raw.githubusercontent.com/nexonic/iptv/main/turkey.m3u",
-          ]
-
-          FAIL_LIMIT = 4
-          TIMEOUT = 12
-          MAX_WORKERS = 30
 
           HEADERS = {
-              "User-Agent": "Mozilla/5.0 (compatible; TurgutIPTVUpdater/1.0)"
+              "User-Agent": "Mozilla/5.0 IPTV playlist updater",
+              "Accept": "*/*",
           }
 
-          TURKISH_CHANNELS = [
-              "trt", "atv", "a2", "show tv", "kanal d", "star tv",
-              "now", "fox", "tv8", "tv8.5", "kanal 7", "beyaz",
-              "360", "teve2", "a haber", "a spor", "ntv", "cnn türk",
-              "haber global", "habertürk", "tv100", "halk tv",
-              "sözcü", "bloomberg ht", "diyanet", "kral tv",
-              "powertürk", "kanal 24", "24 tv", "ulusal kanal",
-              "tele1", "flash haber", "ekol tv", "kanal 26",
-              "kanal 33", "kanal 34", "kanal 3", "kanal 7",
-              "tgrt", "tgrt haber", "sports tv", "fb tv",
-              "gs tv", "bursaspor tv", "beşiktaş",
-              "tabii", "trt spor", "trt çocuk", "trt belgesel",
-              "trt müzik", "trt haber", "trt 1", "trt 2",
-              "trt avaz", "trt türk", "trt world"
+          TURKISH_NAMES = [
+              "trt 1", "trt 2", "trt haber", "trt spor",
+              "trt spor yildiz", "trt cocuk", "trt belgesel",
+              "trt muzik", "trt turk", "atv", "a haber", "a spor",
+              "a para", "kanal d", "show tv", "star tv", "now tv",
+              "fox", "tv8", "tv8 5", "beyaz tv", "teve2",
+              "kanal 7", "ulke tv", "24 tv", "haber global",
+              "ntv", "haberturk", "cnn turk", "ekol tv",
+              "sozcu tv", "flash haber", "ht spor", "sports tv",
+              "tivibu spor", "power turk", "kral pop", "kral fm",
+              "power fm", "dream turk", "number one", "number1",
+              "minika go", "minika cocuk", "tvnet",
+              "ulusal kanal", "tele1", "kanal 32", "kanal 33",
+              "kanal 34", "icel tv", "kanal hayat", "a2 tv",
+              "360 tv", "fb tv", "gs tv", "bjk tv",
           ]
 
-          TURK_SPORT = [
-              "trt spor", "a spor", "sports tv", "fb tv",
-              "gs tv", "beşiktaş", "aspor", "tabii spor",
-              "s sport", "sportstv", "bloomberg ht"
+          TURK_SPORT_NAMES = [
+              "trt spor", "trt spor yildiz", "a spor", "ht spor",
+              "sports tv", "tivibu spor", "tabii spor",
+              "fb tv", "fenerbahce tv", "gs tv",
+              "galatasaray tv", "bjk tv", "besiktas tv",
           ]
 
-          WORLD_SPORT = [
-              "espn", "fox sports", "sport", "sports",
-              "eurosport", "sky sport", "tnt sports",
-              "dazn", "fifa", "nba", "tennis", "golf",
-              "motorsport", "racing", "fight", "boxing",
-              "ufc", "football", "soccer", "bein"
+          INTERNATIONAL_SPORT_NAMES = [
+              "espn", "espn 1", "espn 2", "espn 3", "espn 4",
+              "espn premium", "espn sur", "espn deportes",
+              "espn brasil", "espn argentina", "espn chile",
+              "espn colombia", "espn peru", "espn uruguay",
+              "espn mexico", "espn centroamerica",
+              "bein sports", "bein sports usa", "bein sports xtra",
+              "bein sports en espanol", "bein sports espanol",
+              "l1 max", "l1max", "liga 1 max", "liga max", "limax",
           ]
 
-          LATAM_COUNTRIES = [
-              "argentina", "brazil", "brasil", "chile",
-              "colombia", "peru", "uruguay", "ecuador",
-              "paraguay", "bolivia", "venezuela",
-              "mexico", "méxico", "latin", "latino"
+          PERU_NAMES = [
+              "latina tv", "latina television",
+              "america tv", "america television",
           ]
-
-          NEWS_WORDS = [
-              "haber", "news", "ntv", "cnn", "a haber",
-              "habertürk", "tv100", "halk tv", "sözcü",
-              "tele1", "flash", "ulusal", "tgrt haber"
-          ]
-
-          MUSIC_WORDS = [
-              "müzik", "music", "kral", "power", "dream türk",
-              "number one", "slow", "radio"
-          ]
-
-          KIDS_WORDS = [
-              "çocuk", "kids", "cartoon", "baby", "junior",
-              "minika", "trt çocuk", "nick", "disney"
-          ]
-
-          MOVIE_WORDS = [
-              "film", "movie", "cinema", "sinema", "dizi",
-              "series", "show", "kanal d", "atv", "star tv",
-              "teve2", "now", "tv8"
-          ]
-
-          RADIO_WORDS = ["radio", "radyo", "fm"]
-
-          DOC_WORDS = [
-              "belgesel", "documentary", "discovery",
-              "history", "nature", "animal", "science"
-          ]
-
-          ATV_SHOWS = [
-              "Avrupa Yakası",
-              "Çocuklar Duymasın",
-              "Altı Üstü İstanbul",
-          ]
-
-          STAR_SHOWS = [
-              "Sevdiğim Sensin", "Çirkin", "Tuzlu Kahve",
-              "Başkalarının Hayatı", "Yalı Çapkını", "Ömer",
-              "Sefirin Kızı", "Kiralık Aşk", "Medcezir",
-              "Paramparça", "İstanbullu Gelin",
-              "Ufak Tefek Cinayetler", "Kardeş Çocukları",
-              "Gecenin Ucunda", "Duy Beni",
-          ]
-
-          KANALD_SHOWS = [
-              "Uzak Şehir", "Güller ve Günahlar",
-              "Arka Sokaklar", "Daha 17",
-          ]
-
-          SESSION = requests.Session()
-          SESSION.headers.update(HEADERS)
 
           def norm(value):
               value = str(value or "").lower()
-              value = value.replace("ı", "i").replace("İ", "i")
-              value = value.replace("ş", "s").replace("ğ", "g")
-              value = value.replace("ü", "u").replace("ö", "o")
-              value = value.replace("ç", "c")
-              return re.sub(r"\s+", " ", value).strip()
+              table = str.maketrans({
+                  "ı": "i", "ğ": "g", "ü": "u",
+                  "ş": "s", "ö": "o", "ç": "c",
+                  "á": "a", "é": "e",
+              })
+              value = value.translate(table)
+              value = re.sub(r"[^a-z0-9]+", " ", value)
+              return " ".join(value.split())
 
-          def url_hash(url):
-              return hashlib.sha256(url.encode()).hexdigest()
+          def read_text(path):
+              if not os.path.exists(path):
+                  return ""
+              with open(path, "r", encoding="utf-8", errors="replace") as f:
+                  return f.read()
 
-          def read_state():
-              if os.path.exists(STATE):
-                  try:
-                      with open(STATE, "r", encoding="utf-8") as f:
-                          return json.load(f)
-                  except Exception:
-                      pass
-              return {}
+          def parse_m3u(content, force_turkish=False):
+              records = []
+              current = []
 
-          def parse_m3u(text):
-              entries = []
-              info = None
-
-              for line in text.splitlines():
-                  line = line.strip()
-                  if not line:
+              for raw in content.splitlines():
+                  line = raw.strip()
+                  if not line or line == "#EXTM3U":
                       continue
 
-                  if line.startswith("#EXTINF"):
-                      info = line
+                  if line.startswith("#EXTINF:"):
+                      if current:
+                          records.append(current)
+                      current = [line]
+                  elif current:
+                      current.append(line)
+                      if line.startswith(("http://", "https://")):
+                          records.append(current)
+                          current = []
 
-                  elif line.startswith("http://") or line.startswith("https://"):
-                      if info:
-                          entries.append((info, line))
-                          info = None
+              if current:
+                  records.append(current)
 
-              return entries
+              result = []
+              for lines in records:
+                  url = next(
+                      (x for x in lines if x.startswith(("http://", "https://"))),
+                      None
+                  )
+                  if not url:
+                      continue
 
-          def read_m3u(path):
-              if not os.path.exists(path):
-                  return []
-
-              try:
-                  with open(path, "r", encoding="utf-8", errors="ignore") as f:
-                      return parse_m3u(f.read())
-              except Exception:
-                  return []
-
-          def fetch_source(url):
-              try:
-                  response = SESSION.get(url, timeout=20)
-                  if response.status_code == 200:
-                      return parse_m3u(response.text)
-              except Exception as e:
-                  print("Kaynak alınamadı:", url, str(e))
-              return []
-
-          def fetch_all_sources():
-              entries = []
-
-              with ThreadPoolExecutor(max_workers=12) as pool:
-                  futures = [pool.submit(fetch_source, u) for u in SOURCES + EXTRA_SOURCES]
-
-                  for future in as_completed(futures):
-                      try:
-                          entries.extend(future.result())
-                      except Exception:
-                          pass
-
-              return entries
-
-          def channel_name(info):
-              match = re.search(r'tvg-name="([^"]+)"', info)
-              if match:
-                  return match.group(1).strip()
-
-              if "," in info:
-                  return info.split(",", 1)[1].strip()
-
-              return "Bilinmeyen Kanal"
-
-          def group_name(info):
-              match = re.search(r'group-title="([^"]*)"', info)
-              return match.group(1).strip() if match else ""
-
-          def set_group(info, group):
-              if 'group-title="' in info:
-                  return re.sub(
-                      r'group-title="[^"]*"',
-                      f'group-title="{group}"',
-                      info,
-                      count=1
+                  info = next(
+                      (x for x in lines if x.startswith("#EXTINF:")), ""
                   )
 
-              return info.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{group}"', 1)
-
-          def category(info, url=""):
-              name = norm(channel_name(info))
-              group = norm(group_name(info))
-              combined = name + " " + group + " " + norm(url)
-
-              if any(x in combined for x in RADIO_WORDS):
-                  return "Türkiye Radyo"
-
-              if any(x in combined for x in DOC_WORDS):
-                  return "Türkiye Belgesel"
-
-              if any(x in combined for x in KIDS_WORDS):
-                  return "Türkiye Çocuk"
-
-              if any(x in combined for x in MUSIC_WORDS):
-                  return "Türkiye Müzik"
-
-              if any(x in combined for x in NEWS_WORDS):
-                  return "Türkiye Haber"
-
-              if any(x in combined for x in TURK_SPORT):
-                  return "Türkiye Spor"
-
-              if any(x in combined for x in MOVIE_WORDS):
-                  return "Türk Dizileri"
-
-              return "Türkiye Ulusal"
-
-          def is_turkish(info, url=""):
-              name = norm(channel_name(info))
-              group = norm(group_name(info))
-              combined = name + " " + group
-
-              return any(norm(x) in combined for x in TURKISH_CHANNELS)
-
-          def is_latin_sport(info, url=""):
-              combined = norm(channel_name(info)) + " " + norm(group_name(info))
-              return (
-                  any(norm(x) in combined for x in LATAM_COUNTRIES)
-                  and any(norm(x) in combined for x in WORLD_SPORT)
-              )
-
-          def is_world_sport(info, url=""):
-              combined = norm(channel_name(info)) + " " + norm(group_name(info))
-              return any(norm(x) in combined for x in WORLD_SPORT)
-
-          def allowed_channel(info, url=""):
-              return is_turkish(info, url) or is_world_sport(info, url) or is_latin_sport(info, url)
-
-          def clean_url(url):
-              return url.strip().replace("&amp;", "&")
-
-          def check_stream(item):
-              info, url = item
-              url = clean_url(url)
-
-              if not url.startswith(("http://", "https://")):
-                  return item, False
-
-              try:
-                  response = SESSION.get(
-                      url,
-                      timeout=TIMEOUT,
-                      stream=True,
-                      allow_redirects=True
-                  )
-
-                  good = response.status_code == 200
-                  content_type = response.headers.get("Content-Type", "").lower()
-
-                  if good and (
-                      "text/html" in content_type
-                      and not any(x in url.lower() for x in [".m3u8", ".ts", ".mp4"])
-                  ):
-                      good = False
-
-                  response.close()
-                  return (info, url), good
-
-              except Exception:
-                  return (info, url), False
-
-          def check_entries(entries):
-              results = []
-
-              with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-                  futures = [pool.submit(check_stream, item) for item in entries]
-
-                  for future in as_completed(futures):
-                      try:
-                          results.append(future.result())
-                      except Exception:
-                          pass
-
-              return results
-
-          def write_m3u(path, entries):
-              with open(path, "w", encoding="utf-8") as f:
-                  f.write("#EXTM3U\n")
-                  for info, url in entries:
-                      f.write(info + "\n")
-                      f.write(url + "\n")
-
-          def classify_outputs(entries):
-              result = {key: [] for key in OUTPUTS}
-
-              for info, url in entries:
-                  name = norm(channel_name(info))
-                  group = norm(group_name(info))
-                  combined = name + " " + group
-
-                  if is_latin_sport(info, url):
-                      result["Latin Amerika Spor"].append((set_group(info, "Latin Amerika Spor"), url))
-
-                  elif is_world_sport(info, url):
-                      result["Dünya Spor"].append((set_group(info, "Dünya Spor"), url))
-
-                  elif any(norm(x) in combined for x in TURK_SPORT):
-                      result["Türk Spor"].append((set_group(info, "Türk Spor"), url))
-
-                  elif any(norm(x) in combined for x in NEWS_WORDS):
-                      result["Haber"].append((set_group(info, "Türkiye Haber"), url))
-
-                  elif any(norm(x) in combined for x in MUSIC_WORDS):
-                      result["Müzik"].append((set_group(info, "Türkiye Müzik"), url))
-
-                  elif any(norm(x) in combined for x in KIDS_WORDS):
-                      result["Çocuk"].append((set_group(info, "Türkiye Çocuk"), url))
-
-                  elif any(norm(x) in combined for x in RADIO_WORDS):
-                      result["Radyo"].append((set_group(info, "Türkiye Radyo"), url))
-
-                  elif any(norm(x) in combined for x in DOC_WORDS):
-                      result["Belgesel"].append((set_group(info, "Türkiye Belgesel"), url))
-
-                  elif any(norm(x) in combined for x in MOVIE_WORDS):
-                      result["Film-Dizi"].append((set_group(info, "Türk Dizileri"), url))
-
-                  elif is_turkish(info, url):
-                      result["Türkiye"].append((set_group(info, "Türkiye Ulusal"), url))
+                  result.append({
+                      "lines": lines,
+                      "url": url,
+                      "info": info,
+                      "force_turkish": force_turkish,
+                  })
 
               return result
 
-          def main():
-              print("Turgut IPTV güncelleme başladı.")
+          def channel_name(record):
+              info = record.get("info", "")
+              return info.rsplit(",", 1)[-1].strip() if "," in info else ""
 
-              state = read_state()
-              old_auto = read_m3u(AUTO)
-              manual = read_m3u(MANUAL)
-              old_main = read_m3u(MAIN)
+          def group_name(record):
+              info = record.get("info", "")
+              match = re.search(r'group-title="([^"]*)"', info, re.I)
+              return match.group(1) if match else ""
 
-              # Önceki ana listede olup manuel dosyaya henüz taşınmamış
-              # ve otomatik listede de bulunmayan girişleri koru.
-              auto_urls = {url for _, url in old_auto}
-              manual_urls = {url for _, url in manual}
+          def attributes(record):
+              return norm(record.get("info", ""))
 
-              for info, url in old_main:
-                  if url not in auto_urls and url not in manual_urls:
-                      manual.append((info, url))
-                      manual_urls.add(url)
+          def is_turkish(record):
+              if record.get("force_turkish"):
+                  return True
 
-              print("Kaynaklar taranıyor...")
-              discovered = fetch_all_sources()
+              name = norm(channel_name(record))
+              group = norm(group_name(record))
+              data = attributes(record)
 
-              discovered = [
-                  (info, clean_url(url))
-                  for info, url in discovered
-                  if allowed_channel(info, url)
-              ]
+              known = any(norm(x) in name for x in TURKISH_NAMES)
+              metadata = (
+                  'tvg-country="tr"' in data
+                  or 'tvg-language="turkish"' in data
+                  or "turkish" in group
+                  or "turkiye" in group
+                  or "turkey" in group
+                  or "turkce" in group
+              )
+              return known or metadata
 
-              # Aynı URL'yi tekilleştir.
-              unique = {}
-              for info, url in discovered:
-                  if url not in unique:
-                      unique[url] = (info, url)
+          def is_peru_channel(record):
+              name = norm(channel_name(record))
+              return any(norm(x) in name for x in PERU_NAMES)
 
-              discovered = list(unique.values())
+          def is_turk_sport(record):
+              name = norm(channel_name(record))
+              return any(norm(x) in name for x in TURK_SPORT_NAMES)
 
-              print("Bulunan otomatik yayın:", len(discovered))
+          def is_world_sport(record):
+              name = norm(channel_name(record))
+              return any(norm(x) in name for x in INTERNATIONAL_SPORT_NAMES)
 
-              checked = check_entries(discovered)
-              working = [item for item, good in checked if good]
+          def classify(record):
+              name = norm(channel_name(record))
+              group = norm(group_name(record))
 
-              current_urls = {url for _, url in working}
-              failed_urls = {url for (info, url), good in checked if not good}
+              if is_peru_channel(record):
+                  return "Peru"
 
-              # Eski otomatik yayınları dört başarısız kontrole kadar takip et.
-              old_by_url = {url: info for info, url in old_auto}
-              retained = []
+              if is_world_sport(record):
+                  return "Dünya Spor"
 
-              for info, url in old_auto:
-                  if url in current_urls:
-                      continue
+              if is_turk_sport(record):
+                  return "Türk Spor"
 
-                  key = url_hash(url)
-                  previous = state.get(key, {})
-                  failures = int(previous.get("failures", 0)) + 1
+              if not is_turkish(record):
+                  return None
 
-                  state[key] = {
-                      "failures": failures,
-                      "last_url": url
-                  }
+              if any(x in name or x in group for x in [
+                  "radyo", "radio", "fm"
+              ]):
+                  return "Radyo"
 
-                  if failures < FAIL_LIMIT:
-                      retained.append((info, url))
-                  else:
-                      print("Bozuk otomatik yayın kaldırıldı:", channel_name(info))
+              if any(x in name or x in group for x in [
+                  "haber", "news", "ntv", "cnn turk",
+                  "haberturk", "ekol tv", "sozcu tv", "tele1"
+              ]):
+                  return "Haber"
 
-              # Yeni bulunan çalışan yayınları ekle.
-              final_auto = []
+              if any(x in name or x in group for x in [
+                  "muzik", "music", "kral pop", "power turk",
+                  "dream turk", "number one"
+              ]):
+                  return "Müzik"
+
+              if any(x in name or x in group for x in [
+                  "cocuk", "kids", "minika", "cartoon"
+              ]):
+                  return "Çocuk"
+
+              if any(x in name or x in group for x in [
+                  "belgesel", "documentary"
+              ]):
+                  return "Belgesel"
+
+              if any(x in group for x in [
+                  "movie", "movies", "film", "series", "dizi"
+              ]):
+                  return "Film-Dizi"
+
+              if "sports" in group or "spor" in group:
+                  return "Türk Spor"
+
+              return "Türkiye"
+
+          def fetch_source(url):
+              try:
+                  response = requests.get(
+                      url, headers=HEADERS, timeout=25
+                  )
+                  response.raise_for_status()
+
+                  if "#EXTM3U" not in response.text[:5000]:
+                      return None
+
+                  return response.text
+              except Exception as exc:
+                  print("Kaynak erişilemedi:", url, str(exc)[:180])
+                  return None
+
+          def check_stream(record):
+              try:
+                  response = requests.get(
+                      record["url"],
+                      headers={**HEADERS, "Range": "bytes=0-4095"},
+                      timeout=TIMEOUT,
+                      stream=True,
+                      allow_redirects=True,
+                  )
+
+                  status = response.status_code
+                  content_type = response.headers.get(
+                      "Content-Type", ""
+                  ).lower()
+
+                  if status in (404, 410):
+                      response.close()
+                      return "dead"
+
+                  if status in (403, 429) or status >= 500:
+                      response.close()
+                      return "unknown"
+
+                  if status not in (200, 206):
+                      response.close()
+                      return "unknown"
+
+                  chunk = next(response.iter_content(4096), b"")
+                  response.close()
+                  sample = chunk[:1000].lstrip().lower()
+
+                  if b"<html" in sample or b"<!doctype html" in sample:
+                      return "unknown"
+
+                  if record["url"].lower().split("?")[0].endswith(".m3u8"):
+                      if b"#extm3u" in sample or "mpegurl" in content_type:
+                          return "ok"
+                      return "unknown"
+
+                  if chunk or "video" in content_type or "audio" in content_type:
+                      return "ok"
+
+                  return "unknown"
+
+              except Exception:
+                  return "unknown"
+
+          def key_for(kind, url):
+              digest = hashlib.sha256(url.encode("utf-8")).hexdigest()
+              return kind + ":" + digest
+
+          def unique(records):
+              result = []
               seen = set()
 
-              for item in working + retained:
-                  info, url = item
-                  if url not in seen:
-                      final_auto.append(item)
-                      seen.add(url)
+              for record in records:
+                  if record["url"] not in seen:
+                      seen.add(record["url"])
+                      result.append(record)
 
-                  key = url_hash(url)
-                  state[key] = {
-                      "failures": 0,
-                      "last_url": url
+              return result
+
+          def write_playlist(path, records):
+              output = ["#EXTM3U"]
+
+              for record in records:
+                  output.extend(record["lines"])
+
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write("\n".join(output) + "\n")
+
+          def load_state():
+              try:
+                  return json.loads(read_text(STATE) or "{}")
+              except Exception:
+                  return {}
+
+          def validate_records(records, kind, state, report):
+              kept = []
+              now = datetime.now(timezone.utc)
+
+              for record in records:
+                  key = key_for(kind, record["url"])
+                  entry = state.get(key, {})
+                  result = check_stream(record)
+
+                  if result == "ok":
+                      state[key] = {
+                          "failures": 0,
+                          "first_failure": None,
+                          "last_result": "ok",
+                      }
+                      kept.append(record)
+                      continue
+
+                  if result == "unknown":
+                      entry["last_result"] = "unknown"
+                      state[key] = entry
+                      kept.append(record)
+                      report.append(
+                          "Belirsiz kontrol, yayın korundu: "
+                          + channel_name(record)
+                      )
+                      continue
+
+                  if not entry.get("first_failure"):
+                      entry["first_failure"] = now.isoformat()
+
+                  entry["failures"] = int(entry.get("failures", 0)) + 1
+                  entry["last_result"] = "dead"
+                  state[key] = entry
+
+                  try:
+                      first = datetime.fromisoformat(entry["first_failure"])
+                      age = now - first
+                  except Exception:
+                      age = timedelta(0)
+
+                  if (
+                      entry["failures"] >= FAIL_LIMIT
+                      and age >= timedelta(hours=MIN_FAIL_AGE_HOURS)
+                  ):
+                      report.append(
+                          "Bozuk yayın kaldırıldı: " + channel_name(record)
+                      )
+                  else:
+                      kept.append(record)
+                      report.append(
+                          "Yayın korundu: " + channel_name(record)
+                          + " | " + str(entry["failures"])
+                          + "/" + str(FAIL_LIMIT)
+                      )
+
+              return kept
+
+          def main():
+              report = []
+              state = load_state()
+
+              old_auto = parse_m3u(read_text(AUTO))
+              manual = parse_m3u(read_text(MANUAL))
+              old_main = parse_m3u(read_text(MAIN))
+
+              manual_urls = {r["url"] for r in manual}
+              auto_urls = {r["url"] for r in old_auto}
+
+              for record in old_main:
+                  if (
+                      record["url"] not in manual_urls
+                      and record["url"] not in auto_urls
+                  ):
+                      manual.append(record)
+                      manual_urls.add(record["url"])
+
+              discovered = []
+              successful_sources = 0
+
+              for url, source_type in SOURCES:
+                  content = fetch_source(url)
+
+                  if content is None:
+                      continue
+
+                  successful_sources += 1
+                  force = source_type == "turkish"
+
+                  for record in parse_m3u(content, force_turkish=force):
+                      category = classify(record)
+                      if category:
+                          record["category"] = category
+                          discovered.append(record)
+
+              if successful_sources == 0:
+                  raise RuntimeError(
+                      "Hiçbir kaynak açılamadı. Mevcut listeler korundu."
+                  )
+
+              discovered = unique(discovered)
+              checked_new = []
+
+              with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+                  futures = {
+                      pool.submit(check_stream, record): record
+                      for record in discovered
                   }
 
-              # Manuel yayınları kontrol etmeden koru.
-              final_manual = []
-              manual_seen = set()
+                  for future in as_completed(futures):
+                      record = futures[future]
 
-              for info, url in manual:
-                  if url not in manual_seen:
-                      final_manual.append((info, url))
-                      manual_seen.add(url)
+                      try:
+                          result = future.result()
+                      except Exception:
+                          result = "unknown"
 
-              # Manuel ve otomatik listeler birleştirilir.
-              combined = []
-              combined_seen = set()
+                      if result in ("ok", "unknown"):
+                          checked_new.append(record)
 
-              for item in final_manual + final_auto:
-                  info, url = item
-                  if url not in combined_seen:
-                      combined.append(item)
-                      combined_seen.add(url)
+              old_auto = validate_records(
+                  old_auto, "auto", state, report
+              )
 
-              # Ana liste ve otomatik liste.
-              write_m3u(AUTO, final_auto)
-              write_m3u(MAIN, combined)
+              manual = validate_records(
+                  manual, "manual", state, report
+              )
 
-              # Kategori dosyaları yalnızca birleşik listeden oluşturulur.
-              categorized = classify_outputs(combined)
+              manual = unique(manual)
+              manual_urls = {r["url"] for r in manual}
 
-              for category_name, filename in OUTPUTS.items():
-                  write_m3u(filename, categorized[category_name])
+              checked_new = [
+                  r for r in checked_new
+                  if r["url"] not in manual_urls
+              ]
 
-              # Durum dosyasını mevcut ve son dönemde takip edilen yayınlarla sınırla.
-              keep_hashes = {
-                  url_hash(url)
-                  for _, url in final_auto
-              }
+              auto = unique(old_auto + checked_new)
+              combined = unique(manual + auto)
 
-              state = {
-                  key: value
-                  for key, value in state.items()
-                  if key in keep_hashes
-              }
+              write_playlist(MANUAL, manual)
+              write_playlist(AUTO, auto)
+              write_playlist(MAIN, combined)
+
+              for category, filename in OUTPUTS.items():
+                  selected = [
+                      r for r in combined
+                      if classify(r) == category
+                  ]
+                  write_playlist(filename, selected)
 
               with open(STATE, "w", encoding="utf-8") as f:
                   json.dump(state, f, ensure_ascii=False, indent=2)
 
-              report = [
-                  "TURGUT IPTV GUNCELLEME RAPORU",
-                  "-----------------------------",
-                  f"Bulunan kaynak yayını: {len(discovered)}",
-                  f"Çalışan otomatik yayın: {len(final_auto)}",
-                  f"Manuel yayın: {len(final_manual)}",
-                  f"Toplam ana liste: {len(combined)}",
-                  "",
-                  "KATEGORİLER:"
-              ]
-
-              for category_name, filename in OUTPUTS.items():
-                  report.append(
-                      f"{category_name}: {len(categorized[category_name])} ({filename})"
-                  )
+              report.insert(
+                  0,
+                  "Güncelleme: " + datetime.now(timezone.utc).isoformat()
+              )
+              report.insert(
+                  1,
+                  "Başarılı kaynak: "
+                  + str(successful_sources) + "/" + str(len(SOURCES))
+              )
+              report.insert(2, "Yeni keşfedilen: " + str(len(checked_new)))
+              report.insert(3, "Otomatik yayın: " + str(len(auto)))
+              report.insert(4, "Manuel yayın: " + str(len(manual)))
+              report.insert(5, "Toplam yayın: " + str(len(combined)))
+              report.insert(
+                  6,
+                  "Peru kanal sayısı: "
+                  + str(sum(1 for r in combined if classify(r) == "Peru"))
+              )
 
               with open(REPORT, "w", encoding="utf-8") as f:
                   f.write("\n".join(report) + "\n")
 
               print("\n".join(report))
-              print("Güncelleme tamamlandı.")
 
           if __name__ == "__main__":
               main()
@@ -570,20 +557,27 @@ jobs:
 
           python updater.py
 
-      - name: Değişiklikleri kaydet
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Turgut.m3u Turgut_auto.m3u manual.m3u stream_state.json Turgut_report.txt
-          git add turkiye.m3u turk-spor.m3u latin-amerika.m3u world-sport.m3u
-          git add film-dizi.m3u haber.m3u muzik.m3u cocuk.m3u radyo.m3u belgesel.m3u
+          git add -- \
+            Turgut.m3u \
+            Turgut_auto.m3u \
+            manual.m3u \
+            stream_state.json \
+            Turgut_report.txt \
+            turkiye.m3u \
+            turk-spor.m3u \
+            world-sport.m3u \
+            peru.m3u \
+            film-dizi.m3u \
+            haber.m3u \
+            muzik.m3u \
+            cocuk.m3u \
+            radyo.m3u \
+            belgesel.m3u
 
-          git add -u yedek-445.m3u
-
-          if ! git diff --cached --quiet; then
-            git commit -m "IPTV listeleri otomatik güncellendi"
-            git push
-          else
-            echo "Değişiklik yok."
-          fi
+          git diff --cached --quiet || git commit -m "Update IPTV playlists"
+          git push
