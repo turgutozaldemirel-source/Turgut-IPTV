@@ -1,0 +1,125 @@
+
+name: Turgut Film Dizi Birleştirici
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5,35 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: turgut-film-dizi
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu indir
+        uses: actions/checkout@v4
+
+      - name: Film ve dizileri ana listeye ekle
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          main = Path("Turgut.m3u")
+          source = Path("Film-dizi.m3u")
+
+          if not main.exists():
+              raise SystemExit("Turgut.m3u bulunamadı!")
+
+          if not source.exists():
+              raise SystemExit("Film-dizi.m3u bulunamadı!")
+
+          def parse(path):
+              lines = path.read_text(
+                  encoding="utf-8-sig"
+              ).splitlines()
+
+              entries = []
+              current = []
+
+              for raw in lines:
+                  line = raw.strip()
+
+                  if not line or line == "#EXTM3U":
+                      continue
+
+                  if line.startswith("#EXTINF:"):
+                      if current:
+                          entries.append(current)
+                      current = [line]
+
+                  elif current:
+                      current.append(line)
+
+              if current:
+                  entries.append(current)
+
+              return entries
+
+          main_entries = parse(main)
+          film_entries = parse(source)
+
+          existing_urls = set()
+
+          for entry in main_entries:
+              for line in entry:
+                  if line.startswith(("http://", "https://")):
+                      existing_urls.add(line)
+
+          added = 0
+          skipped = 0
+
+          for entry in film_entries:
+              urls = [
+                  line for line in entry
+                  if line.startswith(("http://", "https://"))
+              ]
+
+              if not urls:
+                  skipped += 1
+                  continue
+
+              if any(url in existing_urls for url in urls):
+                  skipped += 1
+                  continue
+
+              main_entries.append(entry)
+              existing_urls.update(urls)
+              added += 1
+
+          output = ["#EXTM3U"]
+
+          for entry in main_entries:
+              output.extend(entry)
+
+          main.write_text(
+              "\n".join(output) + "\n",
+              encoding="utf-8"
+          )
+
+          print("Film ve dizi birleştirme tamamlandı.")
+          print(f"Eklenen: {added}")
+          print(f"Atlanan: {skipped}")
+          print(f"Toplam kayıt: {len(main_entries)}")
+          PY
+
+      - name: Değişiklikleri kaydet
+        run: |
+          git config user.name "Turgut IPTV Bot"
+          git config user.email "actions@github.com"
+
+          git add Turgut.m3u
+
+          if git diff --cached --quiet; then
+            echo "Yeni film veya dizi yok."
+          else
+            git commit -m "Update Turgut films and series"
+            git push
+          fi
