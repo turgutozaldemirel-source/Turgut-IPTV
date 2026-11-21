@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.trtbelgesel.com.tr/images/logo.svg" group-title="BELGESEL KANALLARI",TRT BELGESEL
-http://tinyurl.com/25pbjupo
 #EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-country="TR" tvg-language="Turkish" group-title="Documentary",GZT
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png" group-title="Documentary",TRT Belgesel (720p)
