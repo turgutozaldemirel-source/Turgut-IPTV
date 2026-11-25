@@ -3,3 +3,5 @@
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-country="TR" tvg-language="Turkish" group-title="Documentary",GZT
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (Turkiye) (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
