@@ -1,8 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/MH7P49cX/unnamed-removebg-preview-(2).png" group-title="MÜZİK KANALLARI",DREAM TÜRK
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8?
 #EXTINF:-1 tvg-logo="https://i.hizliresim.com/vogcoq4i.png" group-title="MÜZİK KANALLARI",KRAL POP TV
 http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MH7P49cX/unnamed-removebg-preview-(2).png" group-title="MÜZİK KANALLARI",DREAM TÜRK
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8?
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/02k5PZZg/37859466-ico.png" group-title="MÜZİK KANALLARI",POWER TÜRK TAPTAZE
 https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/g2wW27Zt/37859485-ico.png" group-title="MÜZİK KANALLARI",POWER TÜRK AKUSTİK

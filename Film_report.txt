@@ -1,5 +1,5 @@
 TURGUT FILM ARŞİVİ
-Güncelleme: 2026-11-27T13:53:07.978898+00:00
+Güncelleme: 2026-11-28T00:03:43.894366+00:00
 Başarılı film kaynağı: 2/2
 4K: 746 film | film-4k.m3u
 1080P: 2759 film | film-1080p.m3u
