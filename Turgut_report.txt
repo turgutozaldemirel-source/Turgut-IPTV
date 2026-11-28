@@ -1,57 +1,57 @@
-Güncelleme: 2026-11-28T00:03:43.931261+00:00
+Güncelleme: 2026-11-28T07:50:25.565435+00:00
 Başarılı kaynak: 10/12
-Yeni keşfedilen: 255
+Yeni keşfedilen: 256
 Otomatik yayın: 923
 Manuel yayın: 984
 Toplam yayın: 1873
 Peru kanal sayısı: 2
 Belirsiz kontrol, yayın korundu: CCTV-16 HD (1080p)
-Belirsiz kontrol, yayın korundu: Sports Television (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: TRT Belgesel (720p)
-Belirsiz kontrol, yayın korundu: ESPN 3 (Netherlands)
+Yayın korundu: Galactica TV | 1/5
 Belirsiz kontrol, yayın korundu: ESPN (Netherlands) (360p)
+Belirsiz kontrol, yayın korundu: ESPN 3 (Netherlands)
+Belirsiz kontrol, yayın korundu: Sports Television (720p) [Not 24/7]
+Belirsiz kontrol, yayın korundu: Kanal 7 (720p)
 Belirsiz kontrol, yayın korundu: viju TV1000 action (576p)
+Belirsiz kontrol, yayın korundu: ESPN 2 (Netherlands) (360p)
+Belirsiz kontrol, yayın korundu: ESPN 4 (Netherlands)
 Belirsiz kontrol, yayın korundu: viju TV1000 russkoe (576p)
 Belirsiz kontrol, yayın korundu: viju TV1000 novella HD (1080p)
-Belirsiz kontrol, yayın korundu: ESPN 2 Latin America Colombia (1080p)
 Belirsiz kontrol, yayın korundu: viju TV1000 (576p)
-Belirsiz kontrol, yayın korundu: Kanal 7 (720p)
-Belirsiz kontrol, yayın korundu: ESPN 4 (Netherlands)
-Belirsiz kontrol, yayın korundu: ESPN 2 (Netherlands) (360p)
-Belirsiz kontrol, yayın korundu: beIN Sports 1
 Belirsiz kontrol, yayın korundu: Awapa Sports TV (1080p) [Not 24/7]
+Yayın korundu: Finans Turk TV | 1/5
 Belirsiz kontrol, yayın korundu: Eurosport 2 Turkiye
+Belirsiz kontrol, yayın korundu: beIN Sports 1
+Belirsiz kontrol, yayın korundu: ESPN 2 Latin America Colombia (1080p)
 Belirsiz kontrol, yayın korundu: Russian Extreme Ultra (1440p)
 Belirsiz kontrol, yayın korundu: Tigo Sports (Bolivia) (720p) [Geo-blocked]
-Belirsiz kontrol, yayın korundu: viju+ Sport HD (1080p)
-Belirsiz kontrol, yayın korundu: Shanson TV SD (576p)
 Belirsiz kontrol, yayın korundu: Eurosport 1 Turkiye
-Belirsiz kontrol, yayın korundu: viju TV1000 romantica HD (1080p)
 Belirsiz kontrol, yayın korundu: Kanal Hayat (1080p)
 Belirsiz kontrol, yayın korundu: S Sport 2
-Yayın korundu: ACN TV (1080p) | 1/5
+Belirsiz kontrol, yayın korundu: Shanson TV SD (576p)
+Belirsiz kontrol, yayın korundu: viju+ Sport HD (1080p)
+Belirsiz kontrol, yayın korundu: viju TV1000 romantica HD (1080p)
+Yayın korundu: ACN TV (1080p) | 2/5
 Belirsiz kontrol, yayın korundu: Kanal 34 (720p) [Not 24/7]
-Yayın korundu: DeltaTV | 3/5
+Belirsiz kontrol, yayın korundu: Chinola TV (480p)
+Yayın korundu: DeltaTV | 4/5
 Belirsiz kontrol, yayın korundu: Famatv (1080p) [Not 24/7]
-Yayın korundu: KandelaTV (480p) | 1/5
-Belirsiz kontrol, yayın korundu: M-Net Sport (720p)
 Belirsiz kontrol, yayın korundu: Qaf TV (1080p)
 Belirsiz kontrol, yayın korundu: ATV Avrupa (576p)
-Belirsiz kontrol, yayın korundu: Prima Sport 2 HD
+Belirsiz kontrol, yayın korundu: M-Net Sport (720p)
 Belirsiz kontrol, yayın korundu: Prima Sport 4 HD
+Belirsiz kontrol, yayın korundu: Prima Sport 2 HD
 Belirsiz kontrol, yayın korundu: Prima Sport 3 HD
-Yayın korundu: NAN TV (720p) | 4/5
 Belirsiz kontrol, yayın korundu: Alfa Sport (1080p) [Not 24/7]
+Bozuk yayın kaldırıldı: NAN TV (720p)
 Belirsiz kontrol, yayın korundu: Arena Sport 1 Premium
 Belirsiz kontrol, yayın korundu: Arena Sport Premium M3
 Belirsiz kontrol, yayın korundu: Arena Sport Premium M2
 Belirsiz kontrol, yayın korundu: Turksat Tanitim (1080p) [Geo-blocked]
 Belirsiz kontrol, yayın korundu: Arena Sport Premium M1
 Belirsiz kontrol, yayın korundu: Cay TV (720p)
-Belirsiz kontrol, yayın korundu: Setanta Sports 1 Eurasia (1080p)
-Belirsiz kontrol, yayın korundu: Benin TV Junior (720p)
 Belirsiz kontrol, yayın korundu: Altas TV (1080p)
-Belirsiz kontrol, yayın korundu: Kinowood (1080p)
+Belirsiz kontrol, yayın korundu: Benin TV Junior (720p)
 Belirsiz kontrol, yayın korundu: Fortuna TV (720p)
 Belirsiz kontrol, yayın korundu: Icel TV (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: ETV Manisa (1080p) [Not 24/7]
@@ -59,164 +59,167 @@ Belirsiz kontrol, yayın korundu: Guneydogu TV (720p)
 Belirsiz kontrol, yayın korundu: Kanal 32 (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: On4 TV (1080p)
 Belirsiz kontrol, yayın korundu: Kanal 33 (720p) [Not 24/7]
-Belirsiz kontrol, yayın korundu: TV1000
 Belirsiz kontrol, yayın korundu: TV 1 (720p)
 Belirsiz kontrol, yayın korundu: TV 52 (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: TurkHaber TV (720p)
-Belirsiz kontrol, yayın korundu: Setanta Sports 2 Eurasia (1080p)
 Belirsiz kontrol, yayın korundu: Line TV (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: Cekmekoy TV (1080p)
-Belirsiz kontrol, yayın korundu: Cartoon Network (United States) West (1080p) [Geo-blocked]
-Belirsiz kontrol, yayın korundu: Fox Life (576p)
-Belirsiz kontrol, yayın korundu: Setanta Sports (1080p)
 Belirsiz kontrol, yayın korundu: MovieSmart Turk (576p)
 Belirsiz kontrol, yayın korundu: Beyaz TV (720p) [Not 24/7]
-Yayın korundu: Kalika TV (576p) | 1/5
-Belirsiz kontrol, yayın korundu: ESPN 5 Latin America (1080p)
 Belirsiz kontrol, yayın korundu: TRT 2 (1440p) [Geo-blocked]
-Belirsiz kontrol, yayın korundu: My-Ukraina TV (1080p)
+Belirsiz kontrol, yayın korundu: FOX Central (1080p)
+Belirsiz kontrol, yayın korundu: ESPN 5 Latin America (1080p)
+Yayın korundu: AlternaTV (720p) [Not 24/7] | 1/5
 Belirsiz kontrol, yayın korundu: NOW
 Belirsiz kontrol, yayın korundu: NOW
 Belirsiz kontrol, yayın korundu: NOW
-Bozuk yayın kaldırıldı: beIN Sports USA (576p)
-Belirsiz kontrol, yayın korundu: Nickelodeon (Russia) (576p)
 Belirsiz kontrol, yayın korundu: ESPN Latin America (1080p)
+Belirsiz kontrol, yayın korundu: TV1000
+Belirsiz kontrol, yayın korundu: Kinowood (1080p)
+Belirsiz kontrol, yayın korundu: My-Ukraina TV (1080p)
+Belirsiz kontrol, yayın korundu: Setanta Sports (1080p)
+Belirsiz kontrol, yayın korundu: Setanta Sports 1 Eurasia (1080p)
+Belirsiz kontrol, yayın korundu: Setanta Sports 2 Eurasia (1080p)
+Belirsiz kontrol, yayın korundu: Nickelodeon (Russia) (576p)
+Belirsiz kontrol, yayın korundu: Fox Life (576p)
+Yayın korundu: ADN TV (720p) | 1/5
 Belirsiz kontrol, yayın korundu: NOW
-Belirsiz kontrol, yayın korundu: Fox News International
-Bozuk yayın kaldırıldı: Golf Channel (United States) (576p)
 Belirsiz kontrol, yayın korundu: ESPN 7 Latin America (1080p)
 Belirsiz kontrol, yayın korundu: ESPN Extra Latin America (1080p)
-Belirsiz kontrol, yayın korundu: Show TV
-Belirsiz kontrol, yayın korundu: Show TV
+Belirsiz kontrol, yayın korundu: Fox News International
 Belirsiz kontrol, yayın korundu: ESPN 2 Latin America (1080p)
-Bozuk yayın kaldırıldı: MS NOW (432p)
-Belirsiz kontrol, yayın korundu: ESPN 6 Latin America (1080p)
-Bozuk yayın kaldırıldı: Fox News Channel (1080p)
+Belirsiz kontrol, yayın korundu: Show TV
+Belirsiz kontrol, yayın korundu: Show TV
 Belirsiz kontrol, yayın korundu: ESPN 3 Latin America (1080p)
+Belirsiz kontrol, yayın korundu: ESPN 6 Latin America (1080p)
 Belirsiz kontrol, yayın korundu: ESPN 4 Latin America (1080p)
 Belirsiz kontrol, yayın korundu: NOW
 Belirsiz kontrol, yayın korundu: NOW
 Belirsiz kontrol, yayın korundu: NOW
 Belirsiz kontrol, yayın korundu: NOW
-Yayın korundu: Tele 1 (1080p) | 3/5
 Belirsiz kontrol, yayın korundu: Fox Deportes (720p)
 Belirsiz kontrol, yayın korundu: Setanta Sports+ Ukraine (1080p)
+Yayın korundu: Tele 1 (1080p) | 4/5
 Belirsiz kontrol, yayın korundu: TJK TV 2 (1080p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: VivaTV (1080p)
 Belirsiz kontrol, yayın korundu: FOX
 Belirsiz kontrol, yayın korundu: FX (Turkiye) [Geo-blocked]
-Belirsiz kontrol, yayın korundu: Disney Jr. (Turkiye) (1080p) [Geo-blocked]
-Belirsiz kontrol, yayın korundu: ESPN 3 Latin America Argentina
 Belirsiz kontrol, yayın korundu: BabyTV Turkiye [Geo-blocked]
-Belirsiz kontrol, yayın korundu: ESPN Latin America Argentina
+Belirsiz kontrol, yayın korundu: Disney Jr. (Turkiye) (1080p) [Geo-blocked]
 Belirsiz kontrol, yayın korundu: ESPN 2 Latin America Argentina
+Belirsiz kontrol, yayın korundu: ESPN Latin America Argentina
+Belirsiz kontrol, yayın korundu: ESPN 3 Latin America Argentina
 Belirsiz kontrol, yayın korundu: ESPN Latin America Mexico
-Yayın korundu: Swatantra TV (1080p) | 1/5
-Belirsiz kontrol, yayın korundu: Sport+ Qazaqstan (1080p)
-Belirsiz kontrol, yayın korundu: Realitatea Sportiva (720p)
+Yayın korundu: Swatantra TV (1080p) | 2/5
+Belirsiz kontrol, yayın korundu: Sportivnyy (1080p)
 Belirsiz kontrol, yayın korundu: National Geographic Wild (Turkiye) (1080p) [Geo-blocked]
-Yayın korundu: Vinh Long TV 4 (720p) | 1/5
-Yayın korundu: VTV6 (720p) | 1/5
+Belirsiz kontrol, yayın korundu: Sport+ Qazaqstan (1080p)
+Belirsiz kontrol, yayın korundu: Suriyan TV (576p)
 Belirsiz kontrol, yayın korundu: Al-Rafidain TV (720p) [Not 24/7]
-Belirsiz kontrol, yayın korundu: MRTV Sports [Not 24/7]
 Belirsiz kontrol, yayın korundu: Fox Sports (1080p)
 Belirsiz kontrol, yayın korundu: A24 (1080p)
 Belirsiz kontrol, yayın korundu: Nickelodeon (Bulgaria)
 Belirsiz kontrol, yayın korundu: Disney Channel (Bulgaria) (576i)
-Belirsiz kontrol, yayın korundu: Hunat TV (480p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: Benguturk TV (1080p)
 Belirsiz kontrol, yayın korundu: beIN Sports 1 Turk
 Belirsiz kontrol, yayın korundu: ESPN Premium HD (1080p)
 Belirsiz kontrol, yayın korundu: DeporTV (1080p)
+Belirsiz kontrol, yayın korundu: Hunat TV (480p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: ESPN Deportes HD (720p)
 Belirsiz kontrol, yayın korundu: ESPN 3 (Brazil) (1080p)
 Belirsiz kontrol, yayın korundu: RTG TV (720p)
 Belirsiz kontrol, yayın korundu: Ulke TV
 Belirsiz kontrol, yayın korundu: Manas TV (1080p)
 Belirsiz kontrol, yayın korundu: Hits 360 TV (720p) [Not 24/7]
-Belirsiz kontrol, yayın korundu: DHA (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: TV 41 (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: ESPN (United States) (432p)
+Belirsiz kontrol, yayın korundu: DHA (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: Fox Sports 2 (720p)
+Belirsiz kontrol, yayın korundu: Lenca TV (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: TV 42
 Belirsiz kontrol, yayın korundu: Finest TV (288p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: National Geographic Wild (Turkiye)
 Belirsiz kontrol, yayın korundu: National Geographic (Turkiye)
-Belirsiz kontrol, yayın korundu: Viasat History (Turkiye) (720p)
 Belirsiz kontrol, yayın korundu: BBC Earth Turkiye
+Belirsiz kontrol, yayın korundu: Viasat History (Turkiye) (720p)
+Belirsiz kontrol, yayın korundu: ATV (Turkiye) (1080p)
 Belirsiz kontrol, yayın korundu: AXS TV (576p)
-Belirsiz kontrol, yayın korundu: Prima Sport 3 HD
-Belirsiz kontrol, yayın korundu: Prima Sport 2 HD
-Belirsiz kontrol, yayın korundu: Prima Sport 1 HD
-Belirsiz kontrol, yayın korundu: Prima Sport 4 HD
-Belirsiz kontrol, yayın korundu: Prima Sport 5 HD
-Belirsiz kontrol, yayın korundu: Prima Sport PPV 1
-Belirsiz kontrol, yayın korundu: Prima Sport PPV 2
-Belirsiz kontrol, yayın korundu: NOW (720p)
 Belirsiz kontrol, yayın korundu: Natural TV (720p) [Not 24/7]
 Belirsiz kontrol, yayın korundu: TRT Spor (720p)
 Belirsiz kontrol, yayın korundu: beIN SPORTS 2
-Belirsiz kontrol, yayın korundu: beIN SPORTS 1
 Belirsiz kontrol, yayın korundu: S SPORT
+Belirsiz kontrol, yayın korundu: beIN SPORTS 1
+Yayın korundu: FİNANS TÜRK | 1/5
 Belirsiz kontrol, yayın korundu: FB TV
 Belirsiz kontrol, yayın korundu: TRT SPOR
-Yayın korundu: MED MÜZİK TV | 1/5
+Belirsiz kontrol, yayın korundu: TRT SPOR YILDIZ
+Yayın korundu: MED MÜZİK TV | 2/5
 Belirsiz kontrol, yayın korundu: MUĞLA TÜRK TV
 Belirsiz kontrol, yayın korundu: METROPOL TV
-Belirsiz kontrol, yayın korundu: TRT SPOR YILDIZ
-Yayın korundu: KONYA KTV | 1/5
-Belirsiz kontrol, yayın korundu: TRACE NAİJA
-Belirsiz kontrol, yayın korundu: TRACE AYİTİ
-Belirsiz kontrol, yayın korundu: TRACE İVOİRE
-Belirsiz kontrol, yayın korundu: TRACE TERANGA
-Belirsiz kontrol, yayın korundu: TRACE SPORTS STARS
-Belirsiz kontrol, yayın korundu: TRACE JAMA
-Belirsiz kontrol, yayın korundu: TRACE AFRİCA
-Belirsiz kontrol, yayın korundu: TRACE MZİKİ
-Belirsiz kontrol, yayın korundu: TRACE TOCA
-Belirsiz kontrol, yayın korundu: TRACE BRASİL
 Belirsiz kontrol, yayın korundu: TRACE VANİLLA
+Belirsiz kontrol, yayın korundu: TRACE AYİTİ
+Belirsiz kontrol, yayın korundu: TRACE TERANGA
+Belirsiz kontrol, yayın korundu: TRACE MUZİKA
+Belirsiz kontrol, yayın korundu: TRACE MBOA
+Belirsiz kontrol, yayın korundu: TRACE MZİKİ
+Belirsiz kontrol, yayın korundu: TRACE GOSPEL
+Belirsiz kontrol, yayın korundu: TRACE JAMA
+Belirsiz kontrol, yayın korundu: TRACE KİTOKO
+Belirsiz kontrol, yayın korundu: TRACE BRASİL
+Belirsiz kontrol, yayın korundu: TRACE TOCA
 Belirsiz kontrol, yayın korundu: TRACE CARİBBEAN
 Belirsiz kontrol, yayın korundu: TRACE UK
-Belirsiz kontrol, yayın korundu: TRACE MUZİKA
-Belirsiz kontrol, yayın korundu: TRACE KİTOKO
-Belirsiz kontrol, yayın korundu: TRACE GOSPEL
-Belirsiz kontrol, yayın korundu: TRACE NGOMA
-Belirsiz kontrol, yayın korundu: TRACE MBOA
+Belirsiz kontrol, yayın korundu: TRACE SPORTS STARS
+Belirsiz kontrol, yayın korundu: TRACE İVOİRE
+Belirsiz kontrol, yayın korundu: TRACE NAİJA
+Belirsiz kontrol, yayın korundu: TRACE AFRİCA
 Belirsiz kontrol, yayın korundu: JİM JAM
-Belirsiz kontrol, yayın korundu: MATCH FUTBOL 3
 Belirsiz kontrol, yayın korundu: NTV SERİAL
-Belirsiz kontrol, yayın korundu: EGEMAX TV
+Belirsiz kontrol, yayın korundu: TRACE NGOMA
+Belirsiz kontrol, yayın korundu: MATCH FUTBOL 3
 Belirsiz kontrol, yayın korundu: AL JAZEERA ENGLİSH
 Belirsiz kontrol, yayın korundu: MULT
+Belirsiz kontrol, yayın korundu: TRT2
 Belirsiz kontrol, yayın korundu: FLUX TV
 Belirsiz kontrol, yayın korundu: DİGİNET CİNEMA
-Yayın korundu: REHBER TV | 2/5
-Belirsiz kontrol, yayın korundu: TRT2
-Belirsiz kontrol, yayın korundu: TJK TV YURT DIŞI
+Yayın korundu: EGEMAX TV | 1/5
+Yayın korundu: REHBER TV | 3/5
 Belirsiz kontrol, yayın korundu: DOMASHNIY
-Belirsiz kontrol, yayın korundu: MATCH FUTBOL 2
+Belirsiz kontrol, yayın korundu: TJK TV YURT DIŞI
 Belirsiz kontrol, yayın korundu: START AİR
-Belirsiz kontrol, yayın korundu: STS
+Belirsiz kontrol, yayın korundu: MATCH FUTBOL 2
+Yayın korundu: A HABER | 1/5
+Yayın korundu: EURO STAR | 1/5
+Yayın korundu: CBC SPORT | 1/5
+Yayın korundu: CNN TÜRK | 1/5
+Yayın korundu: ATV AVRUPA | 1/5
+Yayın korundu: İDMAN TV | 1/5
+Yayın korundu: TV8 İNT | 1/5
+Yayın korundu: AKİT TV | 1/5
+Yayın korundu: A PARA | 1/5
 Belirsiz kontrol, yayın korundu: STS KİDS
+Belirsiz kontrol, yayın korundu: STS
+Yayın korundu: TE TV | 1/5
 Belirsiz kontrol, yayın korundu: STS LOVE
 Belirsiz kontrol, yayın korundu: MATCH FUTBOL 1
 Belirsiz kontrol, yayın korundu: HTV CİNEMA
+Belirsiz kontrol, yayın korundu: TRT GENÇ
 Belirsiz kontrol, yayın korundu: ANİ
-Yayın korundu: TELEON | 1/5
 Belirsiz kontrol, yayın korundu: TGRT
-Yayın korundu: KARDELEN TV | 2/5
+Yayın korundu: TELEON | 2/5
+Yayın korundu: KARDELEN TV | 3/5
+Yayın korundu: LİNE TV | 1/5
 Belirsiz kontrol, yayın korundu: AKSIYON 1
 Belirsiz kontrol, yayın korundu: AKSIYON 2
-Belirsiz kontrol, yayın korundu: AZ TV
 Belirsiz kontrol, yayın korundu: AKSIYON 3
+Belirsiz kontrol, yayın korundu: AZ TV
 Belirsiz kontrol, yayın korundu: SINEMA TURK 3
 Belirsiz kontrol, yayın korundu: VIZYON 2
 Belirsiz kontrol, yayın korundu: VİASAT EPİC DRAMA
 Belirsiz kontrol, yayın korundu: DIZISMART PREMIUM
 Belirsiz kontrol, yayın korundu: SHOW TÜRK
-Belirsiz kontrol, yayın korundu: TEK RUMELİ TV
 Belirsiz kontrol, yayın korundu: DMAX
+Belirsiz kontrol, yayın korundu: TEK RUMELİ TV
 Belirsiz kontrol, yayın korundu: ESPN 2
 Belirsiz kontrol, yayın korundu: MMN CHANNEL
 Belirsiz kontrol, yayın korundu: FİNEST TV
